@@ -5,25 +5,25 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ## Table of Contents
 
-- [Incompleteness in Graphs](#(1)-incompleteness-in-graphs)
+- [Incompleteness in Graphs](#incompleteness-in-graphs)
   - [Robust Graph Learning](#robust-graph-learning)
   - [Few-shot Graph Learning](#few-shot-graph-learning)
   - [Knowledge Graph Completion](#knowledge-graph-completion)
-- [Imbalance in Graphs](#(2)-imbalance-in-graphs)
+- [Imbalance in Graphs](#imbalance-in-graphs)
   - [Class-Imbalanced Graph Learning](#class-imbalanced-graph-learning)
   - [Structure-Imbalanced Graph Learning](#structure-imbalanced-graph-learning)
-- [Cross-Domain Heterogeneity in Graphs](#(3)-cross-domain-heterogeneity-in-graphs)
+- [Cross-Domain Heterogeneity in Graphs](#cross-domain-heterogeneity-in-graphs)
   - [Text-Attributed Graph Learning](#text-attributed-graph-learning)
   - [Multimodal Attributed Graph Learning](#multimodal-attributed-graph-learning)
   - [Structural Heterogeneous Graph Learning](#structural-heterogeneous-graph-learning)
-- [Dynamic Instability in Graphs](#(4)-dynamic-instability-in-graphs)
+- [Dynamic Instability in Graphs](#dynamic-instability-in-graphs)
   - [LLMs for Querying and Reasoning](#llms-for-querying-and-reasoning)
   - [LLMs for Generating and Updating](#llms-for-generating-and-updating)
   - [LLMs for Evaluation and Application](#llms-for-evaluation-and-application)
 
 ---
 
-##  (1) Incompleteness in Graphs
+##  Incompleteness in Graphs
 
 > Graphs often suffer from missing node features, incomplete edges, or absent labels. These works tackle incompleteness via robust training, knowledge augmentation, or few-shot reasoning.
 
@@ -79,11 +79,11 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-##  (2) Imbalance in Graphs
+## Imbalance in Graphs
 
 > Real-world graphs often exhibit skewed class distributions or unbalanced structural patterns, making training difficult and biased.
 
-###  Class-Imbalanced Graph Learning
+### Class-Imbalanced Graph Learning
 
 
 | Title | Authors | Venue & Year | Link |
@@ -119,7 +119,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-##  (3) Cross-Domain Heterogeneity in Graphs
+## Cross-Domain Heterogeneity in Graphs
 
 > Graphs with heterogeneous node/edge types, multimodal attributes, or domain-specific patterns require specialized methods.
 
@@ -177,7 +177,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-##  (4) Dynamic Instability in Graphs
+## Dynamic Instability in Graphs
 
 > Graph structures may evolve over time or require adaptive interaction. These works explore LLMs in dynamic graph settings.
 
