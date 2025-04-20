@@ -3,6 +3,24 @@
 
 A curated list of recent research addressing fundamental challenges in graph learning with the assistance of large language models (LLMs). Papers are categorized by **challenge type** and **methodological approach**.
 
+## Table of Contents
+
+- [Incompleteness in Graphs](#incompleteness-in-graphs)
+  - [Robust Graph Learning](#robust-graph-learning)
+  - [Few-shot Graph Learning](#few-shot-graph-learning)
+  - [Knowledge Graph Completion](#knowledge-graph-completion)
+- [Imbalance in Graphs](#imbalance-in-graphs)
+  - [Class-Imbalanced Graph Learning](#class-imbalanced-graph-learning)
+  - [Structure-Imbalanced Graph Learning](#structure-imbalanced-graph-learning)
+- [Cross-Domain Heterogeneity in Graphs](#cross-domain-heterogeneity-in-graphs)
+  - [Text-Attributed Graph Learning](#text-attributed-graph-learning)
+  - [Multimodal Attributed Graph Learning](#multimodal-attributed-graph-learning)
+  - [Structural Heterogeneous Graph Learning](#structural-heterogeneous-graph-learning)
+- [Dynamic Instability in Graphs](#dynamic-instability-in-graphs)
+  - [LLMs for Querying and Reasoning](#llms-for-querying-and-reasoning)
+  - [LLMs for Generating and Updating](#llms-for-generating-and-updating)
+  - [LLMs for Evaluation and Application](#llms-for-evaluation-and-application)
+
 ---
 
 ### 📂 (1) Incompleteness in Graphs
