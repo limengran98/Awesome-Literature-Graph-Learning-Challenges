@@ -27,7 +27,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 > Graphs often suffer from missing node features, incomplete edges, or absent labels. These works tackle incompleteness via robust training, knowledge augmentation, or few-shot reasoning.
 
-### 🔸 Robust Graph Learning
+### Robust Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
