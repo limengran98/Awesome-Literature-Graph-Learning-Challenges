@@ -6,9 +6,9 @@ A curated list of recent research addressing fundamental challenges in graph lea
 ## Table of Contents
 
 - [Incompleteness in Graphs](#incompleteness-in-graphs)
-  - [Robust Graph Learning](#robust-graph-learning)
-  - [Few-shot Graph Learning](#few-shot-graph-learning)
-  - [Knowledge Graph Completion](#knowledge-graph-completion)
+  - [Robust Graph Learning](#🔸robust-graph-learning)
+  - [Few-shot Graph Learning](#🔸few-shot-graph-learning)
+  - [Knowledge Graph Completion](#🔸knowledge-graph-completion)
 - [Imbalance in Graphs](#imbalance-in-graphs)
   - [Class-Imbalanced Graph Learning](#class-imbalanced-graph-learning)
   - [Structure-Imbalanced Graph Learning](#structure-imbalanced-graph-learning)
@@ -27,7 +27,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 > Graphs often suffer from missing node features, incomplete edges, or absent labels. These works tackle incompleteness via robust training, knowledge augmentation, or few-shot reasoning.
 
-### Robust Graph Learning
+### 🔸 Robust Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
