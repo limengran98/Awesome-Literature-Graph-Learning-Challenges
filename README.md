@@ -79,7 +79,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 📂 (2) Imbalance in Graphs
+## 📂 (2) Imbalance in Graphs
 
 > Real-world graphs often exhibit skewed class distributions or unbalanced structural patterns, making training difficult and biased.
 
@@ -119,7 +119,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 📂 (3) Cross-Domain Heterogeneity in Graphs
+## 📂 (3) Cross-Domain Heterogeneity in Graphs
 
 > Graphs with heterogeneous node/edge types, multimodal attributes, or domain-specific patterns require specialized methods.
 
@@ -177,7 +177,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 📂 (4) Dynamic Instability in Graphs
+## 📂 (4) Dynamic Instability in Graphs
 
 > Graph structures may evolve over time or require adaptive interaction. These works explore LLMs in dynamic graph settings.
 
