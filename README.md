@@ -1,5 +1,5 @@
 
-## 📚 Awesome Literature: Graph Learning Challenges with LLMs
+# 📚 Awesome Literature: Graph Learning Challenges with LLMs
 
 A curated list of recent research addressing fundamental challenges in graph learning with the assistance of large language models (LLMs). Papers are categorized by **challenge type** and **methodological approach**.
 
@@ -23,7 +23,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 📂 (1) Incompleteness in Graphs
+## 📂 (1) Incompleteness in Graphs
 
 > Graphs often suffer from missing node features, incomplete edges, or absent labels. These works tackle incompleteness via robust training, knowledge augmentation, or few-shot reasoning.
 
