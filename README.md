@@ -65,9 +65,8 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 > Real-world graphs often exhibit skewed class distributions or unbalanced structural patterns, making training difficult and biased.
 
-#### 🔸 Class-Imbalanced Graph Learning
-
 ### 🔸 Class-Imbalanced Graph Learning
+
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -77,7 +76,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 | Empowering graph neural network-based computational drug repositioning with large language model-inferred knowledge representation | Yaowen Gu, Zidu Xu, Carl Yang | Interdisciplinary Sciences: Computational Life Sciences, 2024 | [Link](https://doi.org/10.1007/s12539-024-00654-7) |
 | Cost-Effective Label-free Node Classification with LLMs | Taiyan Zhang, Renchi Yang, Mingyu Yan, Xiaochun Ye, Dongrui Fan, Yurui Lai | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2412.11983) |
 | Enhancing student performance prediction on learnersourced questions with SGNN-LLM synergy | Lin Ni, Sijie Wang, Zeyu Zhang, Xiaoxuan Li, Xianda Zheng, Paul Denny, Jiamou Liu | Proceedings of the AAAI Conference on Artificial Intelligence, 2024 | [Link](https://doi.org/10.1609/aaai.v38i21.30370) |
-| Depression detection in clinical interviews with LLM-empowered structural element graph | Zhuang Chen, Jiawen Deng, Jinfeng Zhou, Jincenzi Wu, Tieyun Qian, Minlie Huang | Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), 2024 | [Link](https://aclanthology.org/2024.naacl-long.452/) |
+| Depression detection in clinical interviews with LLM-empowered structural element graph | Zhuang Chen, Jiawen Deng, Jinfeng Zhou, Jincenzi Wu, Tieyun Qian, Minlie Huang | Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2024 | [Link](https://aclanthology.org/2024.naacl-long.452/) |
 | Fine-grainedly Synthesize Streaming Data Based On Large Language Models With Graph Structure Understanding For Data Sparsity | Xin Zhang, Linhai Zhang, Deyu Zhou, Guoqiang Xu | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2403.06139) |
 | Large Language Model-based Augmentation for Imbalanced Node Classification on Text-Attributed Graphs | Leyao Wang, Yu Wang, Bo Ni, Yuying Zhao, Tyler Derr | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2410.16882) |
 | Distilling large language models for text-attributed graph learning | Bo Pan, Zheng Zhang, Yifei Zhang, Yuntong Hu, Liang Zhao | Proceedings of the 33rd ACM International Conference on Information and Knowledge Management, 2024 | [Link](https://doi.org/10.1145/3627673.3679830) |
@@ -88,10 +87,17 @@ A curated list of recent research addressing fundamental challenges in graph lea
 | LKPNR: LLM and KG for Personalized News Recommendation Framework | Xie Runfeng, Cui Xiangyang, Yan Zhou, Wang Xin, Xuan Zhanwei, Zhang Kai, et al. | arXiv preprint, 2023 | [Link](https://arxiv.org/abs/2308.12028) |
 
 
-#### 🔸 Structure-Imbalanced Graph Learning
+---
+
+
+### 🔸 Structure-Imbalanced Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
+| Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks? | Zhongjian Zhang, Xiao Wang, Huichi Zhou, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi | arXiv preprint, 2024 | [Link](https://doi.org/10.48550/arXiv.2408.08685) |
+| Subgraph-Aware Training of Language Models for Knowledge Graph Completion Using Structure-Aware Contrastive Learning | Youmin Ko, Hyemin Yang, Taeuk Kim, Hyunjoon Kim | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2407.12703) |
+| Multi-perspective improvement of knowledge graph completion with large language models | Derong Xu, Ziheng Zhang, Zhenxi Lin, Xian Wu, Zhihong Zhu, Tong Xu, Xiangyu Zhao, Yefeng Zheng, Enhong Chen | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2403.01972) |
+| Graphedit: Large language models for graph structure learning | Zirui Guo, Lianghao Xia, Yanhua Yu, Yuling Wang, Zixuan Yang, Wei Wei, Liang Pang, Tat-Seng Chua, Chao Huang | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2402.15183) |
 
 ---
 
@@ -99,20 +105,57 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 > Graphs with heterogeneous node/edge types, multimodal attributes, or domain-specific patterns require specialized methods.
 
-#### 🔸 Text-Attributed Graph Learning
+### 🔸 Text-Attributed Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
+| Hypergraph Foundation Model | Yifan Feng, Shiquan Liu, Xiangmin Han, Shaoyi Du, Zongze Wu, Han Hu, Yue Gao | arXiv preprint, 2025 | [Link](https://arxiv.org/abs/2503.01203) |
+| UniGraph: Learning a Cross-Domain Graph Foundation Model From Natural Language | Yufei He, Bryan Hooi | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2402.13630) |
+| LLM-Align: Utilizing Large Language Models for Entity Alignment in Knowledge Graphs | Xuan Chen, Tong Lu, Zhichun Wang | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2412.04690) |
+| Bootstrapping Heterogeneous Graph Representation Learning via Large Language Models: A Generalized Approach | Hang Gao, Chenhao Zhang, Fengge Wu, Junsuo Zhao, Changwen Zheng, Huaping Liu | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2412.08038) |
+| Harnessing Explanations: LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning | Xiaoxin He, Xavier Bresson, Thomas Laurent, Adam Perold, Yann LeCun, Bryan Hooi | International Conference on Learning Representations, 2024 | [Link](https://openreview.net/forum?id=RXFVcynVe1) |
+| LLMRec: Large Language Models with Graph Augmentation for Recommendation | Wei Wei, Xubin Ren, Jiabin Tang, Qinyong Wang, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang | Proceedings of the 17th ACM International Conference on Web Search and Data Mining, 2024 | [Link](https://doi.org/10.1145/3616855.3635853) |
+| Multimodal Fusion of EHR in Structures and Semantics: Integrating Clinical Records and Notes with Hypergraph and LLM | Hejie Cui, Xinyu Fang, Ran Xu, Xuan Kan, Joyce C. Ho, Carl Yang | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2403.08818) |
+| One for All: Towards Training One Graph Model for All Classification Tasks | Hao Liu, Jiarui Feng, Lecheng Kong, Ningyue Liang, Dacheng Tao, Yixin Chen, Muhan Zhang | International Conference on Learning Representations, 2024 | [Link](https://openreview.net/forum?id=4IT2pgc9v6) |
 
-#### 🔸 Multimodal Attributed Graph Learning
+---
+
+### 🔸 Multimodal Attributed Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
+| UniGraph2: Learning a Unified Embedding Space to Bind Multimodal Graphs | Yufei He, Yuan Sui, Xiaoxin He, Yue Liu, Yifei Sun, Bryan Hooi | arXiv preprint, 2025 | [Link](https://arxiv.org/abs/2502.00806) |
+| LLMRec: Large language models with graph augmentation for recommendation | Wei Wei, Xubin Ren, Jiabin Tang, Qinyong Wang, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang | Proceedings of the 17th ACM International Conference on Web Search and Data Mining, 2024 | [Link](https://doi.org/10.1145/3616855.3635853) |
+| Touchup-G: Improving feature representation through graph-centric finetuning | Jing Zhu, Xiang Song, Vassilis Ioannidis, Danai Koutra, Christos Faloutsos | Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2024 | [Link](https://doi.org/10.1145/3626772.3657978) |
+| GraphAdapter: Tuning vision-language models with dual knowledge graph | Xin Li, Dongze Lian, Zhihe Lu, Jiawang Bai, Zhibo Chen, Xinchao Wang | Advances in Neural Information Processing Systems, 2024 | [Link](https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc) |
+| When Graph meets Multimodal: Benchmarking and Meditating on Multimodal Attributed Graphs Learning | Hao Yan, Chaozhuo Li, Jun Yin, Zhigang Yu, Weihao Han, Mingzheng Li, Zhengxin Zeng, Hao Sun, Senzhang Wang | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2410.09132) |
+| Multimodal Graph Learning for Generative Tasks | Minji Yoon, Jing Yu Koh, Bryan Hooi, Russ Salakhutdinov | NeurIPS 2023 Workshop: New Frontiers in Graph Learning, 2023 | [Link](https://openreview.net/forum?id=YILik4gFBk) |
 
-#### 🔸 Structural Heterogeneous Graph Learning
+---
+
+
+### 🔸 Structural Heterogeneous Graph Learning
+
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
+| Beyond Graphs: Can Large Language Models Comprehend Hypergraphs? | Yifan Feng, Chengwu Yang, Xingliang Hou, Shaoyi Du, Shihui Ying, Zongze Wu, Yue Gao | International Conference on Learning Representations, 2025 | [Link](https://openreview.net/forum?id=28qOQwjuma) |
+| Path-LLM: A Shortest-Path-based LLM Learning for Unified Graph Representation | Wenbo Shang, Xuliang Zhu, Xin Huang | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2408.05456) |
+| Graphadapter: Tuning vision-language models with dual knowledge graph | Xin Li, Dongze Lian, Zhihe Lu, Jiawang Bai, Zhibo Chen, Xinchao Wang | Advances in Neural Information Processing Systems, 2024 | [Link](https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc) |
+| LLMRec: Large language models with graph augmentation for recommendation | Wei Wei, Xubin Ren, Jiabin Tang, Qinyong Wang, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang | Proceedings of the 17th ACM International Conference on Web Search and Data Mining, 2024 | [Link](https://doi.org/10.1145/3616855.3635853) |
+| Talk like a Graph: Encoding Graphs for Large Language Models | Bahare Fatemi, Jonathan Halcrow, Bryan Perozzi | International Conference on Learning Representations, 2024 | [Link](https://openreview.net/forum?id=IuXR1CCrSi) |
+| Gita: Graph to visual and textual integration for vision-language graph reasoning | Yanbin Wei, Shuai Fu, Weisen Jiang, Zejian Zhang, Zhixiong Zeng, Qi Wu, James Kwok, Yu Zhang | Advances in Neural Information Processing Systems, 2024 | [Link](https://openreview.net/forum?id=SaodQ13jga) |
+| WalkLM: A uniform language model fine-tuning framework for attributed graph embedding | Yanchao Tan, Zihao Zhou, Hang Lv, Weiming Liu, Carl Yang | Advances in Neural Information Processing Systems, 2024 | [Link](https://openreview.net/forum?id=ZrG8kTbt70) |
+| UniGraph2: Learning a Unified Embedding Space to Bind Multimodal Graphs | Yufei He, Yuan Sui, Xiaoxin He, Yue Liu, Yifei Sun, Bryan Hooi | arXiv preprint, 2025 | [Link](https://arxiv.org/abs/2502.00806) |
+| Language is all a graph needs | Ruosong Ye, Caiqi Zhang, Runhui Wang, Shuyuan Xu, Yongfeng Zhang | Findings of the Association for Computational Linguistics: EACL, 2024 | [Link](https://aclanthology.org/2024.findings-eacl.132/) |
+| Graph neural prompting with large language models | Yijun Tian, Huan Song, Zichen Wang, Haozhu Wang, Ziqing Hu, Fang Wang, Nitesh V Chawla, Panpan Xu | Proceedings of the AAAI Conference on Artificial Intelligence, 2024 | [Link](https://doi.org/10.1609/aaai.v38i17.29875) |
+| Let your graph do the talking: Encoding structured data for LLMs | Bryan Perozzi, Bahare Fatemi, Dustin Zelle, Anton Tsitsulin, Mehran Kazemi, Rami Al-Rfou, Jonathan Halcrow | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2402.05862) |
+| GraphGPT: Graph instruction tuning for large language models | Jiabin Tang, Yuhao Yang, Wei Wei, Lei Shi, Suqi Cheng, Dawei Yin, Chao Huang | Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2024 | [Link](https://doi.org/10.1145/3626772.3657775) |
+| Higpt: Heterogeneous graph language model | Jiabin Tang, Yuhao Yang, Wei Wei, Lei Shi, Long Xia, Dawei Yin, Chao Huang | Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2024 | [Link](https://doi.org/10.1145/3637528.3671987) |
+| GPT4Graph: Can large language models understand graph structured data? An empirical evaluation and benchmarking | Jiayan Guo, Lun Du, Hengyu Liu, Mengyu Zhou, Xinyi He, Shi Han | arXiv preprint, 2023 | [Link](https://arxiv.org/abs/2305.15066) |
+| Graphtext: Graph reasoning in text space | Jianan Zhao, Le Zhuo, Yikang Shen, Meng Qu, Kai Liu, Michael Bronstein, Zhaocheng Zhu, Jian Tang | arXiv preprint, 2023 | [Link](https://arxiv.org/abs/2310.01089) |
+| Can language models solve graph problems in natural language? | Heng Wang, Shangbin Feng, Tianxing He, Zhaoxuan Tan, Xiaochuang Han, Yulia Tsvetkov | Advances in Neural Information Processing Systems, 2023 | [Link](https://openreview.net/forum?id=UDqHhbqYJV) |
+| Evaluating large language models on graphs: Performance insights and comparative analysis | Chang Liu, Bo Wu | arXiv preprint, 2023 | [Link](https://arxiv.org/abs/2308.11224) |
 
 ---
 
@@ -120,17 +163,17 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 > Graph structures may evolve over time or require adaptive interaction. These works explore LLMs in dynamic graph settings.
 
-#### 🔸 LLMs for Querying and Reasoning
+#### 🔸 Querying and Reasoning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
 
-#### 🔸 LLMs for Generating and Updating
+#### 🔸 Generating and Updating
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
 
-#### 🔸 LLMs for Evaluation and Application
+#### 🔸 Evaluation and Application
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
