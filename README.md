@@ -140,13 +140,13 @@ A curated list of recent research addressing fundamental challenges in graph lea
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
 | Beyond Graphs: Can Large Language Models Comprehend Hypergraphs? | Yifan Feng, Chengwu Yang, Xingliang Hou, Shaoyi Du, Shihui Ying, Zongze Wu, Yue Gao | International Conference on Learning Representations, 2025 | [Link](https://openreview.net/forum?id=28qOQwjuma) |
+| UniGraph2: Learning a Unified Embedding Space to Bind Multimodal Graphs | Yufei He, Yuan Sui, Xiaoxin He, Yue Liu, Yifei Sun, Bryan Hooi | arXiv preprint, 2025 | [Link](https://arxiv.org/abs/2502.00806) |
 | Path-LLM: A Shortest-Path-based LLM Learning for Unified Graph Representation | Wenbo Shang, Xuliang Zhu, Xin Huang | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2408.05456) |
 | Graphadapter: Tuning vision-language models with dual knowledge graph | Xin Li, Dongze Lian, Zhihe Lu, Jiawang Bai, Zhibo Chen, Xinchao Wang | Advances in Neural Information Processing Systems, 2024 | [Link](https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc) |
 | LLMRec: Large language models with graph augmentation for recommendation | Wei Wei, Xubin Ren, Jiabin Tang, Qinyong Wang, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang | Proceedings of the 17th ACM International Conference on Web Search and Data Mining, 2024 | [Link](https://doi.org/10.1145/3616855.3635853) |
 | Talk like a Graph: Encoding Graphs for Large Language Models | Bahare Fatemi, Jonathan Halcrow, Bryan Perozzi | International Conference on Learning Representations, 2024 | [Link](https://openreview.net/forum?id=IuXR1CCrSi) |
 | Gita: Graph to visual and textual integration for vision-language graph reasoning | Yanbin Wei, Shuai Fu, Weisen Jiang, Zejian Zhang, Zhixiong Zeng, Qi Wu, James Kwok, Yu Zhang | Advances in Neural Information Processing Systems, 2024 | [Link](https://openreview.net/forum?id=SaodQ13jga) |
 | WalkLM: A uniform language model fine-tuning framework for attributed graph embedding | Yanchao Tan, Zihao Zhou, Hang Lv, Weiming Liu, Carl Yang | Advances in Neural Information Processing Systems, 2024 | [Link](https://openreview.net/forum?id=ZrG8kTbt70) |
-| UniGraph2: Learning a Unified Embedding Space to Bind Multimodal Graphs | Yufei He, Yuan Sui, Xiaoxin He, Yue Liu, Yifei Sun, Bryan Hooi | arXiv preprint, 2025 | [Link](https://arxiv.org/abs/2502.00806) |
 | Language is all a graph needs | Ruosong Ye, Caiqi Zhang, Runhui Wang, Shuyuan Xu, Yongfeng Zhang | Findings of the Association for Computational Linguistics: EACL, 2024 | [Link](https://aclanthology.org/2024.findings-eacl.132/) |
 | Graph neural prompting with large language models | Yijun Tian, Huan Song, Zichen Wang, Haozhu Wang, Ziqing Hu, Fang Wang, Nitesh V Chawla, Panpan Xu | Proceedings of the AAAI Conference on Artificial Intelligence, 2024 | [Link](https://doi.org/10.1609/aaai.v38i17.29875) |
 | Let your graph do the talking: Encoding structured data for LLMs | Bryan Perozzi, Bahare Fatemi, Dustin Zelle, Anton Tsitsulin, Mehran Kazemi, Rami Al-Rfou, Jonathan Halcrow | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2402.05862) |
@@ -163,18 +163,44 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 > Graph structures may evolve over time or require adaptive interaction. These works explore LLMs in dynamic graph settings.
 
-#### 🔸 Querying and Reasoning
+### 🔸 Querying and Reasoning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
+| LLM4DyG: Can Large Language Models Solve Spatial-Temporal Problems on Dynamic Graphs? | Zeyang Zhang, Xin Wang, Ziwei Zhang, Haoyang Li, Yijian Qin, Wenwu Zhu | Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2024 | [Link](https://doi.org/10.1145/3637528.3671709) |
+| TimeR$^4$: Time-aware Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering | Xinying Qian, Ying Zhang, Yu Zhao, Baohang Zhou, Xuhui Sui, Li Zhang, Kehui Song | Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, Miami, USA | [Link](https://aclanthology.org/2024.emnlp-main.394/) |
+| Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models | Yifu Gao, Linbo Qiao, Zhigang Kan, Zhihua Wen, Yongquan He, Dongsheng Li | Findings of the Association for Computational Linguistics: ACL 2024, Bangkok, Thailand | [Link](https://aclanthology.org/2024.findings-acl.401/) |
+| Unveiling LLMs: The Evolution of Latent Representations in a Dynamic Knowledge Graph | Marco Bronzini, Carlo Nicolini, Bruno Lepri, Jacopo Staiano, Andrea Passerini | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2404.03623) |
+| Large Language Models Can Learn Temporal Reasoning | Siheng Xiong, Ali Payani, Ramana Kompella, Faramarz Fekri | Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics, 2024 | [Link](https://aclanthology.org/2024.acl-long.563/) |
+| Chain-of-History Reasoning for Temporal Knowledge Graph Forecasting | Yuwei Xia, Ding Wang, Qiang Liu, Liang Wang, Shu Wu, Xiao-Yu Zhang | Findings of the Association for Computational Linguistics: ACL 2024, Bangkok, Thailand | [Link](https://aclanthology.org/2024.findings-acl.955/) |
+| zrLLM: Zero-Shot Relational Learning on Temporal Knowledge Graphs with Large Language Models | Zifeng Ding, Heling Cai, Jingpei Wu, Yunpu Ma, Ruotong Liao, Bo Xiong, Volker Tresp | Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Mexico City, Mexico | [Link](https://aclanthology.org/2024.naacl-long.104/) |
+| Temporal Knowledge Graph Forecasting Without Knowledge Using In-Context Learning | Dong-Ho Lee, Kian Ahrabian, Woojeong Jin, Fred Morstatter, Jay Pujara | Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore | [Link](https://aclanthology.org/2023.emnlp-main.36/) |
 
-#### 🔸 Generating and Updating
+---
+
+### 🔸 Generating and Updating
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
+| FinDKG: Dynamic Knowledge Graphs with Large Language Models for Detecting Global Trends in Financial Markets | Xiaohui Victor Li, Francesco Sanna Passino | ACM, 2024 | [Link](https://doi.org/10.1145/3677052.3698603) |
+| GenTKG: Generative Forecasting on Temporal Knowledge Graph with Large Language Models | Ruotong Liao, Xu Jia, Yangzhe Li, Yunpu Ma, Volker Tresp | Findings of the Association for Computational Linguistics: NAACL, 2024 | [Link](https://aclanthology.org/2024.findings-naacl.268/) |
+| Up To Date: Automatic Updating Knowledge Graphs Using LLMs | Shahenda Hatem, Ghada Khoriba, Mohamed H. Gad-Elrab, Mohamed ElHelw | Procedia Computer Science, 2024 | [Link](https://www.sciencedirect.com/science/article/pii/S1877050924030072) |
+| Pre-trained Language Model with Prompts for Temporal Knowledge Graph Completion | Wenjie Xu, Ben Liu, Miao Peng, Xu Jia, Min Peng | Findings of the Association for Computational Linguistics: ACL, 2023 | [Link](https://aclanthology.org/2023.findings-acl.493/) |
+| Large Language Models-guided Dynamic Adaptation for Temporal Knowledge Graph Reasoning | Jiapu Wang, Kai Sun, Linhao Luo, Wei Wei, Yongli Hu, Alan Wee-Chung Liew, Shirui Pan, Baocai Yin | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2405.14170) |
+| Back to the Future: Towards Explainable Temporal Reasoning with Large Language Models | Chenhan Yuan, Qianqian Xie, Jimin Huang, Sophia Ananiadou | ACM, 2024 | [Link](https://doi.org/10.1145/3589334.3645376) |
+| RealTCD: Temporal Causal Discovery from Interventional Data with Large Language Model | Peiwen Li, Xin Wang, Zeyang Zhang, Yuan Meng, Fang Shen, Yue Li, Jialong Wang, Yang Li, Wenwu Zhu | ACM, 2024 | [Link](https://doi.org/10.1145/3627673.3680042) |
+| DynLLM: When Large Language Models Meet Dynamic Graph Recommendation | Ziwei Zhao, Fake Lin, Xi Zhu, Zhi Zheng, Tong Xu, Shitian Shen, Xueying Li, Zikai Yin, Enhong Chen | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2405.07580) |
 
-#### 🔸 Evaluation and Application
+---
+
+### 🔸 Evaluation and Application
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
+| DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph | Zhehao Zhang, Jiaao Chen, Diyi Yang | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2406.17271) |
+| AnomalyLLM: Few-shot Anomaly Edge Detection for Dynamic Graphs using Large Language Models | Shuo Liu, Di Yao, Lanting Fang, Zhetao Li, Wenbin Li, Kaiyu Feng, XiaoWen Ji, Jingping Bi | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2405.07626) |
+| Language-Grounded Dynamic Scene Graphs for Interactive Object Search With Mobile Manipulation | Daniel Honerkamp, Martin Büchner, Fabien Despinoy, Tim Welschehold, Abhinav Valada | IEEE Robotics and Automation Letters, 2024 | [Link](https://doi.org/10.1109/LRA.2024.3441495) |
+| Temporal Relational Reasoning of Large Language Models for Detecting Stock Portfolio Crashes | Kelvin J. L. Koa, Yunshan Ma, Ritchie Ng, Huanhuan Zheng, Tat-Seng Chua | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2410.17266) |
+| Dynamic Benchmarking of Masked Language Models on Temporal Concept Drift with Multiple Views | Katerina Margatina, Shuai Wang, Yogarshi Vyas, Neha Anna John, Yassine Benajiba, Miguel Ballesteros | Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, 2023 | [Link](https://aclanthology.org/2023.eacl-main.211/) |
+
 
