@@ -6,9 +6,9 @@ A curated list of recent research addressing fundamental challenges in graph lea
 ## Table of Contents
 
 - [Incompleteness in Graphs](#incompleteness-in-graphs)
-  - [Robust Graph Learning](#🔸robust-graph-learning)
-  - [Few-shot Graph Learning](#🔸few-shot-graph-learning)
-  - [Knowledge Graph Completion](#🔸knowledge-graph-completion)
+  - [Robust Graph Learning](#robust-graph-learning)
+  - [Few-shot Graph Learning](#few-shot-graph-learning)
+  - [Knowledge Graph Completion](#knowledge-graph-completion)
 - [Imbalance in Graphs](#imbalance-in-graphs)
   - [Class-Imbalanced Graph Learning](#class-imbalanced-graph-learning)
   - [Structure-Imbalanced Graph Learning](#structure-imbalanced-graph-learning)
@@ -23,11 +23,11 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-## 📂 (1) Incompleteness in Graphs
+##  (1) Incompleteness in Graphs
 
 > Graphs often suffer from missing node features, incomplete edges, or absent labels. These works tackle incompleteness via robust training, knowledge augmentation, or few-shot reasoning.
 
-### 🔸 Robust Graph Learning
+###  Robust Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -42,7 +42,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 🔸 Few-shot Graph Learning
+###  Few-shot Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -55,7 +55,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 🔸 Knowledge Graph Completion
+###  Knowledge Graph Completion
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -79,11 +79,11 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-## 📂 (2) Imbalance in Graphs
+##  (2) Imbalance in Graphs
 
 > Real-world graphs often exhibit skewed class distributions or unbalanced structural patterns, making training difficult and biased.
 
-### 🔸 Class-Imbalanced Graph Learning
+###  Class-Imbalanced Graph Learning
 
 
 | Title | Authors | Venue & Year | Link |
@@ -108,7 +108,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 ---
 
 
-### 🔸 Structure-Imbalanced Graph Learning
+###  Structure-Imbalanced Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -119,11 +119,11 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-## 📂 (3) Cross-Domain Heterogeneity in Graphs
+##  (3) Cross-Domain Heterogeneity in Graphs
 
 > Graphs with heterogeneous node/edge types, multimodal attributes, or domain-specific patterns require specialized methods.
 
-### 🔸 Text-Attributed Graph Learning
+###  Text-Attributed Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -138,7 +138,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 🔸 Multimodal Attributed Graph Learning
+###  Multimodal Attributed Graph Learning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -152,7 +152,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 ---
 
 
-### 🔸 Structural Heterogeneous Graph Learning
+###  Structural Heterogeneous Graph Learning
 
 
 | Title | Authors | Venue & Year | Link |
@@ -177,11 +177,11 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-## 📂 (4) Dynamic Instability in Graphs
+##  (4) Dynamic Instability in Graphs
 
 > Graph structures may evolve over time or require adaptive interaction. These works explore LLMs in dynamic graph settings.
 
-### 🔸 Querying and Reasoning
+###  Querying and Reasoning
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -196,7 +196,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 🔸 Generating and Updating
+###  Generating and Updating
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
@@ -211,7 +211,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### 🔸 Evaluation and Application
+###  Evaluation and Application
 
 | Title | Authors | Venue & Year | Link |
 |-------|---------|---------------|------|
