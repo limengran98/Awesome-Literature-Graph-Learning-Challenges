@@ -17,9 +17,9 @@ A curated list of recent research addressing fundamental challenges in graph lea
   - [Multimodal Attributed Graph Learning](#multimodal-attributed-graph-learning)
   - [Structural Heterogeneous Graph Learning](#structural-heterogeneous-graph-learning)
 - [Dynamic Instability in Graphs](#dynamic-instability-in-graphs)
-  - [LLMs for Querying and Reasoning](#llms-for-querying-and-reasoning)
-  - [LLMs for Generating and Updating](#llms-for-generating-and-updating)
-  - [LLMs for Evaluation and Application](#llms-for-evaluation-and-application)
+  - [LLMs for Querying and Reasoning](#querying-and-reasoning)
+  - [LLMs for Generating and Updating](#generating-and-updating)
+  - [LLMs for Evaluation and Application](#evaluation-and-application)
 
 ---
 
