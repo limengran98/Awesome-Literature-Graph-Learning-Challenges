@@ -228,7 +228,7 @@ If you find our work useful, please consider citing the following paper:
 ```bibtex
 @article{li2025using,
   title={Using Large Language Models to Tackle Fundamental Challenges in Graph Learning: A Comprehensive Survey},
-  author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and others},
+  author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and Ma, Xiaolei and Liu, Zhiyuan and Groth, Paul and Worring, Marcel},
   journal={arXiv preprint arXiv:2505.18475},
   year={2025}
 }
