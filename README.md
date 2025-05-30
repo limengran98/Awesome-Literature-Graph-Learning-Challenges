@@ -221,4 +221,14 @@ A curated list of recent research addressing fundamental challenges in graph lea
 | Temporal Relational Reasoning of Large Language Models for Detecting Stock Portfolio Crashes | Kelvin J. L. Koa, Yunshan Ma, Ritchie Ng, Huanhuan Zheng, Tat-Seng Chua | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2410.17266) |
 | Dynamic Benchmarking of Masked Language Models on Temporal Concept Drift with Multiple Views | Katerina Margatina, Shuai Wang, Yogarshi Vyas, Neha Anna John, Yassine Benajiba, Miguel Ballesteros | Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, 2023 | [Link](https://aclanthology.org/2023.eacl-main.211/) |
 
+## 📖 Citation
 
+If you find our work useful, please consider citing the following paper:
+
+```bibtex
+@article{li2025using,
+  title={Using Large Language Models to Tackle Fundamental Challenges in Graph Learning: A Comprehensive Survey},
+  author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and others},
+  journal={arXiv preprint arXiv:2505.18475},
+  year={2025}
+}
