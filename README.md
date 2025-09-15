@@ -3,10 +3,16 @@
 
 A curated list of recent research addressing fundamental challenges in graph learning with the assistance of large language models (LLMs). Papers are categorized by **challenge type** and **methodological approach**.
 
-![Fundamental Data-Centric Challenges in Graphs](https://github.com/limengran98/Awesome-Literature-Graph-Learning-Challenges/blob/main/fig.jpg)
+<p align="center">
+  <img src="https://github.com/limengran98/Awesome-Literature-Graph-Learning-Challenges/blob/main/fig.jpg" width="80%">
+</p>
+
 
 *The four fundamental challenges emerge of real-world graph complexity: (1) **Incompleteness** in graphs, where nodes, edges, or attributes are missing, (2) **Imbalance** in graphs, where the distribution of nodes, edges, or labels is highly skewed, (3) **Cross-domain heterogeneity** in graphs, where graph data from different domains exhibit semantic and structural discrepancies, and (4) **Dynamic instability** in graphs, where graphs undergo dynamic changes in topology, attributes, or interactions over time.*
 
+## 📰 News
+- **2025-09-15**: Updated the **datasets, metrics, and tasks** sections with new entries and anchors.
+- **2025-09-08**: Our survey paper was accepted by [*Expert Systems with Applications (ESWA)* 🎉](https://www.sciencedirect.com/science/article/abs/pii/S0957417425032580)  
 
 ## Table of Contents
 
@@ -14,21 +20,21 @@ A curated list of recent research addressing fundamental challenges in graph lea
   - [Robust Graph Learning](#robust-graph-learning)
   - [Few-shot Graph Learning](#few-shot-graph-learning)
   - [Knowledge Graph Completion](#knowledge-graph-completion)
-  - [Datasets, Metrics, and Tasks (Incompleteness)](#dmt-incompleteness)
+  - [Datasets, Metrics, and Tasks (Incompleteness)](#datasets-metrics-and-tasks-incompleteness)
 - [Imbalance in Graphs](#imbalance-in-graphs)
   - [Class-Imbalanced Graph Learning](#class-imbalanced-graph-learning)
   - [Structure-Imbalanced Graph Learning](#structure-imbalanced-graph-learning)
-  - [Datasets, Metrics, and Tasks (Imbalance)](#dmt-imbalance)
+  - [Datasets, Metrics, and Tasks (Imbalance)](#datasets-metrics-and-tasks-imbalance)
 - [Cross-Domain Heterogeneity in Graphs](#cross-domain-heterogeneity-in-graphs)
   - [Text-Attributed Graph Learning](#text-attributed-graph-learning)
   - [Multimodal Attributed Graph Learning](#multimodal-attributed-graph-learning)
   - [Structural Heterogeneous Graph Learning](#structural-heterogeneous-graph-learning)
-  - [Datasets, Metrics, and Tasks (Cross-domain Heterogeneity)](#dmt-heterogeneity)
+  - [Datasets, Metrics, and Tasks (Cross-domain Heterogeneity)](#datasets-metrics-and-tasks-cross-domain-heterogeneity)
 - [Dynamic Instability in Graphs](#dynamic-instability-in-graphs)
   - [LLMs for Querying and Reasoning](#querying-and-reasoning)
   - [LLMs for Generating and Updating](#generating-and-updating)
   - [LLMs for Evaluation and Application](#evaluation-and-application)
-  - [Datasets, Metrics, and Tasks (Dynamic Instability)](#dmt-dynamic)
+  - [Datasets, Metrics, and Tasks (Dynamic Instability)](#datasets-metrics-and-tasks-dynamic-instability)
 
 ---
 
@@ -85,8 +91,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### Datasets, Metrics, and Tasks (Incompleteness) {#dmt-incompleteness}
-
+### Datasets, Metrics, and Tasks (Incompleteness)
 <div style="overflow-x:auto;"> <table> <thead> <tr> <th>Domain</th> <th>Incompleteness</th> <th>Method</th> <th>Typical Datasets</th> <th>Common Metrics</th> <th>Downstream Tasks</th> </tr> </thead> <tbody> <tr><td>Robust Graph Learning</td><td>Node</td><td><b>LLM4NG</b></td><td>Cora, PubMed, ogbn-arxiv</td><td>Accuracy</td><td>Node Classification</td></tr> <tr><td>Robust Graph Learning</td><td>Node</td><td><b>LLM-TAG</b></td><td>Cora, Citeseer, PubMed, Arxiv-2023</td><td>Accuracy</td><td>Node Classification</td></tr> <tr><td>Robust Graph Learning</td><td>Node</td><td><b>SPLLM</b></td><td>PeMS03, PeMS04, PeMS07</td><td>MAE, RMSE, MAPE</td><td>Spatiotemporal Forecasting</td></tr> <tr><td>Robust Graph Learning</td><td>Label</td><td><b>LLMGNN</b></td><td>Cora, Citeseer, PubMed, ogbn-arxiv, ogbn-products, WikiCS</td><td>Accuracy</td><td>Node Classification</td></tr> <tr><td>Robust Graph Learning</td><td>Mixed</td><td><b>GraphLLM</b></td><td>Synthetic Data</td><td>Exact Match Accuracy</td><td>Graph Reasoning</td></tr> <tr><td>Robust Graph Learning</td><td>Mixed</td><td><b>PROLINK</b></td><td>FB15k-237, Wikidata68K, NELL-995</td><td>MRR, Hits@N</td><td>Knowledge Graph Completion</td></tr> <tr><td>Robust Graph Learning</td><td>Mixed</td><td><b>UnIMP</b></td><td>BG, ZO, PK, BK, CS, ST, PW, BY, RR, WM</td><td>RMSE, MAE</td><td>Data Imputation</td></tr>
 <tr><td>Few-Shot Graph Learning</td><td>Structure</td><td><b>LinkGPT</b></td><td>AmazonSports, Amazon-Clothing, MAG-Geology, MAG-Math</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr>
 <tr><td>Few-Shot Graph Learning</td><td>Structure</td><td><b>AnomalyLLM</b></td><td>UCI Messages, Blogcatalog, T-Finance, T-Social</td><td>AUC</td><td>Anomaly Detection</td></tr>
@@ -155,7 +160,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### Datasets, Metrics, and Tasks (Imbalance) {#dmt-imbalance}
+### Datasets, Metrics, and Tasks (Imbalance)
 
 <div style="overflow-x:auto;"> <table> <thead> <tr> <th>Domain</th> <th>Tasks</th> <th>Method</th> <th>Typical Datasets</th> <th>Common Metrics</th> <th>Downstream Tasks</th> </tr> </thead> <tbody> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LLM4NG</b></td><td>Cora, PubMed, ogbn-arxiv</td><td>Accuracy</td><td>Few-shot Node Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LLM-GNN</b></td><td>Cora, Citeseer, PubMed, ogbn-arxiv, ogbn-products, WikiCS</td><td>Accuracy</td><td>Label-free Node Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>G2P2</b></td><td>Cora; Amazon (Art, Industrial, Music Instruments)</td><td>Accuracy, Macro-F1</td><td>Zero-/Few-shot Low-resource Text Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LA-TAG</b></td><td>Cora, PubMed, Photo, Computer, Children</td><td>Accuracy, Macro-F1</td><td>Zero-/Few-shot Low-resource Text Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>GSS-Net</b></td><td>Amazon (Magazine Subscriptions, Appliances, Gift Cards)</td><td>Accuracy, Precision, Recall, F1, MSE, RMSE, MAE</td><td>Sentiment on Streaming E-commerce Reviews</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>TAGrader</b></td><td>Cora, PubMed, ogbn-products, Arxiv-2023</td><td>Accuracy</td><td>Node Classification on TAGs</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>SEGA</b></td><td>DAIC-WOZ, EATD</td><td>Macro-F1</td><td>Depression Detection</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>SocioHyperNet</b></td><td>MBTI</td><td>Accuracy, AUC, Macro-F1, Micro-F1, IMP</td><td>Personality Traits</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>Cella</b></td><td>Cora, Citeseer, PubMed, Wiki-CS</td><td>Accuracy, NMI, ARI, F1</td><td>Label-free Node Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LLM-TIKG</b></td><td>threat-dataset</td><td>Precision, Recall, F1</td><td>Threat Intelligence KG Construction</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>ANLM-assInNNER</b></td><td>NE dataset</td><td>Precision, Recall, F1</td><td>Robotic Fault Diagnosis KG Construction</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LLM-HetGDT</b></td><td>Twitter-HetDrug</td><td>Macro-F1, GMean</td><td>Online Drug Trafficking Detection</td></tr>
 <tr><td>Class Imbalance Graph Learning</td><td>Prediction</td><td><b>LLM-SBCL</b></td><td>biology, law, cardiff20102, sydney19351, sydney23146</td><td>Binary-F1, Micro-F1, Macro-F1, Accuracy</td><td>Student Performance Prediction</td></tr>
@@ -233,7 +238,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 | Evaluating large language models on graphs: Performance insights and comparative analysis | Chang Liu, Bo Wu | arXiv preprint, 2023 | [Link](https://arxiv.org/abs/2308.11224) |
 
 ---
-### Datasets, Metrics, and Tasks (Cross-domain Heterogeneity) {#dmt-heterogeneity}
+### Datasets, Metrics, and Tasks (Cross-domain Heterogeneity)
 
 <div style="overflow-x:auto;"> <table> <thead> <tr> <th>Domains</th> <th>Tasks</th> <th>Methods</th> <th>Typical Datasets</th> <th>Common Metrics</th> <th>Downstream Tasks</th> </tr> </thead> <tbody> <tr><td>Text-Attributed Graph Learning</td><td>Textual Attribute Alignment</td><td><b>TAPE</b></td><td>Cora, PubMed, Arxiv-2023, ogbn-arxiv, ogbn-products</td><td>Accuracy</td><td>Node Classification</td></tr> <tr><td>Text-Attributed Graph Learning</td><td>Textual Attribute Alignment</td><td><b>LLMRec</b></td><td>MovieLens, Netflix</td><td>Recall, NDCG, Precision</td><td>Item Recommendation</td></tr> <tr><td>Text-Attributed Graph Learning</td><td>Textual Attribute Alignment</td><td><b>MINGLE</b></td><td>MIMIC-III, CRADLE</td><td>Accuracy, AUC, AUPR, F1</td><td>Node Classification</td></tr> <tr><td>Text-Attributed Graph Learning</td><td>Textual Attribute Alignment</td><td><b>GHGRL</b></td><td>IMDB, DBLP, ACM, Wiki-CS, IMDB-RIR, DBLP-RID</td><td>Macro-F1, Micro-F1</td><td>Node Classification</td></tr>
 <tr><td>Text-Attributed Graph Learning</td><td>Graph Foundation Model</td><td><b>OFA</b></td><td>Cora, PubMed, ogbn-arxiv, Wiki-CS, MOLHIV, MOLPCBA, FB15K237, WN18RR, ChEMBL</td><td>Accuracy, AUC, AUPR</td><td>Node Classification, Link Prediction, Graph Classification</td></tr>
@@ -319,7 +324,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ---
 
-### Datasets, Metrics, and Tasks (Dynamic Instability) {#dmt-dynamic}
+### Datasets, Metrics, and Tasks (Dynamic Instability)
 
 <div style="overflow-x:auto;"> <table> <thead> <tr> <th>Domain</th> <th>Category</th> <th>Method</th> <th>Typical Datasets</th> <th>Common Metrics</th> <th>Downstream Tasks</th> </tr> </thead> <tbody> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>ICL</b></td><td>WIKI, YAGO, ICEWS14, ICEWS18</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>zrLLM</b></td><td>ICEWS, ACLED</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>CoH</b></td><td>ICEWS14, ICEWS18, ICEWS05-15</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>TG-LLM</b></td><td>TGQA, TimeQA, TempReason</td><td>F1, Accuracy, Exact Match</td><td>Temporal Reasoning</td></tr> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>LLM4DyG</b></td><td>Enron, DBLP, Flights</td><td>Accuracy, F1, Recall</td><td>Spatio-Temporal Reasoning, Graph Reasoning &amp; Querying, Link Prediction</td></tr> <tr><td>Querying &amp; Reasoning</td><td>QA &amp; Interpretability</td><td><b>TimeR<sup>4</sup></b></td><td>MULTITQ, TimeQuestions</td><td>Hits@N</td><td>Temporal KGQA</td></tr> <tr><td>Querying &amp; Reasoning</td><td>QA &amp; Interpretability</td><td><b>GenTKGQA</b></td><td>CronQuestion, TimeQuestions</td><td>Hits@N</td><td>Temporal KGQA</td></tr> <tr><td>Querying &amp; Reasoning</td><td>QA &amp; Interpretability</td><td><b>Unveiling LLMs</b></td><td>FEVER, CLIMATE-FEVER</td><td>Precision, Recall, F1, ROC AUC, Accuracy</td><td>Claim Verification</td></tr>
 <tr><td>Generating &amp; Updating</td><td>Generating Structures</td><td><b>FinDKG</b></td><td>WIKI, YAGO, ICEWS14</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr>
