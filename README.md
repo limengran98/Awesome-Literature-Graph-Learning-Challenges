@@ -221,11 +221,135 @@ A curated list of recent research addressing fundamental challenges in graph lea
 | Temporal Relational Reasoning of Large Language Models for Detecting Stock Portfolio Crashes | Kelvin J. L. Koa, Yunshan Ma, Ritchie Ng, Huanhuan Zheng, Tat-Seng Chua | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2410.17266) |
 | Dynamic Benchmarking of Masked Language Models on Temporal Concept Drift with Multiple Views | Katerina Margatina, Shuai Wang, Yogarshi Vyas, Neha Anna John, Yassine Benajiba, Miguel Ballesteros | Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, 2023 | [Link](https://aclanthology.org/2023.eacl-main.211/) |
 
+
+
+## 📊 Datasets, Metrics, and Tasks
+
+Below are detailed tables of representative **LLM-based methods**, grouped by graph challenge, domain, and tasks.
+
+### Incompleteness in Graphs
+
+<div style="overflow-x:auto;"> <table> <thead> <tr> <th>Domain</th> <th>Incompleteness</th> <th>Method</th> <th>Typical Datasets</th> <th>Common Metrics</th> <th>Downstream Tasks</th> </tr> </thead> <tbody> <tr><td>Robust Graph Learning</td><td>Node</td><td><b>LLM4NG</b></td><td>Cora, PubMed, ogbn-arxiv</td><td>Accuracy</td><td>Node Classification</td></tr> <tr><td>Robust Graph Learning</td><td>Node</td><td><b>LLM-TAG</b></td><td>Cora, Citeseer, PubMed, Arxiv-2023</td><td>Accuracy</td><td>Node Classification</td></tr> <tr><td>Robust Graph Learning</td><td>Node</td><td><b>SPLLM</b></td><td>PeMS03, PeMS04, PeMS07</td><td>MAE, RMSE, MAPE</td><td>Spatiotemporal Forecasting</td></tr> <tr><td>Robust Graph Learning</td><td>Label</td><td><b>LLMGNN</b></td><td>Cora, Citeseer, PubMed, ogbn-arxiv, ogbn-products, WikiCS</td><td>Accuracy</td><td>Node Classification</td></tr> <tr><td>Robust Graph Learning</td><td>Mixed</td><td><b>GraphLLM</b></td><td>Synthetic Data</td><td>Exact Match Accuracy</td><td>Graph Reasoning</td></tr> <tr><td>Robust Graph Learning</td><td>Mixed</td><td><b>PROLINK</b></td><td>FB15k-237, Wikidata68K, NELL-995</td><td>MRR, Hits@N</td><td>Knowledge Graph Completion</td></tr> <tr><td>Robust Graph Learning</td><td>Mixed</td><td><b>UnIMP</b></td><td>BG, ZO, PK, BK, CS, ST, PW, BY, RR, WM</td><td>RMSE, MAE</td><td>Data Imputation</td></tr>
+<tr><td>Few-Shot Graph Learning</td><td>Structure</td><td><b>LinkGPT</b></td><td>AmazonSports, Amazon-Clothing, MAG-Geology, MAG-Math</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr>
+<tr><td>Few-Shot Graph Learning</td><td>Structure</td><td><b>AnomalyLLM</b></td><td>UCI Messages, Blogcatalog, T-Finance, T-Social</td><td>AUC</td><td>Anomaly Detection</td></tr>
+<tr><td>Few-Shot Graph Learning</td><td>Mixed</td><td><b>LLMDGCN</b></td><td>Cora, Citeseer, PubMed, Religion</td><td>Accuracy</td><td>Node Classification</td></tr>
+<tr><td>Few-Shot Graph Learning</td><td>Mixed</td><td><b>HeGTa</b></td><td>IM-TQA, WCC, HiTab, WTQ, TabFact</td><td>Macro-F1, Accuracy</td><td>Table Understanding</td></tr>
+<tr><td>Few-Shot Graph Learning</td><td>Mixed</td><td><b>FlexKBQA</b></td><td>GrailQA, WebQSP, KQA Pro</td><td>Exact Match, F1, Accuracy</td><td>Knowledge Graph Question Answering</td></tr>
+<tr><td>Few-Shot Graph Learning</td><td>Mixed</td><td><b>KGQG</b></td><td>WebQuestions, PathQuestions</td><td>BLEU-4, ROUGE-L, Hits@N</td><td>Knowledge Graph Question Answering</td></tr>
+
+<tr><td>Knowledge Graph Completion</td><td>Node</td><td><b>LLM-KGC</b></td><td>ILPC</td><td>MRR, Hits@N</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Node</td><td><b>GS-KGC</b></td><td>WN18RR, FB15k-237, FB15k-237N, ICEWS14, ICEWS05-15</td><td>Hits@N</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Node</td><td><b>GLTW</b></td><td>FB15k-237, WN18RR, Wikidata5M</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Label</td><td><b>KGs-LLM</b></td><td>Wikipedia</td><td>F1, Precision, Recall</td><td>Knowledge Graph Generation</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>FSKG</b></td><td>WN18RR, FB15k-237</td><td>MRR, Hits@N</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>KGLLM</b></td><td>WN11, FB13, WN18RR, YAGO3-10</td><td>Accuracy, MRR, Hits@N</td><td>Link Prediction, Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>KICGPT</b></td><td>FB15k-237, WN18RR</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>RL-LLM</b></td><td>Electronics, Instacart</td><td>Precision, Recall, Accuracy</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>GoG</b></td><td>Synthetic Data</td><td>Hits@N</td><td>Knowledge Graph Question Answering</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>KoPA</b></td><td>UMLS, CoDeX-S, FB15K-237N</td><td>F1, Precision, Recall, Accuracy</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>LLMKG</b></td><td>Templates Easy, Templates Hard</td><td>Strict Metrics, Flexible Metrics</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>DIFT</b></td><td>WN18RR, FB15k-237</td><td>MRR, Hits@N</td><td>Link Prediction, Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>CP-KGC</b></td><td>WN18RR, FB15k-237, UMLS</td><td>MRR, Hits@N</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Knowledge Graph Completion</td><td>Mixed</td><td><b>MuKDC</b></td><td>NELL, Wiki</td><td>MRR, Hits@N</td><td>Knowledge Graph Completion</td></tr>
+
+</tbody> </table> </div>
+
+### Imbalance in Graphs
+
+<div style="overflow-x:auto;"> <table> <thead> <tr> <th>Domain</th> <th>Tasks</th> <th>Method</th> <th>Typical Datasets</th> <th>Common Metrics</th> <th>Downstream Tasks</th> </tr> </thead> <tbody> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LLM4NG</b></td><td>Cora, PubMed, ogbn-arxiv</td><td>Accuracy</td><td>Few-shot Node Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LLM-GNN</b></td><td>Cora, Citeseer, PubMed, ogbn-arxiv, ogbn-products, WikiCS</td><td>Accuracy</td><td>Label-free Node Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>G2P2</b></td><td>Cora; Amazon (Art, Industrial, Music Instruments)</td><td>Accuracy, Macro-F1</td><td>Zero-/Few-shot Low-resource Text Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LA-TAG</b></td><td>Cora, PubMed, Photo, Computer, Children</td><td>Accuracy, Macro-F1</td><td>Zero-/Few-shot Low-resource Text Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>GSS-Net</b></td><td>Amazon (Magazine Subscriptions, Appliances, Gift Cards)</td><td>Accuracy, Precision, Recall, F1, MSE, RMSE, MAE</td><td>Sentiment on Streaming E-commerce Reviews</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>TAGrader</b></td><td>Cora, PubMed, ogbn-products, Arxiv-2023</td><td>Accuracy</td><td>Node Classification on TAGs</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>SEGA</b></td><td>DAIC-WOZ, EATD</td><td>Macro-F1</td><td>Depression Detection</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>SocioHyperNet</b></td><td>MBTI</td><td>Accuracy, AUC, Macro-F1, Micro-F1, IMP</td><td>Personality Traits</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>Cella</b></td><td>Cora, Citeseer, PubMed, Wiki-CS</td><td>Accuracy, NMI, ARI, F1</td><td>Label-free Node Classification</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LLM-TIKG</b></td><td>threat-dataset</td><td>Precision, Recall, F1</td><td>Threat Intelligence KG Construction</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>ANLM-assInNNER</b></td><td>NE dataset</td><td>Precision, Recall, F1</td><td>Robotic Fault Diagnosis KG Construction</td></tr> <tr><td>Class Imbalance Graph Learning</td><td>Node Classification</td><td><b>LLM-HetGDT</b></td><td>Twitter-HetDrug</td><td>Macro-F1, GMean</td><td>Online Drug Trafficking Detection</td></tr>
+<tr><td>Class Imbalance Graph Learning</td><td>Prediction</td><td><b>LLM-SBCL</b></td><td>biology, law, cardiff20102, sydney19351, sydney23146</td><td>Binary-F1, Micro-F1, Macro-F1, Accuracy</td><td>Student Performance Prediction</td></tr>
+<tr><td>Class Imbalance Graph Learning</td><td>Prediction</td><td><b>LKPNR</b></td><td>MIND</td><td>AUC, MRR, nDCG</td><td>Personalized News Recommendation</td></tr>
+<tr><td>Class Imbalance Graph Learning</td><td>Prediction</td><td><b>LLM-DDA</b></td><td>BCFR-dataset</td><td>AUC, AUPR, F1, Precision</td><td>Computational Drug Repositioning</td></tr>
+
+<tr><td>Class Imbalance Graph Learning</td><td>Graph Completion</td><td><b>KICGPT</b></td><td>FB15k-237, WN18RR</td><td>MRR, Hits@N</td><td>Link Completion</td></tr>
+<tr><td>Class Imbalance Graph Learning</td><td>Graph Completion</td><td><b>KGCD</b></td><td>WN18RR, YAGO3-10, WN18</td><td>MRR, Hits@N</td><td>Low-resource Knowledge Graph Completion</td></tr>
+
+<tr><td>Class Imbalance Graph Learning</td><td>Foundation Model</td><td><b>GraphCLIP</b></td><td>ogbn-arXiv, Arxiv-2023, PubMed, ogbn-products, Reddit, Cora, CiteSeer, Ele-Photo, Ele-Computers, Books-History, WikiCS, Instagram</td><td>Accuracy</td><td>Transfer Learning on TAGs</td></tr>
+
+<tr><td>Structure Imbalance Graph Learning</td><td>Node Classification</td><td><b>GraphEdit</b></td><td>Cora, Citeseer, PubMed</td><td>Accuracy</td><td>Refining Graph Topologies</td></tr>
+<tr><td>Structure Imbalance Graph Learning</td><td>Graph Completion</td><td><b>SATKGC</b></td><td>WN18RR, FB15k-237, Wikidata5M</td><td>MRR, Hits@N</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Structure Imbalance Graph Learning</td><td>Graph Completion</td><td><b>MPIKGC</b></td><td>FB15k-237, WN18RR, FB13, WN11</td><td>MR, MRR, Hits@N, Accuracy</td><td>Knowledge Graph Completion</td></tr>
+<tr><td>Structure Imbalance Graph Learning</td><td>Graph Completion</td><td><b>LLM4RGNN</b></td><td>Cora, Citeseer, PubMed, ogbn-arxiv, ogbn-products</td><td>Accuracy</td><td>Improving the Adversarial Robustness</td></tr>
+
+</tbody> </table> </div>
+
+### Cross-Domain Heterogeneity in Graphs
+
+<div style="overflow-x:auto;"> <table> <thead> <tr> <th>Domains</th> <th>Tasks</th> <th>Methods</th> <th>Typical Datasets</th> <th>Common Metrics</th> <th>Downstream Tasks</th> </tr> </thead> <tbody> <tr><td>Text-Attributed Graph Learning</td><td>Textual Attribute Alignment</td><td><b>TAPE</b></td><td>Cora, PubMed, Arxiv-2023, ogbn-arxiv, ogbn-products</td><td>Accuracy</td><td>Node Classification</td></tr> <tr><td>Text-Attributed Graph Learning</td><td>Textual Attribute Alignment</td><td><b>LLMRec</b></td><td>MovieLens, Netflix</td><td>Recall, NDCG, Precision</td><td>Item Recommendation</td></tr> <tr><td>Text-Attributed Graph Learning</td><td>Textual Attribute Alignment</td><td><b>MINGLE</b></td><td>MIMIC-III, CRADLE</td><td>Accuracy, AUC, AUPR, F1</td><td>Node Classification</td></tr> <tr><td>Text-Attributed Graph Learning</td><td>Textual Attribute Alignment</td><td><b>GHGRL</b></td><td>IMDB, DBLP, ACM, Wiki-CS, IMDB-RIR, DBLP-RID</td><td>Macro-F1, Micro-F1</td><td>Node Classification</td></tr>
+<tr><td>Text-Attributed Graph Learning</td><td>Graph Foundation Model</td><td><b>OFA</b></td><td>Cora, PubMed, ogbn-arxiv, Wiki-CS, MOLHIV, MOLPCBA, FB15K237, WN18RR, ChEMBL</td><td>Accuracy, AUC, AUPR</td><td>Node Classification, Link Prediction, Graph Classification</td></tr>
+<tr><td>Text-Attributed Graph Learning</td><td>Graph Foundation Model</td><td><b>UniGraph</b></td><td>Cora, PubMed, ogbn-arxiv, ogbn-products, Wiki-CS, FB15K237, WN18RR, MOLHIV, MOLPCBA</td><td>AUC</td><td>Node Classification, Link Prediction, Graph Classification</td></tr>
+<tr><td>Text-Attributed Graph Learning</td><td>Graph Foundation Model</td><td><b>BooG</b></td><td>Cora, PubMed, ogbn-arxiv, Wiki-CS, MOLHIV, MOLPCBA</td><td>AUC</td><td>Node Classification, Graph Classification</td></tr>
+<tr><td>Text-Attributed Graph Learning</td><td>Graph Foundation Model</td><td><b>Hyper-FM</b></td><td>Cora-CA-Text, Cora-CC-Text, Pubmed-CA-Text, Pubmed-CC-Text, AminerText, Arxiv-Text, Movielens-Text, IMDB-Text, GoodBook-Text, PPI-Text</td><td>Accuracy</td><td>Node Classification</td></tr>
+
+<tr><td>Multimodal Attributed Graph Learning</td><td>MLLM-based Multimodal Alignment</td><td><b>LLMRec</b></td><td>MovieLens, Netflix</td><td>Recall, NDCG, Precision</td><td>Item Recommendation</td></tr>
+<tr><td>Multimodal Attributed Graph Learning</td><td>MLLM-based Multimodal Alignment</td><td><b>MAGB</b></td><td>Cora, Wiki-CS, Ele-Photo, Flickr, Movies, Toys, Grocery, Reddit-S, Reddit-M</td><td>Accuracy, F1</td><td>Node Classification</td></tr>
+
+<tr><td>Multimodal Attributed Graph Learning</td><td>Graph-Enhanced Multimodal Alignment</td><td><b>MMGL</b></td><td>WikiWeb2M</td><td>BLEU-4, ROUGE-L, CIDEr</td><td>Section Summarization</td></tr>
+<tr><td>Multimodal Attributed Graph Learning</td><td>Graph-Enhanced Multimodal Alignment</td><td><b>GraphAdapter</b></td><td>ImageNet, StanfordCars, UCF101, Caltech101, Flowers102, SUN397, DTD, EuroSAT, FGVCAircraft, OxfordPets, Food101</td><td>Accuracy</td><td>Image Classification</td></tr>
+<tr><td>Multimodal Attributed Graph Learning</td><td>Graph-Enhanced Multimodal Alignment</td><td><b>TouchUp-G</b></td><td>ogbn-arxiv, ogbn-products, Books, Amazon-CP</td><td>MRR, Hits@N, Accuracy</td><td>Link Prediction, Node Classification</td></tr>
+<tr><td>Multimodal Attributed Graph Learning</td><td>Graph-Enhanced Multimodal Alignment</td><td><b>UniGraph2</b></td><td>Cora, PubMed, ogbn-arxiv, ogbn-papers100M, ogbn-products, Wiki-CS, FB15K237, WN18RR, Amazon-Sports, Amazon-Cloth, Goodreads-LP, Goodreads-NC, Ele-Fashion, WikiWeb2M</td><td>Accuracy, BLEU-4, ROUGE-L, CIDEr</td><td>Node Classification, Edge Classification, Section Summarization</td></tr>
+
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Topological Graph Textualization</td><td><b>LLMtoGraph</b></td><td>Synthetic graph data</td><td>Accuracy, Positive Response Ratio</td><td>Node Classification, Path Finding, Pattern Matching</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Topological Graph Textualization</td><td><b>NLGraph</b></td><td>NLGraph</td><td>Accuracy, Partial Credit Score, Relative Error</td><td>Path Finding, Pattern Matching, Topological Sort</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Topological Graph Textualization</td><td><b>Talk like a Graph</b></td><td>GraphQA</td><td>Accuracy</td><td>Link Prediction, Pattern Matching</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Topological Graph Textualization</td><td><b>GPT4Graph</b></td><td>ogbn-arxiv, MOLHIV, MOLPCBA, MetaQA</td><td>Accuracy</td><td>Node Classification, Graph Classification, Graph Query Language Generation</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Topological Graph Textualization</td><td><b>GITA</b></td><td>GVLQA</td><td>Accuracy</td><td>Link Prediction, Pattern Matching, Path Finding, Topological Sort</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Topological Graph Textualization</td><td><b>LLM4-Hypergraph</b></td><td>LLM4Hypergraph</td><td>Accuracy</td><td>Isomorphism Recognition, Structure Classification, Link Prediction, Path Finding</td></tr>
+
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Attributed Graph Textualization</td><td><b>GraphText</b></td><td>Cora, Citeseer, Texas, Wisconsin, Cornell</td><td>Accuracy</td><td>Node Classification</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Attributed Graph Textualization</td><td><b>WalkLM</b></td><td>PubMed, MIMIC-III</td><td>Macro-F1, Micro-F1, AUC, MRR</td><td>Node Classification, Link Prediction</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Attributed Graph Textualization</td><td><b>Path-LLM</b></td><td>Cora, Citeseer, PubMed, ogbn-arxiv</td><td>Macro-F1, Micro-F1, AUC, Accuracy</td><td>Node Classification, Link Prediction</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Attributed Graph Textualization</td><td><b>InstructGLM</b></td><td>Cora, PubMed, ogbn-arxiv</td><td>Accuracy</td><td>Node Classification, Link Prediction</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Attributed Graph Textualization</td><td><b>MuseGraph</b></td><td>Cora, ogbn-arxiv, MIMIC-III, AGENDA, WebNLG</td><td>Macro-F1, Micro-F1, Weighted-F1, BLEU-4, METEOR, ROUGE-L, CHRF++</td><td>Node Classification, Graph-to-Text Generation</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Attributed Graph Textualization</td><td><b>Graph-LLM</b></td><td>Cora, Citeseer, PubMed, ogbn-arxiv, ogbn-products</td><td>Accuracy</td><td>Node Classification</td></tr>
+
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Graph Token Learning</td><td><b>GNP</b></td><td>OBQA, ARC, PIQA, Riddle, PQA, BioASQ</td><td>Accuracy</td><td>Question Answering</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Graph Token Learning</td><td><b>GraphToken</b></td><td>GraphQA</td><td>Accuracy</td><td>Link Prediction, Pattern Matching</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Graph Token Learning</td><td><b>GraphGPT</b></td><td>Cora, PubMed, ogbn-arxiv</td><td>Accuracy, Macro-F1, AUC</td><td>Node Classification, Link Prediction</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Graph Token Learning</td><td><b>LLaGA</b></td><td>Cora, PubMed, ogbn-arxiv, ogbn-products</td><td>Accuracy</td><td>Node Classification, Link Prediction</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Graph Token Learning</td><td><b>TEA-GLM</b></td><td>Cora, PubMed, ogbn-arxiv, TAG benchmark</td><td>Accuracy, AUC</td><td>Node Classification, Link Prediction</td></tr>
+<tr><td>Structural Heterogeneous Graph Learning</td><td>Graph Token Learning</td><td><b>HiGPT</b></td><td>IMDB, DBLP, ACM</td><td>Macro-F1, Micro-F1, AUC</td><td>Node Classification</td></tr>
+
+</tbody> </table> </div>
+
+### Dynamic Instability in Graphs
+
+<div style="overflow-x:auto;"> <table> <thead> <tr> <th>Domain</th> <th>Category</th> <th>Method</th> <th>Typical Datasets</th> <th>Common Metrics</th> <th>Downstream Tasks</th> </tr> </thead> <tbody> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>ICL</b></td><td>WIKI, YAGO, ICEWS14, ICEWS18</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>zrLLM</b></td><td>ICEWS, ACLED</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>CoH</b></td><td>ICEWS14, ICEWS18, ICEWS05-15</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>TG-LLM</b></td><td>TGQA, TimeQA, TempReason</td><td>F1, Accuracy, Exact Match</td><td>Temporal Reasoning</td></tr> <tr><td>Querying &amp; Reasoning</td><td>Forecasting &amp; Reasoning</td><td><b>LLM4DyG</b></td><td>Enron, DBLP, Flights</td><td>Accuracy, F1, Recall</td><td>Spatio-Temporal Reasoning, Graph Reasoning &amp; Querying, Link Prediction</td></tr> <tr><td>Querying &amp; Reasoning</td><td>QA &amp; Interpretability</td><td><b>TimeR<sup>4</sup></b></td><td>MULTITQ, TimeQuestions</td><td>Hits@N</td><td>Temporal KGQA</td></tr> <tr><td>Querying &amp; Reasoning</td><td>QA &amp; Interpretability</td><td><b>GenTKGQA</b></td><td>CronQuestion, TimeQuestions</td><td>Hits@N</td><td>Temporal KGQA</td></tr> <tr><td>Querying &amp; Reasoning</td><td>QA &amp; Interpretability</td><td><b>Unveiling LLMs</b></td><td>FEVER, CLIMATE-FEVER</td><td>Precision, Recall, F1, ROC AUC, Accuracy</td><td>Claim Verification</td></tr>
+<tr><td>Generating &amp; Updating</td><td>Generating Structures</td><td><b>FinDKG</b></td><td>WIKI, YAGO, ICEWS14</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr>
+<tr><td>Generating &amp; Updating</td><td>Generating Structures</td><td><b>GenTKG</b></td><td>ICEWS14, ICEWS18, GDELT, YAGO</td><td>Hits@N</td><td>Link Prediction</td></tr>
+<tr><td>Generating &amp; Updating</td><td>Generating Structures</td><td><b>Up To Date</b></td><td>Wikidata</td><td>Accuracy, Response Rate</td><td>Fact Validation, QA</td></tr>
+<tr><td>Generating &amp; Updating</td><td>Generating Structures</td><td><b>PPT</b></td><td>ICEWS14, ICEWS18, ICEWS05-15</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr>
+<tr><td>Generating &amp; Updating</td><td>Generating Structures</td><td><b>LLM-DA</b></td><td>ICEWS14, ICEWS05-15</td><td>MRR, Hits@N</td><td>Link Prediction</td></tr>
+<tr><td>Generating &amp; Updating</td><td>Generating Insights &amp; Representations</td><td><b>TimeLlama</b></td><td>ICEWS14, ICEWS18, ICEWS05-15</td><td>Precision, Recall, F1, BLEU, ROUGE</td><td>Event Forecasting, Explanation Generation</td></tr>
+<tr><td>Generating &amp; Updating</td><td>Generating Insights &amp; Representations</td><td><b>RealTCD</b></td><td>Simulation Datasets</td><td>SHD, SID</td><td>Temporal Causal Discovery, Anomaly Detection</td></tr>
+<tr><td>Generating &amp; Updating</td><td>Generating Insights &amp; Representations</td><td><b>DynLLM</b></td><td>Tmall, Alibaba</td><td>Recall@K, NDCG@K</td><td>Dynamic Graph Recommendation, Top-K Recommendation</td></tr>
+
+<tr><td>Evaluation &amp; Application</td><td>Model Evaluation</td><td><b>Dynamic-TempLAMA</b></td><td>DYNAMICTEMPLAMA</td><td>Accuracy, MRR, ROUGE, F1</td><td>Temporal Robustness Evaluation, Factual Knowledge Probing</td></tr>
+<tr><td>Evaluation &amp; Application</td><td>Model Evaluation</td><td><b>DARG</b></td><td>GSM8K, BBQ, BBH Navigate, BBH Dyck Language</td><td>Accuracy, CIAR, Exact Match, Accuracy</td><td>Mathematical, Social, Spatial, Symbolic Reasoning</td></tr>
+<tr><td>Evaluation &amp; Application</td><td>Downstream Applications</td><td><b>AnomalyLLM</b></td><td>UCI Messages, Blogcatalog</td><td>AUC</td><td>Anomaly Detection</td></tr>
+<tr><td>Evaluation &amp; Application</td><td>Downstream Applications</td><td><b>MoMa-LLM</b></td><td>iGibson scenes</td><td>AUC, Recall</td><td>Semantic Interactive Object Search</td></tr>
+<tr><td>Evaluation &amp; Application</td><td>Downstream Applications</td><td><b>TRR</b></td><td>Reuters Financial News</td><td>AUROC</td><td>Event Detection</td></tr>
+
+</tbody> </table> </div>
+
+---
+
+
+
+
 ## 📖 Citation
 
 If you find our work useful, please consider citing the following paper:
-
 ```bibtex
+@article{li2025survey,
+  title={A Survey of Large Language Models for Data Challenges in Graphs},
+  author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and others},
+  journal={Expert Systems with Applications},
+  pages={129643},
+  year={2025},
+  publisher={Elsevier}
+}
+
 @article{li2025using,
   title={Using Large Language Models to Tackle Fundamental Challenges in Graph Learning: A Comprehensive Survey},
   author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and Ma, Xiaolei and Liu, Zhiyuan and Groth, Paul and Worring, Marcel},
