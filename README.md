@@ -56,53 +56,68 @@ A curated list of recent research addressing fundamental challenges in graph lea
 -->
 
 <details>
-<summary><u><strong>) Spatiotemporal Pre-Trained Large Language Model for Forecasting With Missing Values (2025)</strong></u></summary>
+<summary><u><strong> Spatiotemporal Pre-Trained Large Language Model for Forecasting With Missing Values (2025)</strong></u></summary>
 
 **Authors:** Le Fang, Wei Xiang, Shirui Pan, Flora D. Salim, Yi-Ping Phoebe Chen  
 **Venue & Year:** IEEE Internet of Things Journal, 2025  
-**Link:** [https://doi.org/10.1109/JIOT.2024.3524030](https://doi.org/10.1109/JIOT.2024.3524030)
+**Link:** [https://doi.org/10.1109/JIOT.2024.3524030](https://doi.org/10.1109/JIOT.2024.3524030)  
+**Abstract:**  
+Spatiotemporal data collected by sensors within an urban Internet of Things (IoT) system inevitably contains some missing values, which significantly affects the accuracy of spatiotemporal data forecasting. However, existing techniques, including those based on large language models (LLMs), show limited effectiveness in forecasting with missing values, especially in scenarios involving high-dimensional sensor data. In this article, we propose a novel spatiotemporal pretrained LLM dubbed SPLLM for forecasting with missing values. In this network, we seamlessly integrate a specialized spatiotemporal fusion graph convolutional network (GCN) module that extracts intricate spatiotemporal and graph-based information, for generating suitable inputs to the SPLLM. Furthermore, we propose a feed-forward network (FFN) fine-tuning strategy within the LLM and a final fusion layer to enable the model to leverage the pretrained foundational knowledge of the LLM and adapt to new incomplete data simultaneously. The experimental results indicate that SPLLM outperforms state-of-the-art models on real-world public datasets. Notably, SPLLM exhibits a superior performance in tackling incomplete sensory data with a variety of missing rates. A comprehensive ablation study of key components is conducted to demonstrate their efficiency.
 </details>
 <details>
-<summary><u><strong>) LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs (2024)</strong></u></summary>
+<summary><u><strong> LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs (2024)</strong></u></summary>
 
 **Authors:** Kai Wang, Yuwei Xu, Zhiyong Wu, Siqiang Luo  
 **Venue & Year:** Findings of the Association for Computational Linguistics, 2024  
-**Link:** [https://doi.org/10.18653/v1/2024.findings-acl.224](https://doi.org/10.18653/v1/2024.findings-acl.224)
+**Link:** [https://doi.org/10.18653/v1/2024.findings-acl.224](https://doi.org/10.18653/v1/2024.findings-acl.224)  
+**Abstract:**  
+Knowledge Graph (KG) inductive reasoning, which aims to infer missing facts from new KGs that are not seen during training, has been widely adopted in various applications. One critical challenge of KG inductive reasoning is handling low-resource scenarios with scarcity in both textual and structural aspects. In this paper, we attempt to address this challenge with Large Language Models (LLMs). Particularly, we utilize the state-of-the-art LLMs to generate a graph-structural prompt to enhance the pre-trained Graph Neural Networks (GNNs), which brings us new methodological insights into the KG inductive reasoning methods, as well as high generalizability in practice. On the methodological side, we introduce a novel pretraining and prompting framework ProLINK, designed for low-resource inductive reasoning across arbitrary KGs without requiring additional training. On the practical side, we experimentally evaluate our approach on 36 low-resource KG datasets and find that ProLINK outperforms previous methods in three-shot, one-shot, and zero-shot reasoning tasks, exhibiting average performance improvements by 20%, 45%, and 147%, respectively. Furthermore, ProLINK demonstrates strong robustness for various LLM promptings as well as full-shot scenarios.
+
 </details>
 <details>
-<summary><u><strong>) On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing (2025)</strong></u></summary>
+<summary><u><strong> On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing (2025)</strong></u></summary>
 
 **Authors:** Jianwei Wang, Kai Wang, Ying Zhang, Wenjie Zhang, Xiwei Xu, Xuemin Lin  
 **Venue & Year:** arXiv preprint, 2025  
-**Link:** [https://arxiv.org/abs/2501.02191](https://arxiv.org/abs/2501.02191)
+**Link:** [https://arxiv.org/abs/2501.02191](https://arxiv.org/abs/2501.02191)  
+**Abstract:**  
+Missing data imputation, which aims to impute the missing values in the raw datasets to achieve the completeness of datasets, is crucial for modern data-driven models like large language models (LLMs) and has attracted increasing interest over the past decades. Despite its importance, existing solutions for missing data imputation either 1) only support numerical and categorical data or 2) show an unsatisfactory performance due to their design prioritizing text data and the lack of key properties for tabular data imputation. In this paper, we propose UnIMP, a Unified IMPutation framework that leverages LLM and high-order message passing to enhance the imputation of mixed-type data including numerical, categorical, and text data. Specifically, we first introduce a cell-oriented hypergraph to model the table. We then propose BiHMP, an efficient Bidirectional High-order Message-Passing network to aggregate global-local information and high-order relationships on the constructed hypergraph while capturing the inter-column heterogeneity and intra-column homogeneity. To effectively and efficiently align the capacity of the LLM with the information aggregated by BiHMP, we introduce Xfusion, which, together with BiHMP, acts as adapters for the LLM. We follow a pre-training and fine-tuning pipeline to train UnIMP, integrating two optimizations: chunking technique, which divides tables into smaller chunks to enhance efficiency; and progressive masking technique, which gradually adapts the model to learn more complex data patterns. Both theoretical proofs and empirical experiments on 10 real world datasets highlight the superiority of UnIMP over existing techniques.
 </details>
 <details>
-<summary><u><strong>) Large language models as topological structure enhancers for text-attributed graphs (2023)</strong></u></summary>
+<summary><u><strong> Large language models as topological structure enhancers for text-attributed graphs (2023)</strong></u></summary>
 
 **Authors:** Shengyin Sun, Yuxiang Ren, Chen Ma, Xuecang Zhang  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://doi.org/10.48550/arXiv.2311.14324](https://doi.org/10.48550/arXiv.2311.14324)
+**Link:** [https://doi.org/10.48550/arXiv.2311.14324](https://doi.org/10.48550/arXiv.2311.14324)  
+**Abstract:**  
+The latest advancements in large language models (LLMs) have revolutionized the field of natural language processing (NLP). Inspired by the success of LLMs in NLP tasks, some recent work has begun investigating the potential of applying LLMs in graph learning tasks. However, most of the existing work focuses on utilizing LLMs as powerful node feature augmenters, leaving employing LLMs to enhance graph topological structures an understudied problem. In this work, we explore how to leverage the information retrieval and text generation capabilities of LLMs to refine/enhance the topological structure of text-attributed graphs (TAGs) under the node classification setting. First, we propose using LLMs to help remove unreliable edges and add reliable ones in the TAG. Specifically, we first let the LLM output the semantic similarity between node attributes through delicate prompt designs, and then perform edge deletion and edge addition based on the similarity. Second, we propose using pseudo-labels generated by the LLM to improve graph topology, that is, we introduce the pseudo-label propagation as a regularization to guide the graph neural network (GNN) in learning proper edge weights. Finally, we incorporate the two aforementioned LLM-based methods for graph topological refinement into the process of GNN training, and perform extensive experiments on four real-world datasets. The experimental results demonstrate the effectiveness of LLM-based graph topology refinement (achieving a 0.15%--2.47% performance gain on public benchmarks).
 </details>
 <details>
-<summary><u><strong>) Empower text-attributed graphs learning with large language models (LLMs) (2023)</strong></u></summary>
+<summary><u><strong> Leveraging Large Language Models for Node Generation in Few-Shot Learning on Text-Attributed Graphs (2025)</strong></u></summary>
 
 **Authors:** Jianxiang Yu, Yuxiang Ren, Chenghua Gong, Jiaqi Tan, Xiang Li, Xuecang Zhang  
-**Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://doi.org/10.48550/arXiv.2310.09872](https://doi.org/10.48550/arXiv.2310.09872)
+**Venue & Year:** AAAI, 2025  
+**Link:** [https://doi.org/10.48550/arXiv.2310.09872](https://doi.org/10.48550/arXiv.2310.09872)  
+**Abstract:**  
+Text-attributed graphs have recently garnered significant attention due to their wide range of applications in web domains. Existing methodologies employ word embedding models for acquiring text representations as node features, which are subsequently fed into Graph Neural Networks (GNNs) for training. Recently, the advent of Large Language Models (LLMs) has introduced their powerful capabilities in information retrieval and text generation, which can greatly enhance the text attributes of graph data. Furthermore, the acquisition and labeling of extensive datasets are both costly and time-consuming endeavors. Consequently, few-shot learning has emerged as a crucial problem in the context of graph learning tasks. In order to tackle this challenge, we propose a lightweight paradigm called LLM4NG, which adopts a plug-and-play approach to empower text-attributed graphs through node generation using LLMs. Specifically, we utilize LLMs to extract semantic information from the labels and generate samples that belong to these categories as exemplars. Subsequently, we employ an edge predictor to capture the structural information inherent in the raw dataset and integrate the newly generated samples into the original graph. This approach harnesses LLMs for enhancing class-level information and seamlessly introduces labeled nodes and edges without modifying the raw dataset, thereby facilitating the node classification task in few-shot scenarios. Extensive experiments demonstrate the outstanding performance of our proposed paradigm, particularly in low-shot scenarios. For instance, in the 1-shot setting of the ogbn-arxiv dataset, LLM4NG achieves a 76% improvement over the baseline model.
 </details>
 <details>
-<summary><u><strong>) Label-free node classification on graphs with large language models (LLMs) (2023)</strong></u></summary>
+<summary><u><strong> Label-free node classification on graphs with large language models (LLMs) (2023)</strong></u></summary>
 
 **Authors:** Zhikai Chen, Haitao Mao, Hongzhi Wen, Haoyu Han, Wei Jin, Haiyang Zhang, Hui Liu, Jiliang Tang  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://arxiv.org/abs/2310.04668](https://arxiv.org/abs/2310.04668)
+**Link:** [https://arxiv.org/abs/2310.04668](https://arxiv.org/abs/2310.04668)  
+**Abstract:**  
+In recent years, there have been remarkable advancements in node classification achieved by Graph Neural Networks (GNNs). However, they necessitate abundant high-quality labels to ensure promising performance. In contrast, Large Language Models (LLMs) exhibit impressive zero-shot proficiency on text-attributed graphs. Yet, they face challenges in efficiently processing structural data and suffer from high inference costs. In light of these observations, this work introduces a label-free node classification on graphs with LLMs pipeline, LLM-GNN. It amalgamates the strengths of both GNNs and LLMs while mitigating their limitations. Specifically, LLMs are leveraged to annotate a small portion of nodes and then GNNs are trained on LLMs' annotations to make predictions for the remaining large portion of nodes. The implementation of LLM-GNN faces a unique challenge: how can we actively select nodes for LLMs to annotate and consequently enhance the GNN training? How can we leverage LLMs to obtain annotations of high quality, representativeness, and diversity, thereby enhancing GNN performance with less cost? To tackle this challenge, we develop an annotation quality heuristic and leverage the confidence scores derived from LLMs to advanced node selection. Comprehensive experimental results validate the effectiveness of LLM-GNN. In particular, LLM-GNN can achieve an accuracy of 74.9% on a vast-scale dataset \products with a cost less than 1 dollar.
 </details>
 <details>
-<summary><u><strong>) GraphLLM: Boosting graph reasoning ability of large language models (2023)</strong></u></summary>
+<summary><u><strong> GraphLLM: Boosting graph reasoning ability of large language models (2023)</strong></u></summary>
 
 **Authors:** Ziwei Chai, Tianjie Zhang, Liang Wu, Kaiqiao Han, Xiaohai Hu, Xuanwen Huang, Yang Yang  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://doi.org/10.48550/arXiv.2310.05845](https://doi.org/10.48550/arXiv.2310.05845)
+**Link:** [https://doi.org/10.48550/arXiv.2310.05845](https://doi.org/10.48550/arXiv.2310.05845)  
+**Abstract:**  
+The advancement of Large Language Models (LLMs) has remarkably pushed the boundaries towards artificial general intelligence (AGI), with their exceptional ability on understanding diverse types of information, including but not limited to images and audio. Despite this progress, a critical gap remains in empowering LLMs to proficiently understand and reason on graph data. Recent studies underscore LLMs' underwhelming performance on fundamental graph reasoning tasks. In this paper, we endeavor to unearth the obstacles that impede LLMs in graph reasoning, pinpointing the common practice of converting graphs into natural language descriptions (Graph2Text) as a fundamental bottleneck. To overcome this impediment, we introduce GraphLLM, a pioneering end-to-end approach that synergistically integrates graph learning models with LLMs. This synergy equips LLMs with the ability to proficiently interpret and reason on graph data, harnessing the superior expressive power of graph learning models. Our empirical evaluations across four fundamental graph reasoning tasks validate the effectiveness of GraphLLM. The results exhibit a substantial average accuracy enhancement of 54.44%, alongside a noteworthy context reduction of 96.45% across various graph reasoning tasks.
 </details>
 
 
