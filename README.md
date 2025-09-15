@@ -1174,7 +1174,7 @@ If you find our work useful, please consider citing the following paper:
 ```bibtex
 @article{li2025survey,
   title={A Survey of Large Language Models for Data Challenges in Graphs},
-  author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and others},
+ author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and Ma, Xiaolei and Liu, Zhiyuan and Groth, Paul and Worring, Marcel},
   journal={Expert Systems with Applications},
   pages={129643},
   year={2025},
