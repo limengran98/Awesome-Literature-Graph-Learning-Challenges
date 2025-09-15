@@ -70,7 +70,7 @@ A curated list of recent research addressing fundamental challenges in graph lea
 **Link:** [https://doi.org/10.18653/v1/2024.findings-acl.224](https://doi.org/10.18653/v1/2024.findings-acl.224)
 </details>
 <details>
-<summary><u><strong>3) On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing (2025)</strong></u></summary>
+<summary><u><strong>) On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing (2025)</strong></u></summary>
 
 **Authors:** Jianwei Wang, Kai Wang, Ying Zhang, Wenjie Zhang, Xiwei Xu, Xuemin Lin  
 **Venue & Year:** arXiv preprint, 2025  
