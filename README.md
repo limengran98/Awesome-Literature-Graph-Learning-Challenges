@@ -1231,7 +1231,7 @@ If you find our work useful, please consider citing the following paper:
 ```bibtex
 @article{li2025survey,
   title={A Survey of Large Language Models for Data Challenges in Graphs},
- author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and Ma, Xiaolei and Liu, Zhiyuan and Groth, Paul and Worring, Marcel},
+  author={Mengran Li, Pengyu Zhang, Wenbin Xing, Yijia Zheng, Klim Zaporojets, Junzhou Chen, Ronghui Zhang, Yong Zhang, Siyuan Gong, Jia Hu, Xiaolei Ma, Zhiyuan Liu, Paul Groth, Marcel Worring},
   journal={Expert Systems with Applications},
   pages={129643},
   year={2025},
@@ -1240,7 +1240,7 @@ If you find our work useful, please consider citing the following paper:
 
 @article{li2025using,
   title={Using Large Language Models to Tackle Fundamental Challenges in Graph Learning: A Comprehensive Survey},
-  author={Li, Mengran and Zhang, Pengyu and Xing, Wenbin and Zheng, Yijia and Zaporojets, Klim and Chen, Junzhou and Zhang, Ronghui and Zhang, Yong and Gong, Siyuan and Hu, Jia and Ma, Xiaolei and Liu, Zhiyuan and Groth, Paul and Worring, Marcel},
+  author={Mengran Li, Pengyu Zhang, Wenbin Xing, Yijia Zheng, Klim Zaporojets, Junzhou Chen, Ronghui Zhang, Yong Zhang, Siyuan Gong, Jia Hu, Xiaolei Ma, Zhiyuan Liu, Paul Groth, Marcel Worring},
   journal={arXiv preprint arXiv:2505.18475},
   year={2025}
 }
