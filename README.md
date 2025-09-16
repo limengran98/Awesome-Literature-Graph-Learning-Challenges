@@ -421,106 +421,137 @@ To address the issues of insufficient knowledge and hallucination in Large Langu
 
 **Authors:** Tianyi Ma, Yiyue Qian, Zehong Wang, Zheyuan Zhang, Chuxu Zhang, Yanfang Ye  
 **Venue & Year:** arXiv preprint, 2025  
-**Link:** [https://arxiv.org/abs/2503.01900](https://arxiv.org/abs/2503.01900)
+**Link:** [https://arxiv.org/abs/2503.01900](https://arxiv.org/abs/2503.01900)  
+**Abstract:**  
+As the market for illicit drugs remains extremely profitable, major online platforms have become direct-to-consumer intermediaries for illicit drug trafficking participants. These online activities raise significant social concerns that require immediate actions. Existing approaches to combating this challenge are generally impractical, due to the imbalance of classes and scarcity of labeled samples in real-world applications. To this end, we propose a novel Large Language Model-empowered Heterogeneous Graph Prompt Learning framework for illicit Drug Trafficking detection, called LLM-HetGDT, that leverages LLM to facilitate heterogeneous graph neural networks (HGNNs) to effectively identify drug trafficking activities in the class-imbalanced scenarios. Specifically, we first pre-train HGNN over a contrastive pretext task to capture the inherent node and structure information over the unlabeled drug trafficking heterogeneous graph (HG). Afterward, we employ LLM to augment the HG by generating high-quality synthetic user nodes in minority classes. Then, we fine-tune the soft prompts on the augmented HG to capture the important information in the minority classes for the downstream drug trafficking detection task. To comprehensively study online illicit drug trafficking activities, we collect a new HG dataset over Twitter, called Twitter-HetDrug. Extensive experiments on this dataset demonstrate the effectiveness, efficiency, and applicability of LLM-HetGDT.
 </details>
 <details>
 <summary><u><strong>Large language model assisted fine-grained knowledge graph construction for robotic fault diagnosis (2025)</strong></u></summary>
 
 **Authors:** Xingming Liao, Chong Chen, Zhuowei Wang, Ying Liu, Tao Wang, Lianglun Cheng  
 **Venue & Year:** Advanced Engineering Informatics, 2025  
-**Link:** [https://doi.org/10.1016/j.aei.2025.103134](https://doi.org/10.1016/j.aei.2025.103134)
+**Link:** [https://doi.org/10.1016/j.aei.2025.103134](https://doi.org/10.1016/j.aei.2025.103134)  
+**Abstract:**  
+With the rapid deployment of industrial robots in manufacturing, the demand for advanced maintenance techniques to sustain operational efficiency has become crucial. Fault diagnosis Knowledge Graph (KG) is essential as it interlinks multi-source data related to industrial robot faults, capturing multi-level semantic associations among different fault events. However, the construction and application of fine-grained fault diagnosis KG face significant challenges due to the inherent complexity of nested entities in maintenance texts and the severe scarcity of annotated industrial data. In this study, we propose a Large Language Model (LLM) assisted data augmentation approach, which handles the complex nested entities in maintenance corpora and constructs a more fine-grained fault diagnosis KG. Firstly, the fine-grained ontology is constructed via LLM Assistance in Industrial Nested Named Entity Recognition (assInNNER). Then, an Industrial Nested Label Classification Template (INCT) is designed, enabling the use of nested entities in Attention-map aware keyword selection for the Industrial Nested Language Model (ANLM) data augmentation methods. ANLM can effectively improve the model’s performance in nested entity extraction when corpora are scarce. Subsequently, a Confidence Filtering Mechanism (CFM) is introduced to evaluate and select the generated data for enhancement, and assInNNER is further deployed to recall the negative samples corpus again to further improve performance. Experimental studies based on multi-source corpora demonstrate that compared to existing algorithms, our method achieves an average F1 increase of 8.25 %, 3.31 %, and 1.96 % in 5%, 10 %, and 25 % in few-shot settings, respectively.
 </details>
 <details>
 <summary><u><strong>Low-resource knowledge graph completion based on knowledge distillation driven by large language models (2025)</strong></u></summary>
 
 **Authors:** Wenlong Hou, Weidong Zhao, Ning Jia, Xianhui Liu  
 **Venue & Year:** Applied Soft Computing, 2025  
-**Link:** [https://doi.org/10.1016/j.asoc.2024.112622](https://doi.org/10.1016/j.asoc.2024.112622)
+**Link:** [https://doi.org/10.1016/j.asoc.2024.112622](https://doi.org/10.1016/j.asoc.2024.112622)  
+**Abstract:**  
+Knowledge graph completion (KGC) refines the existing knowledge graph (KG) by predicting missing entities or relations. Existing methods are mainly based on embeddings or texts but only perform better with abundant labeled data. Hence, KGC in resource-constrained settings is a significant problem, which faces challenges of data imbalance across relations and lack of relation label semantics. Considering that Large Language Models (LLMs) demonstrate powerful reasoning and generation capabilities, this work proposes an LLM-driven Knowledge Graph Completion Distillation (KGCD) model to address low-resource KGC. A two-stage framework is developed, involving teacher-student distillation by using LLM to improve reasoning, followed by fine-tuning on real-world low-resource datasets. To deal with data imbalance, a hybrid prompt design for LLM is proposed, which includes rethink and open prompts. Furthermore, a virtual relation label generation strategy enhances the model’s understanding of triples. Extensive experiments on three benchmarks have shown that KGCD’s effectiveness for low-resource KGC, achieving improvements in Mean Reciprocal Rank (MRR) by 11% and Hits@1 by 10% on the WN18, MRR by 10% and Hits@1 by 14% on the WN18RR, and MRR by 12% and Hits@1 by 11% on the YAGO3-10.
 </details>
 <details>
 <summary><u><strong>Empowering graph neural network-based computational drug repositioning with large language model-inferred knowledge representation (2024)</strong></u></summary>
 
 **Authors:** Yaowen Gu, Zidu Xu, Carl Yang  
 **Venue & Year:** Interdisciplinary Sciences: Computational Life Sciences, 2024  
-**Link:** [https://doi.org/10.1007/s12539-024-00654-7](https://doi.org/10.1007/s12539-024-00654-7)
+**Link:** [https://doi.org/10.1007/s12539-024-00654-7](https://doi.org/10.1007/s12539-024-00654-7)  
+**Abstract:**  
+Computational drug repositioning, through predicting drug-disease associations (DDA), offers significant potential for discovering new drug indications. Current methods incorporate graph neural networks (GNN) on drug-disease heterogeneous networks to predict DDAs, achieving notable performances compared to traditional machine learning and matrix factorization approaches. However, these methods depend heavily on network topology, hampered by incomplete and noisy network data, and overlook the wealth of biomedical knowledge available. Correspondingly, large language models (LLMs) excel in graph search and relational reasoning, which can possibly enhance the integration of comprehensive biomedical knowledge into drug and disease profiles. In this study, we first investigate the contribution of LLM-inferred knowledge representation in drug repositioning and DDA prediction. A zero-shot prompting template was designed for LLM to extract high-quality knowledge descriptions for drug and disease entities, followed by embedding generation from language models to transform the discrete text to continual numerical representation. Then, we proposed LLM-DDA with three different model architectures (LLM-DDANode Feat, LLM-DDADual GNN, LLM-DDAGNN-AE) to investigate the best fusion mode for LLM-based embeddings. Extensive experiments on four DDA benchmarks show that, LLM-DDAGNN-AE achieved the optimal performance compared to 11 baselines with the overall relative improvement in AUPR of 23.22%, F1-Score of 17.20%, and precision of 25.35%. Meanwhile, selected case studies of involving Prednisone and Allergic Rhinitis highlighted the model’s capability to identify reliable DDAs and knowledge descriptions, supported by existing literature. This study showcases the utility of LLMs in drug repositioning with its generality and applicability in other biomedical relation prediction tasks.
 </details>
 <details>
 <summary><u><strong>Cost-Effective Label-free Node Classification with LLMs (2024)</strong></u></summary>
 
 **Authors:** Taiyan Zhang, Renchi Yang, Mingyu Yan, Xiaochun Ye, Dongrui Fan, Yurui Lai  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2412.11983](https://arxiv.org/abs/2412.11983)
+**Link:** [https://arxiv.org/abs/2412.11983](https://arxiv.org/abs/2412.11983)  
+**Abstract:**  
+Graph neural networks (GNNs) have become the preferred models for node classification in graph data due to their robust capabilities in integrating graph structures and attributes. However, these models heavily depend on a substantial amount of high-quality labeled data for training, which is often costly to obtain. With the rise of large language models (LLMs), a promising approach is to utilize their exceptional zero-shot capabilities and extensive knowledge for node labeling. Despite encouraging results, this approach either requires numerous queries to LLMs or suffers from reduced performance due to noisy labels generated by LLMs. To address these challenges, we introduce Locle, an active self-training framework that does Label-free node Classification with LLMs cost-Effectively. Locle iteratively identifies small sets of "critical" samples using GNNs and extracts informative pseudo-labels for them with both LLMs and GNNs, serving as additional supervision signals to enhance model training. Specifically, Locle comprises three key components: (i) an effective active node selection strategy for initial annotations; (ii) a careful sample selection scheme to identify "critical" nodes based on label disharmonicity and entropy; and (iii) a label refinement module that combines LLMs and GNNs with a rewired topology. Extensive experiments on five benchmark text-attributed graph datasets demonstrate that Locle significantly outperforms state-of-the-art methods under the same query budget to LLMs in terms of label-free node classification. Notably, on the DBLP dataset with 14.3k nodes, Locle achieves an 8.08% improvement in accuracy over the state-of-the-art at a cost of less than one cent. Our code is available at [https://github.com/HKBU-LAGAS/Locle](https://github.com/HKBU-LAGAS/Locle)
 </details>
 <details>
 <summary><u><strong>Enhancing student performance prediction on learnersourced questions with SGNN-LLM synergy (2024)</strong></u></summary>
 
 **Authors:** Lin Ni, Sijie Wang, Zeyu Zhang, Xiaoxuan Li, Xianda Zheng, Paul Denny, Jiamou Liu  
 **Venue & Year:** Proceedings of the AAAI Conference on Artificial Intelligence, 2024  
-**Link:** [https://doi.org/10.1609/aaai.v38i21.30370](https://doi.org/10.1609/aaai.v38i21.30370)
+**Link:** [https://doi.org/10.1609/aaai.v38i21.30370](https://doi.org/10.1609/aaai.v38i21.30370)  
+**Abstract:**  
+Learnersourcing offers great potential for scalable education through student content creation. However, predicting student performance on learnersourced questions, which is essential for personalizing the learning experience, is challenging due to the inherent noise in student-generated data. Moreover, while conventional graph-based methods can capture the complex network of student and question interactions, they often fall short under cold start conditions where limited student engagement with questions yields sparse data. To address both challenges, we introduce an innovative strategy that synergizes the potential of integrating Signed Graph Neural Networks (SGNNs) and Large Language Model (LLM) embeddings. Our methodology employs a signed bipartite graph to comprehensively model student answers, complemented by a contrastive learning framework that enhances noise resilience. Furthermore, LLM's contribution lies in generating foundational question embeddings, proving especially advantageous in addressing cold start scenarios characterized by limited graph data. Validation across five real-world datasets sourced from the PeerWise platform underscores our approach's effectiveness. Our method outperforms baselines, showcasing enhanced predictive accuracy and robustness.
 </details>
 <details>
 <summary><u><strong>Depression detection in clinical interviews with LLM-empowered structural element graph (2024)</strong></u></summary>
 
 **Authors:** Zhuang Chen, Jiawen Deng, Jinfeng Zhou, Jincenzi Wu, Tieyun Qian, Minlie Huang  
 **Venue & Year:** Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2024  
-**Link:** [https://aclanthology.org/2024.naacl-long.452/](https://aclanthology.org/2024.naacl-long.452/)
+**Link:** [https://aclanthology.org/2024.naacl-long.452/](https://aclanthology.org/2024.naacl-long.452/)  
+**Abstract:**  
+Depression is a widespread mental health disorder affecting millions globally. Clinical interviews are the gold standard for assessing depression, but they heavily rely on scarce professional clinicians, highlighting the need for automated detection systems. However, existing methods only capture part of the relevant elements in clinical interviews, unable to incorporate all depressive cues. Moreover, the scarcity of participant data, due to privacy concerns and collection challenges, intrinsically constrains interview modeling. To address these limitations, in this paper, we propose a structural element graph (SEGA), which transforms the clinical interview into an expertise-inspired directed acyclic graph for comprehensive modeling. Additionally, we further empower SEGA by devising novel principle-guided data augmentation with large language models (LLMs) to supplement high-quality synthetic data and enable graph contrastive learning. Extensive evaluations on two real-world clinical datasets, in both English and Chinese, show that SEGA significantly outperforms baseline methods and powerful LLMs like GPT-3.5 and GPT-4.
 </details>
 <details>
 <summary><u><strong>Fine-grainedly Synthesize Streaming Data Based On Large Language Models With Graph Structure Understanding For Data Sparsity (2024)</strong></u></summary>
 
 **Authors:** Xin Zhang, Linhai Zhang, Deyu Zhou, Guoqiang Xu  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2403.06139](https://arxiv.org/abs/2403.06139)
+**Link:** [https://arxiv.org/abs/2403.06139](https://arxiv.org/abs/2403.06139)  
+**Abstract:**  
+Due to the sparsity of user data, sentiment analysis on user reviews in e-commerce platforms often suffers from poor performance, especially when faced with extremely sparse user data or long-tail labels. Recently, the emergence of LLMs has introduced new solutions to such problems by leveraging graph structures to generate supplementary user profiles. However, previous approaches have not fully utilized the graph understanding capabilities of LLMs and have struggled to adapt to complex streaming data environments. In this work, we propose a fine-grained streaming data synthesis framework that categorizes sparse users into three categories: Mid-tail, Long-tail, and Extreme. Specifically, we design LLMs to comprehensively understand three key graph elements in streaming data, including Local-global Graph Understanding, Second-Order Relationship Extraction, and Product Attribute Understanding, which enables the generation of high-quality synthetic data to effectively address sparsity across different categories. Experimental results on three real datasets demonstrate significant performance improvements, with synthesized data contributing to MSE reductions of 45.85%, 3.16%, and 62.21%, respectively.
 </details>
 <details>
 <summary><u><strong>Large Language Model-based Augmentation for Imbalanced Node Classification on Text-Attributed Graphs (2024)</strong></u></summary>
 
 **Authors:** Leyao Wang, Yu Wang, Bo Ni, Yuying Zhao, Tyler Derr  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2410.16882](https://arxiv.org/abs/2410.16882)
+**Link:** [https://arxiv.org/abs/2410.16882](https://arxiv.org/abs/2410.16882)  
+**Abstract:**  
+Node classification on graphs frequently encounters the challenge of class imbalance, leading to biased performance and posing significant risks in real-world applications. Although several data-centric solutions have been proposed, none of them focus on Text-Attributed Graphs (TAGs), and therefore overlook the potential of leveraging the rich semantics encoded in textual features for boosting the classification of minority nodes. Given this crucial gap, we investigate the possibility of augmenting graph data in the text space, leveraging the textual generation power of Large Language Models (LLMs) to handle imbalanced node classification on TAGs. Specifically, we propose a novel approach called LA-TAG (LLM-based Augmentation on Text-Attributed Graphs), which prompts LLMs to generate synthetic texts based on existing node texts in the graph. Furthermore, to integrate these synthetic text-attributed nodes into the graph, we introduce a text-based link predictor to connect the synthesized nodes with the existing nodes. Our experiments across multiple datasets and evaluation metrics show that our framework significantly outperforms traditional non-textual-based data augmentation strategies and specific node imbalance solutions. This highlights the promise of using LLMs to resolve imbalance issues on TAGs.
 </details>
 <details>
 <summary><u><strong>Distilling large language models for text-attributed graph learning (2024)</strong></u></summary>
 
 **Authors:** Bo Pan, Zheng Zhang, Yifei Zhang, Yuntong Hu, Liang Zhao  
 **Venue & Year:** Proceedings of the 33rd ACM International Conference on Information and Knowledge Management, 2024  
-**Link:** [https://doi.org/10.1145/3627673.3679830](https://doi.org/10.1145/3627673.3679830)
+**Link:** [https://doi.org/10.1145/3627673.3679830](https://doi.org/10.1145/3627673.3679830)  
+**Abstract:**  
+Text-Attributed Graphs (TAGs) are graphs of connected textual documents. Graph models can efficiently learn TAGs, but their training heavily relies on human-annotated labels, which are scarce or even unavailable in many applications. Large language models (LLMs) have recently demonstrated remarkable capabilities in few-shot and zero-shot TAG learning, but they suffer from scalability, cost, and privacy issues. Therefore, in this work, we focus on synergizing LLMs and graph models with their complementary strengths by distilling the power of LLMs into a local graph model on TAG learning. To address the inherent gaps between LLMs (generative models for texts) and graph models (discriminative models for graphs), we propose first to let LLMs teach an interpreter with rich rationale and then let a student model mimic the interpreter's reasoning without LLMs' rationale. We convert LLM's textual rationales to multi-level graph rationales to train the interpreter model and align the student model with the interpreter model based on the features of TAGs. Extensive experiments validate the efficacy of our proposed framework.
 </details>
 <details>
 <summary><u><strong>KICGPT: Large Language Model with Knowledge in Context for Knowledge Graph Completion (2023)</strong></u></summary>
 
 **Authors:** Yanbin Wei, Qiushi Huang, Yu Zhang, James Kwok  
 **Venue & Year:** Findings of the Association for Computational Linguistics: EMNLP, 2023  
-**Link:** [https://doi.org/10.18653/v1/2023.findings-emnlp.580](https://doi.org/10.18653/v1/2023.findings-emnlp.580)
+**Link:** [https://doi.org/10.18653/v1/2023.findings-emnlp.580](https://doi.org/10.18653/v1/2023.findings-emnlp.580)  
+**Abstract:**  
+Knowledge Graph Completion (KGC) is crucial for addressing knowledge graph incompleteness and supporting downstream applications. Many models have been proposed for KGC and they can be categorized into two main classes, including triple-based and test-based approaches. Triple-based methods struggle with long-tail entities due to limited structural information and imbalanced distributions of entities. Text-based methods alleviate this issue but require costly training for language models and specific finetuning for knowledge graphs, which limits their efficiency. To alleviate the limitations in the two approaches, in this paper, we propose KICGPT, a framework that integrates a large language model (LLM) and a triple-based KGC retriever, to alleviate the long-tail problem without incurring additional training overhead. In the proposed KICGPT model, we propose an in-context learning strategy called Knowledge Prompt, which encodes structural knowledge into demonstrations to guide LLM. Empirical results on benchmark datasets demonstrate the effectiveness of the proposed KICGPT model with lighter training overhead and no finetuning.
 </details>
 <details>
 <summary><u><strong>Label-free node classification on graphs with large language models (LLMs) (2023)</strong></u></summary>
 
 **Authors:** Zhikai Chen, Haitao Mao, Hongzhi Wen, Haoyu Han, Wei Jin, Haiyang Zhang, Hui Liu, Jiliang Tang  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://arxiv.org/abs/2310.04668](https://arxiv.org/abs/2310.04668)
+**Link:** [https://arxiv.org/abs/2310.04668](https://arxiv.org/abs/2310.04668)  
+**Abstract:**  
+In recent years, there have been remarkable advancements in node classification achieved by Graph Neural Networks (GNNs). However, they necessitate abundant high-quality labels to ensure promising performance. In contrast, Large Language Models (LLMs) exhibit impressive zero-shot proficiency on text-attributed graphs. Yet, they face challenges in efficiently processing structural data and suffer from high inference costs. In light of these observations, this work introduces a label-free node classification on graphs with LLMs pipeline, LLM-GNN. It amalgamates the strengths of both GNNs and LLMs while mitigating their limitations. Specifically, LLMs are leveraged to annotate a small portion of nodes and then GNNs are trained on LLMs' annotations to make predictions for the remaining large portion of nodes. The implementation of LLM-GNN faces a unique challenge: how can we actively select nodes for LLMs to annotate and consequently enhance the GNN training? How can we leverage LLMs to obtain annotations of high quality, representativeness, and diversity, thereby enhancing GNN performance with less cost? To tackle this challenge, we develop an annotation quality heuristic and leverage the confidence scores derived from LLMs to advanced node selection. Comprehensive experimental results validate the effectiveness of LLM-GNN. In particular, LLM-GNN can achieve an accuracy of 74.9% on a vast-scale dataset \products with a cost less than 1 dollar.
 </details>
 <details>
 <summary><u><strong>Augmenting low-resource text classification with graph-grounded pre-training and prompting (2023)</strong></u></summary>
 
 **Authors:** Zhihao Wen, Yuan Fang  
 **Venue & Year:** Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2023  
-**Link:** [https://doi.org/10.1145/3539618.3591641](https://doi.org/10.1145/3539618.3591641)
+**Link:** [https://doi.org/10.1145/3539618.3591641](https://doi.org/10.1145/3539618.3591641)  
+**Abstract:**  
+Text classification is a fundamental problem in information retrieval with many real-world applications, such as predicting the topics of online articles and the categories of e-commerce product descriptions. However, low-resource text classification, with few or no labeled samples, poses a serious concern for supervised learning. Meanwhile, many text data are inherently grounded on a network structure, such as a hyperlink/citation network for online articles, and a user-item purchase network for e-commerce products. These graph structures capture rich semantic relationships, which can potentially augment low-resource text classification. In this paper, we propose a novel model called Graph-Grounded Pre-training and Prompting (G2P2) to address low-resource text classification in a two-pronged approach. During pre-training, we propose three graph interaction-based contrastive strategies to jointly pre-train a graph-text model; during downstream classification, we explore prompting for the jointly pre-trained model to achieve low-resource classification. Extensive experiments on four real-world datasets demonstrate the strength of G2P2 in zero- and few-shot low-resource text classification tasks.
 </details>
 <details>
 <summary><u><strong>Leveraging Large Language Models for Node Generation in Few-Shot Learning on Text-Attributed Graphs (2023)</strong></u></summary>
 
 **Authors:** Jianxiang Yu, Yuxiang Ren, Chenghua Gong, Jiaqi Tan, Xiang Li, Xuecang Zhang  
 **Venue & Year:** arXiv preprints, 2023  
-**Link:** [https://arxiv.org/abs/2310.09872](https://arxiv.org/abs/2310.09872)
+**Link:** [https://arxiv.org/abs/2310.09872](https://arxiv.org/abs/2310.09872)  
+**Abstract:**  
+Text-attributed graphs have recently garnered significant attention due to their wide range of applications in web domains. Existing methodologies employ word embedding models for acquiring text representations as node features, which are subsequently fed into Graph Neural Networks (GNNs) for training. Recently, the advent of Large Language Models (LLMs) has introduced their powerful capabilities in information retrieval and text generation, which can greatly enhance the text attributes of graph data. Furthermore, the acquisition and labeling of extensive datasets are both costly and time-consuming endeavors. Consequently, few-shot learning has emerged as a crucial problem in the context of graph learning tasks. In order to tackle this challenge, we propose a lightweight paradigm called LLM4NG, which adopts a plug-and-play approach to empower text-attributed graphs through node generation using LLMs. Specifically, we utilize LLMs to extract semantic information from the labels and generate samples that belong to these categories as exemplars. Subsequently, we employ an edge predictor to capture the structural information inherent in the raw dataset and integrate the newly generated samples into the original graph. This approach harnesses LLMs for enhancing class-level information and seamlessly introduces labeled nodes and edges without modifying the raw dataset, thereby facilitating the node classification task in few-shot scenarios. Extensive experiments demonstrate the outstanding performance of our proposed paradigm, particularly in low-shot scenarios. For instance, in the 1-shot setting of the ogbn-arxiv dataset, LLM4NG achieves a 76% improvement over the baseline model.
 </details>
 <details>
 <summary><u><strong>LKPNR: LLM and KG for Personalized News Recommendation Framework (2023)</strong></u></summary>
 
 **Authors:** Xie Runfeng, Cui Xiangyang, Yan Zhou, Wang Xin, Xuan Zhanwei, Zhang Kai, et al.  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://arxiv.org/abs/2308.12028](https://arxiv.org/abs/2308.12028)
+**Link:** [https://arxiv.org/abs/2308.12028](https://arxiv.org/abs/2308.12028)  
+**Abstract:**  
+Accurately recommending candidate news articles to users is a basic challenge faced by personalized news recommendation systems. Traditional methods are usually difficult to grasp the complex semantic information in news texts, resulting in unsatisfactory recommendation results. Besides, these traditional methods are more friendly to active users with rich historical behaviors. However, they can not effectively solve the "long tail problem" of inactive users. To address these issues, this research presents a novel general framework that combines Large Language Models (LLM) and Knowledge Graphs (KG) into semantic representations of traditional methods. In order to improve semantic understanding in complex news texts, we use LLMs' powerful text understanding ability to generate news representations containing rich semantic information. In addition, our method combines the information about news entities and mines high-order structural information through multiple hops in KG, thus alleviating the challenge of long tail distribution. Experimental results demonstrate that compared with various traditional models, the framework significantly improves the recommendation effect. The successful integration of LLM and KG in our framework has established a feasible path for achieving more accurate personalized recommendations in the news field. Our code is available at this https URL[https://github.com/Xuan-ZW/LKPNR](https://github.com/Xuan-ZW/LKPNR).
 </details>
+
 
 ---
 
@@ -539,28 +570,36 @@ To address the issues of insufficient knowledge and hallucination in Large Langu
 
 **Authors:** Zhongjian Zhang, Xiao Wang, Huichi Zhou, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://doi.org/10.48550/arXiv.2408.08685](https://doi.org/10.48550/arXiv.2408.08685)
+**Link:** [https://doi.org/10.48550/arXiv.2408.08685](https://doi.org/10.48550/arXiv.2408.08685)  
+**Abstract:**  
+Graph neural networks (GNNs) are vulnerable to adversarial attacks, especially for topology perturbations, and many methods that improve the robustness of GNNs have received considerable attention. Recently, we have witnessed the significant success of large language models (LLMs), leading many to explore the great potential of LLMs on GNNs. However, they mainly focus on improving the performance of GNNs by utilizing LLMs to enhance the node features. Therefore, we ask: Will the robustness of GNNs also be enhanced with the powerful understanding and inference capabilities of LLMs? By presenting the empirical results, we find that despite that LLMs can improve the robustness of GNNs, there is still an average decrease of 23.1% in accuracy, implying that the GNNs remain extremely vulnerable against topology attacks. Therefore, another question is how to extend the capabilities of LLMs on graph adversarial robustness. In this paper, we propose an LLM-based robust graph structure inference framework, LLM4RGNN, which distills the inference capabilities of GPT-4 into a local LLM for identifying malicious edges and an LM-based edge predictor for finding missing important edges, so as to recover a robust graph structure. Extensive experiments demonstrate that LLM4RGNN consistently improves the robustness across various GNNs. Even in some cases where the perturbation ratio increases to 40%, the accuracy of GNNs is still better than that on the clean graph. The source code can be found in [https://github.com/zhongjian-zhang/LLM4RGNN](https://github.com/zhongjian-zhang/LLM4RGNN).
 </details>
 <details>
 <summary><u><strong>Subgraph-Aware Training of Language Models for Knowledge Graph Completion Using Structure-Aware Contrastive Learning (2024)</strong></u></summary>
 
 **Authors:** Youmin Ko, Hyemin Yang, Taeuk Kim, Hyunjoon Kim  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2407.12703](https://arxiv.org/abs/2407.12703)
+**Link:** [https://arxiv.org/abs/2407.12703](https://arxiv.org/abs/2407.12703)  
+**Abstract:**  
+Fine-tuning pre-trained language models (PLMs) has recently shown a potential to improve knowledge graph completion (KGC). However, most PLM-based methods focus solely on encoding textual information, neglecting the long-tailed nature of knowledge graphs and their various topological structures, e.g., subgraphs, shortest paths, and degrees. We claim that this is a major obstacle to achieving higher accuracy of PLMs for KGC. To this end, we propose a Subgraph-Aware Training framework for KGC (SATKGC) with two ideas: (i) subgraph-aware mini-batching to encourage hard negative sampling and to mitigate an imbalance in the frequency of entity occurrences during training, and (ii) new contrastive learning to focus more on harder in-batch negative triples and harder positive triples in terms of the structural properties of the knowledge graph. To the best of our knowledge, this is the first study to comprehensively incorporate the structural inductive bias of the knowledge graph into fine-tuning PLMs. Extensive experiments on three KGC benchmarks demonstrate the superiority of SATKGC. Our code is available.
 </details>
 <details>
 <summary><u><strong>Multi-perspective improvement of knowledge graph completion with large language models (2024)</strong></u></summary>
 
 **Authors:** Derong Xu, Ziheng Zhang, Zhenxi Lin, Xian Wu, Zhihong Zhu, Tong Xu, Xiangyu Zhao, Yefeng Zheng, Enhong Chen  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2403.01972](https://arxiv.org/abs/2403.01972)
+**Link:** [https://arxiv.org/abs/2403.01972](https://arxiv.org/abs/2403.01972)  
+**Abstract:**  
+Knowledge graph completion (KGC) is a widely used method to tackle incompleteness in knowledge graphs (KGs) by making predictions for missing links. Description-based KGC leverages pre-trained language models to learn entity and relation representations with their names or descriptions, which shows promising results. However, the performance of description-based KGC is still limited by the quality of text and the incomplete structure, as it lacks sufficient entity descriptions and relies solely on relation names, leading to sub-optimal results. To address this issue, we propose MPIKGC, a general framework to compensate for the deficiency of contextualized knowledge and improve KGC by querying large language models (LLMs) from various perspectives, which involves leveraging the reasoning, explanation, and summarization capabilities of LLMs to expand entity descriptions, understand relations, and extract structures, respectively. We conducted extensive evaluation of the effectiveness and improvement of our framework based on four description-based KGC models and four datasets, for both link prediction and triplet classification tasks.
 </details>
 <details>
 <summary><u><strong>Graphedit: Large language models for graph structure learning (2024)</strong></u></summary>
 
 **Authors:** Zirui Guo, Lianghao Xia, Yanhua Yu, Yuling Wang, Zixuan Yang, Wei Wei, Liang Pang, Tat-Seng Chua, Chao Huang  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2402.15183](https://arxiv.org/abs/2402.15183)
+**Link:** [https://arxiv.org/abs/2402.15183](https://arxiv.org/abs/2402.15183)  
+**Abstract:**  
+Graph Structure Learning (GSL) focuses on capturing intrinsic dependencies and interactions among nodes in graph-structured data by generating novel graph structures. Graph Neural Networks (GNNs) have emerged as promising GSL solutions, utilizing recursive message passing to encode node-wise inter-dependencies. However, many existing GSL methods heavily depend on explicit graph structural information as supervision signals, leaving them susceptible to challenges such as data noise and sparsity. In this work, we propose GraphEdit, an approach that leverages large language models (LLMs) to learn complex node relationships in graph-structured data. By enhancing the reasoning capabilities of LLMs through instruction-tuning over graph structures, we aim to overcome the limitations associated with explicit graph structural information and enhance the reliability of graph structure learning. Our approach not only effectively denoises noisy connections but also identifies node-wise dependencies from a global perspective, providing a comprehensive understanding of the graph structure. We conduct extensive experiments on multiple benchmark datasets to demonstrate the effectiveness and robustness of GraphEdit across various settings. We have made our model implementation available at: [https://github.com/HKUDS/GraphEdit](https://github.com/HKUDS/GraphEdit).
 </details>
 
 ---
