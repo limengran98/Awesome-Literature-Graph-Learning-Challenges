@@ -680,56 +680,72 @@ Graph Structure Learning (GSL) focuses on capturing intrinsic dependencies and i
 
 **Authors:** Yifan Feng, Shiquan Liu, Xiangmin Han, Shaoyi Du, Zongze Wu, Han Hu, Yue Gao  
 **Venue & Year:** arXiv preprint, 2025  
-**Link:** [https://arxiv.org/abs/2503.01203](https://arxiv.org/abs/2503.01203)
+**Link:** [https://arxiv.org/abs/2503.01203](https://arxiv.org/abs/2503.01203)  
+**Abstract:**  
+Hypergraph neural networks (HGNNs) effectively model complex high-order relationships in domains like protein interactions and social networks by connecting multiple vertices through hyperedges, enhancing modeling capabilities, and reducing information loss. Developing foundation models for hypergraphs is challenging due to their distinct data, which includes both vertex features and intricate structural information. We present Hyper-FM, a Hypergraph Foundation Model for multi-domain knowledge extraction, featuring Hierarchical High-Order Neighbor Guided Vertex Knowledge Embedding for vertex feature representation and Hierarchical Multi-Hypergraph Guided Structural Knowledge Extraction for structural information. Additionally, we curate 10 text-attributed hypergraph datasets to advance research between HGNNs and LLMs. Experiments on these datasets show that Hyper-FM outperforms baseline methods by approximately 13.3%, validating our approach. Furthermore, we propose the first scaling law for hypergraph foundation models, demonstrating that increasing domain diversity significantly enhances performance, unlike merely augmenting vertex and hyperedge counts. This underscores the critical role of domain diversity in scaling hypergraph models.
 </details>
 <details>
 <summary><u><strong>UniGraph: Learning a Cross-Domain Graph Foundation Model From Natural Language (2024)</strong></u></summary>
 
 **Authors:** Yufei He, Bryan Hooi  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2402.13630](https://arxiv.org/abs/2402.13630)
+**Link:** [https://arxiv.org/abs/2402.13630](https://arxiv.org/abs/2402.13630)  
+**Abstract:**  
+Foundation models like ChatGPT and GPT-4 have revolutionized artificial intelligence, exhibiting remarkable abilities to generalize across a wide array of tasks and applications beyond their initial training objectives. However, graph learning has predominantly focused on single-graph models, tailored to specific tasks or datasets, lacking the ability to transfer learned knowledge to different domains. This limitation stems from the inherent complexity and diversity of graph structures, along with the different feature and label spaces specific to graph data. In this paper, we recognize text as an effective unifying medium and employ Text-Attributed Graphs (TAGs) to leverage this potential. We present our UniGraph framework, designed to learn a foundation model for TAGs, which is capable of generalizing to unseen graphs and tasks across diverse domains. Unlike single-graph models that use pre-computed node features of varying dimensions as input, our approach leverages textual features for unifying node representations, even for graphs such as molecular graphs that do not naturally have textual features. We propose a novel cascaded architecture of Language Models (LMs) and Graph Neural Networks (GNNs) as backbone networks. Additionally, we propose the first pre-training algorithm specifically designed for large-scale self-supervised learning on TAGs, based on Masked Graph Modeling. We introduce graph instruction tuning using Large Language Models (LLMs) to enable zero-shot prediction ability. Our comprehensive experiments across various graph learning tasks and domains demonstrate the model's effectiveness in self-supervised representation learning on unseen graphs, few-shot in-context transfer, and zero-shot transfer, even surpassing or matching the performance of GNNs that have undergone supervised training on target datasets.
 </details>
 <details>
 <summary><u><strong>LLM-Align: Utilizing Large Language Models for Entity Alignment in Knowledge Graphs (2024)</strong></u></summary>
 
 **Authors:** Xuan Chen, Tong Lu, Zhichun Wang  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2412.04690](https://arxiv.org/abs/2412.04690)
+**Link:** [https://arxiv.org/abs/2412.04690](https://arxiv.org/abs/2412.04690)  
+**Abstract:**  
+Entity Alignment (EA) seeks to identify and match corresponding entities across different Knowledge Graphs (KGs), playing a crucial role in knowledge fusion and integration. Embedding-based entity alignment (EA) has recently gained considerable attention, resulting in the emergence of many innovative approaches. Initially, these approaches concentrated on learning entity embeddings based on the structural features of knowledge graphs (KGs) as defined by relation triples. Subsequent methods have integrated entities' names and attributes as supplementary information to improve the embeddings used for EA. However, existing methods lack a deep semantic understanding of entity attributes and relations. In this paper, we propose a Large Language Model (LLM) based Entity Alignment method, LLM-Align, which explores the instruction-following and zero-shot capabilities of Large Language Models to infer alignments of entities. LLM-Align uses heuristic methods to select important attributes and relations of entities, and then feeds the selected triples of entities to an LLM to infer the alignment results. To guarantee the quality of alignment results, we design a multi-round voting mechanism to mitigate the hallucination and positional bias issues that occur with LLMs. Experiments on three EA datasets, demonstrating that our approach achieves state-of-the-art performance compared to existing EA methods.
 </details>
 <details>
 <summary><u><strong>Bootstrapping Heterogeneous Graph Representation Learning via Large Language Models: A Generalized Approach (2024)</strong></u></summary>
 
 **Authors:** Hang Gao, Chenhao Zhang, Fengge Wu, Junsuo Zhao, Changwen Zheng, Huaping Liu  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2412.08038](https://arxiv.org/abs/2412.08038)
+**Link:** [https://arxiv.org/abs/2412.08038](https://arxiv.org/abs/2412.08038)  
+**Abstract:**  
+Graph representation learning methods are highly effective in handling complex non-Euclidean data by capturing intricate relationships and features within graph structures. However, traditional methods face challenges when dealing with heterogeneous graphs that contain various types of nodes and edges due to the diverse sources and complex nature of the data. Existing Heterogeneous Graph Neural Networks (HGNNs) have shown promising results but require prior knowledge of node and edge types and unified node feature formats, which limits their applicability. Recent advancements in graph representation learning using Large Language Models (LLMs) offer new solutions by integrating LLMs' data processing capabilities, enabling the alignment of various graph representations. Nevertheless, these methods often overlook heterogeneous graph data and require extensive preprocessing. To address these limitations, we propose a novel method that leverages the strengths of both LLM and GNN, allowing for the processing of graph data with any format and type of nodes and edges without the need for type information or special preprocessing. Our method employs LLM to automatically summarize and classify different data formats and types, aligns node features, and uses a specialized GNN for targeted learning, thus obtaining effective graph representations for downstream tasks. Theoretical analysis and experimental validation have demonstrated the effectiveness of our method.
 </details>
 <details>
 <summary><u><strong>Harnessing Explanations: LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning (2024)</strong></u></summary>
 
 **Authors:** Xiaoxin He, Xavier Bresson, Thomas Laurent, Adam Perold, Yann LeCun, Bryan Hooi  
 **Venue & Year:** International Conference on Learning Representations, 2024  
-**Link:** [https://openreview.net/forum?id=RXFVcynVe1](https://openreview.net/forum?id=RXFVcynVe1)
+**Link:** [https://openreview.net/forum?id=RXFVcynVe1](https://openreview.net/forum?id=RXFVcynVe1)  
+**Abstract:**  
+Representation learning on text-attributed graphs (TAGs) has become a critical research problem in recent years. A typical example of a TAG is a paper citation graph, where the text of each paper serves as node attributes. Initial graph neural network (GNN) pipelines handled these text attributes by transforming them into shallow or hand-crafted features, such as skip-gram or bag-of-words features. Recent efforts have focused on enhancing these pipelines with language models (LMs), which typically demand intricate designs and substantial computational resources. With the advent of powerful large language models (LLMs) such as GPT or Llama2, which demonstrate an ability to reason and to utilize general knowledge, there is a growing need for techniques which combine the textual modelling abilities of LLMs with the structural learning capabilities of GNNs. Hence, in this work, we focus on leveraging LLMs to capture textual information as features, which can be used to boost GNN performance on downstream tasks. A key innovation is our use of explanations as features: we prompt an LLM to perform zero-shot classification, request textual explanations for its decision-making process, and design an LLM-to-LM interpreter to translate these explanations into informative features for downstream GNNs. Our experiments demonstrate that our method achieves state-of-the-art results on well-established TAG datasets, including Cora, PubMed, ogbn-arxiv, as well as our newly introduced dataset, tape-arxiv23. Furthermore, our method significantly speeds up training, achieving a 2.88 times improvement over the closest baseline on ogbn-arxiv. Lastly, we believe the versatility of the proposed method extends beyond TAGs and holds the potential to enhance other tasks involving graph-text data.
 </details>
 <details>
 <summary><u><strong>LLMRec: Large Language Models with Graph Augmentation for Recommendation (2024)</strong></u></summary>
 
 **Authors:** Wei Wei, Xubin Ren, Jiabin Tang, Qinyong Wang, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang  
 **Venue & Year:** Proceedings of the 17th ACM International Conference on Web Search and Data Mining, 2024  
-**Link:** [https://doi.org/10.1145/3616855.3635853](https://doi.org/10.1145/3616855.3635853)
+**Link:** [https://doi.org/10.1145/3616855.3635853](https://doi.org/10.1145/3616855.3635853)  
+**Abstract:**  
+The problem of data sparsity has long been a challenge in recommendation systems, and previous studies have attempted to address this issue by incorporating side information. However, this approach often introduces side effects such as noise, availability issues, and low data quality, which in turn hinder the accurate modeling of user preferences and adversely impact recommendation performance. In light of the recent advancements in large language models (LLMs), which possess extensive knowledge bases and strong reasoning capabilities, we propose a novel framework called LLMRec that enhances recommender systems by employing three simple yet effective LLM-based graph augmentation strategies. Our approach leverages the rich content available within online platforms (e.g., Netflix, MovieLens) to augment the interaction graph in three ways: (i) reinforcing user-item interaction egde, (ii) enhancing the understanding of item node attributes, and (iii) conducting user node profiling, intuitively from the natural language perspective. By employing these strategies, we address the challenges posed by sparse implicit feedback and low-quality side information in recommenders. Besides, to ensure the quality of the augmentation, we develop a denoised data robustification mechanism that includes techniques of noisy implicit feedback pruning and MAE-based feature enhancement that help refine the augmented data and improve its reliability. Furthermore, we provide theoretical analysis to support the effectiveness of LLMRec and clarify the benefits of our method in facilitating model optimization. Experimental results on benchmark datasets demonstrate the superiority of our LLM-based augmentation approach over state-of-the-art techniques.
 </details>
 <details>
 <summary><u><strong>Multimodal Fusion of EHR in Structures and Semantics: Integrating Clinical Records and Notes with Hypergraph and LLM (2024)</strong></u></summary>
 
 **Authors:** Hejie Cui, Xinyu Fang, Ran Xu, Xuan Kan, Joyce C. Ho, Carl Yang  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2403.08818](https://arxiv.org/abs/2403.08818)
+**Link:** [https://arxiv.org/abs/2403.08818](https://arxiv.org/abs/2403.08818)  
+**Abstract:**  
+Electronic Health Records (EHRs) have become increasingly popular to support clinical decision-making and healthcare in recent decades. EHRs usually contain heterogeneous information, such as structural data in tabular form and unstructured data in textual notes. Different types of information in EHRs can complement each other and provide a more complete picture of the health status of a patient. While there has been a lot of research on representation learning of structured EHR data, the fusion of different types of EHR data (multimodal fusion) is not well studied. This is mostly because of the complex medical coding systems used and the noise and redundancy present in the written notes. In this work, we propose a new framework called MINGLE, which integrates both structures and semantics in EHR effectively. Our framework uses a two-level infusion strategy to combine medical concept semantics and clinical note semantics into hypergraph neural networks, which learn the complex interactions between different types of data to generate visit representations for downstream prediction. Experiment results on two EHR datasets, the public MIMIC-III and private CRADLE, show that MINGLE can effectively improve predictive performance by 11.83% relatively, enhancing semantic integration as well as multimodal fusion for structural and textual EHR data.
 </details>
 <details>
 <summary><u><strong>One for All: Towards Training One Graph Model for All Classification Tasks (2024)</strong></u></summary>
 
 **Authors:** Hao Liu, Jiarui Feng, Lecheng Kong, Ningyue Liang, Dacheng Tao, Yixin Chen, Muhan Zhang  
 **Venue & Year:** International Conference on Learning Representations, 2024  
-**Link:** [https://openreview.net/forum?id=4IT2pgc9v6](https://openreview.net/forum?id=4IT2pgc9v6)
+**Link:** [https://openreview.net/forum?id=4IT2pgc9v6](https://openreview.net/forum?id=4IT2pgc9v6)  
+**Abstract:**  
+Designing a single model to address multiple tasks has been a long-standing objective in artificial intelligence. Recently, large language models have demonstrated exceptional capability in solving different tasks within the language domain. However, a unified model for various graph tasks remains underexplored, primarily due to the challenges unique to the graph learning domain. First, graph data from different areas carry distinct attributes and follow different distributions. Such discrepancy makes it hard to represent graphs in a single representation space. Second, tasks on graphs diversify into node, link, and graph tasks, requiring distinct embedding strategies. Finally, an appropriate graph prompting paradigm for in-context learning is unclear. We propose One for All (OFA), the first general framework that can use a single graph model to address the above challenges. Specifically, OFA proposes text-attributed graphs to unify different graph data by describing nodes and edges with natural language and uses language models to encode the diverse and possibly cross-domain text attributes to feature vectors in the same embedding space. Furthermore, OFA introduces the concept of nodes-of-interest to standardize different tasks with a single task representation. For in-context learning on graphs, OFA introduces a novel graph prompting paradigm that appends prompting substructures to the input graph, which enables it to address varied tasks without fine-tuning. We train the OFA model using graph data from multiple domains (including citation networks, molecular graphs, knowledge graphs, etc.) simultaneously and evaluate its ability in supervised, few-shot, and zero-shot learning scenarios. OFA performs well across different tasks, making it the first general-purpose across-domains classification model on graphs.
 </details>
 
 ---
@@ -750,42 +766,54 @@ Graph Structure Learning (GSL) focuses on capturing intrinsic dependencies and i
 
 **Authors:** Yufei He, Yuan Sui, Xiaoxin He, Yue Liu, Yifei Sun, Bryan Hooi  
 **Venue & Year:** arXiv preprint, 2025  
-**Link:** [https://arxiv.org/abs/2502.00806](https://arxiv.org/abs/2502.00806)
+**Link:** [https://arxiv.org/abs/2502.00806](https://arxiv.org/abs/2502.00806)  
+**Abstract:**  
+Existing foundation models, such as CLIP, aim to learn a unified embedding space for multimodal data, enabling a wide range of downstream web-based applications like search, recommendation, and content classification. However, these models often overlook the inherent graph structures in multimodal datasets, where entities and their relationships are crucial. Multimodal graphs (MMGs) represent such graphs where each node is associated with features from different modalities, while the edges capture the relationships between these entities. On the other hand, existing graph foundation models primarily focus on text-attributed graphs (TAGs) and are not designed to handle the complexities of MMGs. To address these limitations, we propose UniGraph2, a novel cross-domain graph foundation model that enables general representation learning on MMGs, providing a unified embedding space. UniGraph2 employs modality-specific encoders alongside a graph neural network (GNN) to learn a unified low-dimensional embedding space that captures both the multimodal information and the underlying graph structure. We propose a new cross-domain multi-graph pre-training algorithm at scale to ensure effective transfer learning across diverse graph domains and modalities. Additionally, we adopt a Mixture of Experts (MoE) component to align features from different domains and modalities, ensuring coherent and robust embeddings that unify the information across modalities. Extensive experiments on a variety of multimodal graph tasks demonstrate that UniGraph2 significantly outperforms state-of-the-art models in tasks such as representation learning, transfer learning, and multimodal generative tasks, offering a scalable and flexible solution for learning on MMGs.
 </details>
 <details>
 <summary><u><strong>LLMRec: Large language models with graph augmentation for recommendation (2024)</strong></u></summary>
 
 **Authors:** Wei Wei, Xubin Ren, Jiabin Tang, Qinyong Wang, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang  
 **Venue & Year:** Proceedings of the 17th ACM International Conference on Web Search and Data Mining, 2024  
-**Link:** [https://doi.org/10.1145/3616855.3635853](https://doi.org/10.1145/3616855.3635853)
+**Link:** [https://doi.org/10.1145/3616855.3635853](https://doi.org/10.1145/3616855.3635853)  
+**Abstract:**  
+The problem of data sparsity has long been a challenge in recommendation systems, and previous studies have attempted to address this issue by incorporating side information. However, this approach often introduces side effects such as noise, availability issues, and low data quality, which in turn hinder the accurate modeling of user preferences and adversely impact recommendation performance. In light of the recent advancements in large language models (LLMs), which possess extensive knowledge bases and strong reasoning capabilities, we propose a novel framework called LLMRec that enhances recommender systems by employing three simple yet effective LLM-based graph augmentation strategies. Our approach leverages the rich content available within online platforms (e.g., Netflix, MovieLens) to augment the interaction graph in three ways: (i) reinforcing user-item interaction egde, (ii) enhancing the understanding of item node attributes, and (iii) conducting user node profiling, intuitively from the natural language perspective. By employing these strategies, we address the challenges posed by sparse implicit feedback and low-quality side information in recommenders. Besides, to ensure the quality of the augmentation, we develop a denoised data robustification mechanism that includes techniques of noisy implicit feedback pruning and MAE-based feature enhancement that help refine the augmented data and improve its reliability. Furthermore, we provide theoretical analysis to support the effectiveness of LLMRec and clarify the benefits of our method in facilitating model optimization. Experimental results on benchmark datasets demonstrate the superiority of our LLM-based augmentation approach over state-of-the-art techniques.
 </details>
 <details>
 <summary><u><strong>Touchup-G: Improving feature representation through graph-centric finetuning (2024)</strong></u></summary>
 
 **Authors:** Jing Zhu, Xiang Song, Vassilis Ioannidis, Danai Koutra, Christos Faloutsos  
 **Venue & Year:** Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2024  
-**Link:** [https://doi.org/10.1145/3626772.3657978](https://doi.org/10.1145/3626772.3657978)
+**Link:** [https://doi.org/10.1145/3626772.3657978](https://doi.org/10.1145/3626772.3657978)  
+**Abstract:**  
+How can we enhance the node features acquired from Pretrained Models (PMs) to better suit downstream graph learning tasks? Graph Neural Networks (GNNs) have become the state-of-the-art approach for many high-impact, real-world graph applications. For feature-rich graphs, a prevalent practice involves directly utilizing a PM to generate features. Nevertheless, this practice is suboptimal as the node features extracted from PMs are graph-agnostic and prevent GNNs from fully utilizing the potential correlations between the graph structure and node features, leading to a decline in GNN performance. In this work, we seek to improve the node features obtained from a PM for graph tasks and introduce TouchUp-G, a "Detect & Correct" approach for refining node features extracted from PMs. TouchUp-G detects the alignment using a novel feature homophily metric and corrects the misalignment through a simple touchup on the PM. It is (a) General: applicable to any downstream graph task; (b) Multi-modal: able to improve raw features of any modality; (c) Principled: it is closely related to a novel metric, feature homophily, which we propose to quantify the alignment between the graph structure and node features; (d) Effective: achieving state-of-the-art results on four real-world datasets spanning different tasks and modalities.
 </details>
 <details>
 <summary><u><strong>GraphAdapter: Tuning vision-language models with dual knowledge graph (2024)</strong></u></summary>
 
 **Authors:** Xin Li, Dongze Lian, Zhihe Lu, Jiawang Bai, Zhibo Chen, Xinchao Wang  
 **Venue & Year:** Advances in Neural Information Processing Systems, 2024  
-**Link:** [https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc](https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc)
+**Link:** [https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc](https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc)  
+**Abstract:**  
+Adapter-style efficient transfer learning (ETL) has shown excellent performance in the tuning of vision-language models (VLMs) under the low-data regime, where only a few additional parameters are introduced to excavate the task-specific knowledge based on the general and powerful representation of VLMs. However, most adapter-style works face two limitations: (i) modeling task-specific knowledge with a single modality only; and (ii) overlooking the exploitation of the inter-class relationships in downstream tasks, thereby leading to sub-optimal solutions. To mitigate that, we propose an effective adapter-style tuning strategy, dubbed GraphAdapter, which performs the textual adapter by explicitly modeling the dual-modality structure knowledge (i.e., the correlation of different semantics/classes in textual and visual modalities) with a dual knowledge graph. In particular, the dual knowledge graph is established with two sub-graphs, i.e., a textual knowledge sub-graph, and a visual knowledge sub-graph, where the nodes and edges represent the semantics/classes and their correlations in two modalities, respectively. This enables the textual feature of each prompt to leverage the task-specific structure knowledge from both textual and visual modalities, yielding a more effective classifier for downstream tasks. Extensive experimental results on 11 benchmark datasets reveal that our GraphAdapter significantly outperforms the previous adapter-based methods.
 </details>
 <details>
 <summary><u><strong>When Graph meets Multimodal: Benchmarking and Meditating on Multimodal Attributed Graphs Learning (2024)</strong></u></summary>
 
 **Authors:** Hao Yan, Chaozhuo Li, Jun Yin, Zhigang Yu, Weihao Han, Mingzheng Li, Zhengxin Zeng, Hao Sun, Senzhang Wang  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2410.09132](https://arxiv.org/abs/2410.09132)
+**Link:** [https://arxiv.org/abs/2410.09132](https://arxiv.org/abs/2410.09132)  
+**Abstract:**  
+Multimodal Attributed Graphs (MAGs) are ubiquitous in real-world applications, encompassing extensive knowledge through multimodal attributes attached to nodes (e.g., texts and images) and topological structure representing node interactions. Despite its potential to advance diverse research fields like social networks and e-commerce, MAG representation learning (MAGRL) remains underexplored due to the lack of standardized datasets and evaluation frameworks. In this paper, we first propose MAGB, a comprehensive MAG benchmark dataset, featuring curated graphs from various domains with both textual and visual attributes. Based on MAGB dataset, we further systematically evaluate two mainstream MAGRL paradigms: GNN-as-Predictor, which integrates multimodal attributes via Graph Neural Networks (GNNs), and VLM-as-Predictor, which harnesses Vision Language Models (VLMs) for zero-shot reasoning. Extensive experiments on MAGB reveal following critical insights: (i) Modality significances fluctuate drastically with specific domain characteristics. (ii) Multimodal embeddings can elevate the performance ceiling of GNNs. However, intrinsic biases among modalities may impede effective training, particularly in low-data scenarios. (iii) VLMs are highly effective at generating multimodal embeddings that alleviate the imbalance between textual and visual attributes. These discoveries, which illuminate the synergy between multimodal attributes and graph topologies, contribute to reliable benchmarks, paving the way for future MAG research.
 </details>
 <details>
 <summary><u><strong>Multimodal Graph Learning for Generative Tasks (2023)</strong></u></summary>
 
 **Authors:** Minji Yoon, Jing Yu Koh, Bryan Hooi, Russ Salakhutdinov  
 **Venue & Year:** NeurIPS 2023 Workshop: New Frontiers in Graph Learning, 2023  
-**Link:** [https://openreview.net/forum?id=YILik4gFBk](https://openreview.net/forum?id=YILik4gFBk)
+**Link:** [https://openreview.net/forum?id=YILik4gFBk](https://openreview.net/forum?id=YILik4gFBk)  
+**Abstract:**  
+Multimodal learning combines multiple data modalities, broadening the types and complexity of data our models can utilize; for example, from plain text to image-caption pairs. Most multimodal learning algorithms focus on modeling simple one-to-one pairs of data from two modalities, such as image-caption pairs, or audio-text pairs. However, in most real-world settings, entities of different modalities interact with each other in more complex and multifaceted ways, going beyond one-to-one mappings. We propose to represent these complex relationships as graphs, allowing us to capture data with any number of modalities, and with complex relationships between modalities that can flexibly vary from one sample to another. Toward this goal, we propose Multimodal Graph Learning (MMGL), a general and systematic framework for capturing information from multiple multimodal neighbors with relational structures among them. In particular, we focus on MMGL for \emph{generative} tasks, building upon pretrained Language Models (LMs), aiming to augment their text generation with multimodal neighbor contexts. We study three research questions raised by MMGL: (1) how can we infuse multiple neighbor information into the pretrained LMs, while avoiding scalability issues? (2) how can we infuse the graph structure information among multimodal neighbors into the LMs? and (3) how can we finetune the pretrained LMs to learn from the neighbor context parameter-efficiently? We conduct extensive experiments to answer these three questions on MMGL and analyze the empirical results to pave the way for future MMGL research.
 </details>
 
 ---
@@ -819,119 +847,153 @@ Graph Structure Learning (GSL) focuses on capturing intrinsic dependencies and i
 
 **Authors:** Yifan Feng, Chengwu Yang, Xingliang Hou, Shaoyi Du, Shihui Ying, Zongze Wu, Yue Gao  
 **Venue & Year:** International Conference on Learning Representations, 2025  
-**Link:** [https://openreview.net/forum?id=28qOQwjuma](https://openreview.net/forum?id=28qOQwjuma)
+**Link:** [https://openreview.net/forum?id=28qOQwjuma](https://openreview.net/forum?id=28qOQwjuma)  
+**Abstract:**  
+Existing benchmarks like NLGraph and GraphQA evaluate LLMs on graphs by focusing mainly on pairwise relationships, overlooking the high-order correlations found in real-world data. Hypergraphs, which can model complex beyond-pairwise relationships, offer a more robust framework but are still underexplored in the context of LLMs. To address this gap, we introduce LLM4Hypergraph, the first comprehensive benchmark comprising 21,500 problems across eight low-order, five high-order, and two isomorphism tasks, utilizing both synthetic and real-world hypergraphs from citation networks and protein structures. We evaluate six prominent LLMs, including GPT-4o, demonstrating our benchmark’s effectiveness in identifying model strengths and weaknesses. Our specialized prompt- ing framework incorporates seven hypergraph languages and introduces two novel techniques, Hyper-BAG and Hyper-COT, which enhance high-order reasoning and achieve an average 4% (up to 9%) performance improvement on structure classification tasks. This work establishes a foundational testbed for integrating hypergraph computational capabilities into LLMs, advancing their comprehension.
 </details>
 <details>
 <summary><u><strong>UniGraph2: Learning a Unified Embedding Space to Bind Multimodal Graphs (2025)</strong></u></summary>
 
 **Authors:** Yufei He, Yuan Sui, Xiaoxin He, Yue Liu, Yifei Sun, Bryan Hooi  
 **Venue & Year:** arXiv preprint, 2025  
-**Link:** [https://arxiv.org/abs/2502.00806](https://arxiv.org/abs/2502.00806)
+**Link:** [https://arxiv.org/abs/2502.00806](https://arxiv.org/abs/2502.00806)  
+**Abstract:**  
+Existing foundation models, such as CLIP, aim to learn a unified embedding space for multimodal data, enabling a wide range of downstream web-based applications like search, recommendation, and content classification. However, these models often overlook the inherent graph structures in multimodal datasets, where entities and their relationships are crucial. Multimodal graphs (MMGs) represent such graphs where each node is associated with features from different modalities, while the edges capture the relationships between these entities. On the other hand, existing graph foundation models primarily focus on text-attributed graphs (TAGs) and are not designed to handle the complexities of MMGs. To address these limitations, we propose UniGraph2, a novel cross-domain graph foundation model that enables general representation learning on MMGs, providing a unified embedding space. UniGraph2 employs modality-specific encoders alongside a graph neural network (GNN) to learn a unified low-dimensional embedding space that captures both the multimodal information and the underlying graph structure. We propose a new cross-domain multi-graph pre-training algorithm at scale to ensure effective transfer learning across diverse graph domains and modalities. Additionally, we adopt a Mixture of Experts (MoE) component to align features from different domains and modalities, ensuring coherent and robust embeddings that unify the information across modalities. Extensive experiments on a variety of multimodal graph tasks demonstrate that UniGraph2 significantly outperforms state-of-the-art models in tasks such as representation learning, transfer learning, and multimodal generative tasks, offering a scalable and flexible solution for learning on MMGs.
 </details>
 <details>
 <summary><u><strong>Path-LLM: A Shortest-Path-based LLM Learning for Unified Graph Representation (2024)</strong></u></summary>
 
 **Authors:** Wenbo Shang, Xuliang Zhu, Xin Huang  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2408.05456](https://arxiv.org/abs/2408.05456)
+**Link:** [https://arxiv.org/abs/2408.05456](https://arxiv.org/abs/2408.05456)  
+**Abstract:**  
+Unified graph representation learning aims to generate node embeddings, which can be applied to multiple downstream applications of graph analytics. However, existing studies based on graph neural networks and language models either suffer from the limitations of numerous training needs toward specific downstream predictions, poor generalization, or shallow semantic features. In this work, we propose a novel Path-LLM model to efficiently learn unified graph representation, which leverages a powerful large language model (LLM) to incorporate our proposed path features. Our Path-LLM framework consists of four well-designed techniques. First, we develop a new mechanism of long-to-short shortest path (L2SP) selection, which can cover key connections between different dense groups. An in-depth analysis and comparison of different path selections is conducted to justify the rationale behind our designed L2SP method. Next, we design path textualization to obtain L2SP-based training texts with key phrase selection from node text attributes. We then feed the texts into a self-supervised LLM training process to align next node/edge generation in L2SP with next token generation in causal language modeling for graph representation learning and finally extract the unified graph embeddings. We theoretically analyze the algorithm complexity of our Path-LLM approach. Extensive experiments on large-scale graph benchmarks validate the superiority of Path-LLM against state-of-the-art methods WalkLM, GraphGPT, OFA, and GraphTranslator on two classical graph learning tasks (node classification and edge validation) and one NP-hard graph query processing task (keyword search). Compared with WalkLM, our approach saves more than 90% of training paths on millions-scale graphs and runs at most 35x faster.
 </details>
 <details>
 <summary><u><strong>Graphadapter: Tuning vision-language models with dual knowledge graph (2024)</strong></u></summary>
 
 **Authors:** Xin Li, Dongze Lian, Zhihe Lu, Jiawang Bai, Zhibo Chen, Xinchao Wang  
 **Venue & Year:** Advances in Neural Information Processing Systems, 2024  
-**Link:** [https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc](https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc)
+**Link:** [https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc](https://openreview.net/forum?id=YmEDnMynuO&noteId=0rFYtJNqHc)  
+**Abstract:**  
+Adapter-style efficient transfer learning (ETL) has shown excellent performance in the tuning of vision-language models (VLMs) under the low-data regime, where only a few additional parameters are introduced to excavate the task-specific knowledge based on the general and powerful representation of VLMs. However, most adapter-style works face two limitations: (i) modeling task-specific knowledge with a single modality only; and (ii) overlooking the exploitation of the inter-class relationships in downstream tasks, thereby leading to sub-optimal solutions. To mitigate that, we propose an effective adapter-style tuning strategy, dubbed GraphAdapter, which performs the textual adapter by explicitly modeling the dual-modality structure knowledge (i.e., the correlation of different semantics/classes in textual and visual modalities) with a dual knowledge graph. In particular, the dual knowledge graph is established with two sub-graphs, i.e., a textual knowledge sub-graph, and a visual knowledge sub-graph, where the nodes and edges represent the semantics/classes and their correlations in two modalities, respectively. This enables the textual feature of each prompt to leverage the task-specific structure knowledge from both textual and visual modalities, yielding a more effective classifier for downstream tasks. Extensive experimental results on 11 benchmark datasets reveal that our GraphAdapter significantly outperforms the previous adapter-based methods.
 </details>
 <details>
 <summary><u><strong>LLMRec: Large language models with graph augmentation for recommendation (2024)</strong></u></summary>
 
 **Authors:** Wei Wei, Xubin Ren, Jiabin Tang, Qinyong Wang, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang  
 **Venue & Year:** Proceedings of the 17th ACM International Conference on Web Search and Data Mining, 2024  
-**Link:** [https://doi.org/10.1145/3616855.3635853](https://doi.org/10.1145/3616855.3635853)
+**Link:** [https://doi.org/10.1145/3616855.3635853](https://doi.org/10.1145/3616855.3635853)  
+**Abstract:**  
+The problem of data sparsity has long been a challenge in recommendation systems, and previous studies have attempted to address this issue by incorporating side information. However, this approach often introduces side effects such as noise, availability issues, and low data quality, which in turn hinder the accurate modeling of user preferences and adversely impact recommendation performance. In light of the recent advancements in large language models (LLMs), which possess extensive knowledge bases and strong reasoning capabilities, we propose a novel framework called LLMRec that enhances recommender systems by employing three simple yet effective LLM-based graph augmentation strategies. Our approach leverages the rich content available within online platforms (e.g., Netflix, MovieLens) to augment the interaction graph in three ways: (i) reinforcing user-item interaction egde, (ii) enhancing the understanding of item node attributes, and (iii) conducting user node profiling, intuitively from the natural language perspective. By employing these strategies, we address the challenges posed by sparse implicit feedback and low-quality side information in recommenders. Besides, to ensure the quality of the augmentation, we develop a denoised data robustification mechanism that includes techniques of noisy implicit feedback pruning and MAE-based feature enhancement that help refine the augmented data and improve its reliability. Furthermore, we provide theoretical analysis to support the effectiveness of LLMRec and clarify the benefits of our method in facilitating model optimization. Experimental results on benchmark datasets demonstrate the superiority of our LLM-based augmentation approach over state-of-the-art techniques.
 </details>
 <details>
 <summary><u><strong>Talk like a Graph: Encoding Graphs for Large Language Models (2024)</strong></u></summary>
 
 **Authors:** Bahare Fatemi, Jonathan Halcrow, Bryan Perozzi  
 **Venue & Year:** International Conference on Learning Representations, 2024  
-**Link:** [https://openreview.net/forum?id=IuXR1CCrSi](https://openreview.net/forum?id=IuXR1CCrSi)
+**Link:** [https://openreview.net/forum?id=IuXR1CCrSi](https://openreview.net/forum?id=IuXR1CCrSi)  
+**Abstract:**  
+Graphs are a powerful tool for representing and analyzing complex relationships in real-world applications such as social networks, recommender systems, and computational finance. Reasoning on graphs is essential for drawing inferences about the relationships between entities in a complex system, and to identify hidden patterns and trends. Despite the remarkable progress in automated reasoning with natural text, reasoning on graphs with large language models (LLMs) remains an understudied problem. In this work, we perform the first comprehensive study of encoding graph-structured data as text for consumption by LLMs. We show that LLM performance on graph reasoning tasks varies on three fundamental levels: (1) the graph encoding method, (2) the nature of the graph task itself, and (3) interestingly, the very structure of the graph considered. These novel results provide valuable insight on strategies for encoding graphs as text. Using these insights we illustrate how the correct choice of encoders can boost performance on graph reasoning tasks inside LLMs by 4.8% to 61.8%, depending on the task.
 </details>
 <details>
 <summary><u><strong>Gita: Graph to visual and textual integration for vision-language graph reasoning (2024)</strong></u></summary>
 
 **Authors:** Yanbin Wei, Shuai Fu, Weisen Jiang, Zejian Zhang, Zhixiong Zeng, Qi Wu, James Kwok, Yu Zhang  
 **Venue & Year:** Advances in Neural Information Processing Systems, 2024  
-**Link:** [https://openreview.net/forum?id=SaodQ13jga](https://openreview.net/forum?id=SaodQ13jga)
+**Link:** [https://openreview.net/forum?id=SaodQ13jga](https://openreview.net/forum?id=SaodQ13jga)  
+**Abstract:**  
+Large Language Models (LLMs) are increasingly used for various tasks with graph structures. Though LLMs can process graph information in a textual format, they overlook the rich vision modality, which is an intuitive way for humans to comprehend structural information and conduct general graph reasoning. The potential benefits and capabilities of representing graph structures as visual images (i.e., visual graph) are still unexplored. To fill the gap, we innovatively propose an end-to-end framework, called Graph to vIsual and Textual IntegrAtion (GITA), which firstly incorporates visual graphs into general graph reasoning. Besides, we establish Graph-based Vision-Language Question Answering (GVLQA) dataset from existing graph data, which is the first vision-language dataset for general graph reasoning purposes. Extensive experiments on the GVLQA dataset and five real-world datasets show that GITA outperforms mainstream LLMs in terms of general graph reasoning capabilities. Moreover, We highlight the effectiveness of the layout augmentation on visual graphs and pretraining on the GVLQA dataset.
 </details>
 <details>
 <summary><u><strong>WalkLM: A uniform language model fine-tuning framework for attributed graph embedding (2024)</strong></u></summary>
 
 **Authors:** Yanchao Tan, Zihao Zhou, Hang Lv, Weiming Liu, Carl Yang  
 **Venue & Year:** Advances in Neural Information Processing Systems, 2024  
-**Link:** [https://openreview.net/forum?id=ZrG8kTbt70](https://openreview.net/forum?id=ZrG8kTbt70)
+**Link:** [https://openreview.net/forum?id=ZrG8kTbt70](https://openreview.net/forum?id=ZrG8kTbt70)  
+**Abstract:**  
+Graphs are widely used to model interconnected entities and improve downstream predictions in various real-world applications. However, real-world graphs nowadays are often associated with complex attributes on multiple types of nodes and even links that are hard to model uniformly, while the widely used graph neural networks (GNNs) often require sufficient training toward specific downstream predictions to achieve strong performance. In this work, we take a fundamentally different approach than GNNs, to simultaneously achieve deep joint modeling of complex attributes and flexible structures of real-world graphs and obtain unsupervised generic graph representations that are not limited to specific downstream predictions. Our framework, built on a natural integration of language models (LMs) and random walks (RWs), is straightforward, powerful and data-efficient. Specifically, we first perform attributed RWs on the graph and design an automated program to compose roughly meaningful textual sequences directly from the attributed RWs; then we fine-tune an LM using the RW-based textual sequences and extract embedding vectors from the LM, which encapsulates both attribute semantics and graph structures. In our experiments, we evaluate the learned node embeddings towards different downstream prediction tasks on multiple real-world attributed graph datasets and observe significant improvements over a comprehensive set of state-of-the-art unsupervised node embedding methods. We believe this work opens a door for more sophisticated technical designs and empirical evaluations toward the leverage of LMs for the modeling of real-world graphs.
 </details>
 <details>
 <summary><u><strong>Language is all a graph needs (2024)</strong></u></summary>
 
 **Authors:** Ruosong Ye, Caiqi Zhang, Runhui Wang, Shuyuan Xu, Yongfeng Zhang  
 **Venue & Year:** Findings of the Association for Computational Linguistics: EACL, 2024  
-**Link:** [https://aclanthology.org/2024.findings-eacl.132/](https://aclanthology.org/2024.findings-eacl.132/)
+**Link:** [https://aclanthology.org/2024.findings-eacl.132/](https://aclanthology.org/2024.findings-eacl.132/)  
+**Abstract:**  
+The emergence of large-scale pre-trained language models has revolutionized various AI research domains. Transformers-based Large Language Models (LLMs) have gradually replaced CNNs and RNNs to unify fields of computer vision and natural language processing. Compared with independent data like images, videos or texts, graphs usually contain rich structural and relational information. Meanwhile, languages, especially natural language, being one of the most expressive mediums, excels in describing complex structures. However, existing work on incorporating graph problems into the generative language modeling framework remains very limited. Considering the rising prominence of LLMs, it becomes essential to explore whether LLMs can also replace GNNs as the foundation model for graphs. In this paper, we propose InstructGLM (Instruction-finetuned Graph Language Model) with highly scalable prompts based on natural language instructions. We use natural language to describe multi-scale geometric structure of the graph and then instruction finetune an LLM to perform graph tasks, which enables Generative Graph Learning. Our method surpasses all GNN baselines on ogbn-arxiv, Cora and PubMed datasets, underscoring its effectiveness and sheds light on generative LLMs as new foundation model for graph machine learning.
 </details>
 <details>
 <summary><u><strong>Graph neural prompting with large language models (2024)</strong></u></summary>
 
 **Authors:** Yijun Tian, Huan Song, Zichen Wang, Haozhu Wang, Ziqing Hu, Fang Wang, Nitesh V Chawla, Panpan Xu  
 **Venue & Year:** Proceedings of the AAAI Conference on Artificial Intelligence, 2024  
-**Link:** [https://doi.org/10.1609/aaai.v38i17.29875](https://doi.org/10.1609/aaai.v38i17.29875)
+**Link:** [https://doi.org/10.1609/aaai.v38i17.29875](https://doi.org/10.1609/aaai.v38i17.29875)  
+**Abstract:**  
+Large language models (LLMs) have shown remarkable generalization capability with exceptional performance in various language modeling tasks. However, they still exhibit inherent limitations in precisely capturing and returning grounded knowledge. While existing work has explored utilizing knowledge graphs (KGs) to enhance language modeling via joint training and customized model architectures, applying this to LLMs is problematic owing to their large number of parameters and high computational cost. Therefore, how to enhance pre-trained LLMs using grounded knowledge, e.g., retrieval-augmented generation, remains an open question. In this work, we propose Graph Neural Prompting (GNP), a novel plug-and-play method to assist pre-trained LLMs in learning beneficial knowledge from KGs. GNP encompasses various designs, including a standard graph neural network encoder, a cross-modality pooling module, a domain projector, and a self-supervised link prediction objective. Extensive experiments on multiple datasets demonstrate the superiority of GNP on both commonsense and biomedical reasoning tasks across different LLM sizes and settings.
 </details>
 <details>
 <summary><u><strong>Let your graph do the talking: Encoding structured data for LLMs (2024)</strong></u></summary>
 
 **Authors:** Bryan Perozzi, Bahare Fatemi, Dustin Zelle, Anton Tsitsulin, Mehran Kazemi, Rami Al-Rfou, Jonathan Halcrow  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2402.05862](https://arxiv.org/abs/2402.05862)
+**Link:** [https://arxiv.org/abs/2402.05862](https://arxiv.org/abs/2402.05862)  
+**Abstract:**  
+How can we best encode structured data into sequential form for use in large language models (LLMs)? In this work, we introduce a parameter-efficient method to explicitly represent structured data for LLMs. Our method, GraphToken, learns an encoding function to extend prompts with explicit structured information. Unlike other work which focuses on limited domains (e.g. knowledge graph representation), our work is the first effort focused on the general encoding of structured data to be used for various reasoning tasks. We show that explicitly representing the graph structure allows significant improvements to graph reasoning tasks. Specifically, we see across the board improvements - up to 73% points - on node, edge and, graph-level tasks from the GraphQA benchmark.
 </details>
 <details>
 <summary><u><strong>GraphGPT: Graph instruction tuning for large language models (2024)</strong></u></summary>
 
 **Authors:** Jiabin Tang, Yuhao Yang, Wei Wei, Lei Shi, Suqi Cheng, Dawei Yin, Chao Huang  
 **Venue & Year:** Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2024  
-**Link:** [https://doi.org/10.1145/3626772.3657775](https://doi.org/10.1145/3626772.3657775)
+**Link:** [https://doi.org/10.1145/3626772.3657775](https://doi.org/10.1145/3626772.3657775)  
+**Abstract:**  
+Graph Neural Networks (GNNs) have evolved to understand graph structures through recursive exchanges and aggregations among nodes. To enhance robustness, self-supervised learning (SSL) has become a vital tool for data augmentation. Traditional methods often depend on fine-tuning with task-specific labels, limiting their effectiveness when labeled data is scarce. Our research tackles this by advancing graph model generalization in zero-shot learning environments. Inspired by the success of large language models (LLMs), we aim to create a graph-oriented LLM capable of exceptional generalization across various datasets and tasks without relying on downstream graph data. We introduce the GraphGPT framework, which integrates LLMs with graph structural knowledge through graph instruction tuning. This framework includes a text-graph grounding component to link textual and graph structures and a dual-stage instruction tuning approach with a lightweight graph-text alignment projector. These innovations allow LLMs to comprehend complex graph structures and enhance adaptability across diverse datasets and tasks. Our framework demonstrates superior generalization in both supervised and zero-shot graph learning tasks, surpassing existing benchmarks.
 </details>
 <details>
 <summary><u><strong>Higpt: Heterogeneous graph language model (2024)</strong></u></summary>
 
 **Authors:** Jiabin Tang, Yuhao Yang, Wei Wei, Lei Shi, Long Xia, Dawei Yin, Chao Huang  
 **Venue & Year:** Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2024  
-**Link:** [https://doi.org/10.1145/3637528.3671987](https://doi.org/10.1145/3637528.3671987)
+**Link:** [https://doi.org/10.1145/3637528.3671987](https://doi.org/10.1145/3637528.3671987)  
+**Abstract:**  
+Heterogeneous graph learning aims to capture complex relationships and diverse relational semantics among entities in a heterogeneous graph to obtain meaningful representations for nodes and edges. Recent advancements in heterogeneous graph neural networks (HGNNs) have achieved state-of-the-art performance by considering relation heterogeneity and using specialized message functions and aggregation rules. However, existing frameworks for heterogeneous graph learning have limitations in generalizing across diverse heterogeneous graph datasets. Most of these frameworks follow the "pre-train" and "fine-tune" paradigm on the same dataset, which restricts their capacity to adapt to new and unseen data. This raises the question: "Can we generalize heterogeneous graph models to be well-adapted to diverse downstream learning tasks with distribution shifts in both node token sets and relation type heterogeneity?" To tackle those challenges, we propose HiGPT, a general large graph model with Heterogeneous graph instruction-tuning paradigm. Our framework enables learning from arbitrary heterogeneous graphs without the need for any fine-tuning process from downstream datasets. To handle distribution shifts in heterogeneity, we introduce an in-context heterogeneous graph tokenizer that captures semantic relationships in different heterogeneous graphs, facilitating model adaptation. We incorporate a large corpus of heterogeneity-aware graph instructions into our HiGPT, enabling the model to effectively comprehend complex relation heterogeneity and distinguish between various types of graph tokens. Furthermore, we introduce the Mixture-of-Thought (MoT) instruction augmentation paradigm to mitigate data scarcity by generating diverse and informative instructions. Through comprehensive evaluations conducted in various settings, our proposed framework demonstrates exceptional performance in terms of generalization performance, surpassing current leading benchmarks.
 </details>
 <details>
 <summary><u><strong>GPT4Graph: Can large language models understand graph structured data? An empirical evaluation and benchmarking (2023)</strong></u></summary>
 
 **Authors:** Jiayan Guo, Lun Du, Hengyu Liu, Mengyu Zhou, Xinyi He, Shi Han  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://arxiv.org/abs/2305.15066](https://arxiv.org/abs/2305.15066)
+**Link:** [https://arxiv.org/abs/2305.15066](https://arxiv.org/abs/2305.15066)  
+**Abstract:**  
+Large language models~(LLM) like ChatGPT have become indispensable to artificial general intelligence~(AGI), demonstrating excellent performance in various natural language processing tasks. In the real world, graph data is ubiquitous and an essential part of AGI and prevails in domains like social network analysis, bioinformatics and recommender systems. The training corpus of large language models often includes some algorithmic components, which allows them to achieve certain effects on some graph data-related problems. However, there is still little research on their performance on a broader range of graph-structured data. In this study, we conduct an extensive investigation to assess the proficiency of LLMs in comprehending graph data, employing a diverse range of structural and semantic-related tasks. Our analysis encompasses 10 distinct tasks that evaluate the LLMs' capabilities in graph understanding. Through our study, we not only uncover the current limitations of language models in comprehending graph structures and performing associated reasoning tasks but also emphasize the necessity for further advancements and novel approaches to enhance their graph processing capabilities. Our findings contribute valuable insights towards bridging the gap between language models and graph understanding, paving the way for more effective graph mining and knowledge extraction.
 </details>
 <details>
 <summary><u><strong>Graphtext: Graph reasoning in text space (2023)</strong></u></summary>
 
 **Authors:** Jianan Zhao, Le Zhuo, Yikang Shen, Meng Qu, Kai Liu, Michael Bronstein, Zhaocheng Zhu, Jian Tang  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://arxiv.org/abs/2310.01089](https://arxiv.org/abs/2310.01089)
+**Link:** [https://arxiv.org/abs/2310.01089](https://arxiv.org/abs/2310.01089)  
+**Abstract:**  
+Large Language Models (LLMs) have gained the ability to assimilate human knowledge and facilitate natural language interactions with both humans and other LLMs. However, despite their impressive achievements, LLMs have not made significant advancements in the realm of graph machine learning. This limitation arises because graphs encapsulate distinct relational data, making it challenging to transform them into natural language that LLMs understand. In this paper, we bridge this gap with a novel framework, GraphText, that translates graphs into natural language. GraphText derives a graph-syntax tree for each graph that encapsulates both the node attributes and inter-node relationships. Traversal of the tree yields a graph text sequence, which is then processed by an LLM to treat graph tasks as text generation tasks. Notably, GraphText offers multiple advantages. It introduces training-free graph reasoning: even without training on graph data, GraphText with ChatGPT can achieve on par with, or even surpassing, the performance of supervised-trained graph neural networks through in-context learning (ICL). Furthermore, GraphText paves the way for interactive graph reasoning, allowing both humans and LLMs to communicate with the model seamlessly using natural language. These capabilities underscore the vast, yet-to-be-explored potential of LLMs in the domain of graph machine learning.
 </details>
 <details>
 <summary><u><strong>Can language models solve graph problems in natural language? (2023)</strong></u></summary>
 
 **Authors:** Heng Wang, Shangbin Feng, Tianxing He, Zhaoxuan Tan, Xiaochuang Han, Yulia Tsvetkov  
 **Venue & Year:** Advances in Neural Information Processing Systems, 2023  
-**Link:** [https://openreview.net/forum?id=UDqHhbqYJV](https://openreview.net/forum?id=UDqHhbqYJV)
+**Link:** [https://openreview.net/forum?id=UDqHhbqYJV](https://openreview.net/forum?id=UDqHhbqYJV)  
+**Abstract:**  
+Large language models (LLMs) are increasingly adopted for a variety of tasks with implicit graphical structures, such as planning in robotics, multi-hop question answering or knowledge probing, structured commonsense reasoning, and more. While LLMs have advanced the state-of-the-art on these tasks with structure implications, whether LLMs could explicitly process textual descriptions of graphs and structures, map them to grounded conceptual spaces, and perform structured operations remains underexplored. To this end, we propose NLGraph (Natural Language Graph), a comprehensive benchmark of graph-based problem solving designed in natural language. NLGraph contains 29,370 problems, covering eight graph reasoning tasks with varying complexity from simple tasks such as connectivity and shortest path up to complex problems such as maximum flow and simulating graph neural networks. We evaluate LLMs (GPT-3/4) with various prompting approaches on the NLGraph benchmark and find that 1) language models do demonstrate preliminary graph reasoning abilities, 2) the benefit of advanced prompting and in-context learning diminishes on more complex graph problems, while 3) LLMs are also (un)surprisingly brittle in the face of spurious correlations in graph and problem settings. We then propose Build-a-Graph Prompting and Algorithmic Prompting, two instruction-based approaches to enhance LLMs in solving natural language graph problems. Build-a-Graph and Algorithmic prompting improve the performance of LLMs on NLGraph by 3.07% to 16.85% across multiple tasks and settings, while how to solve the most complicated graph reasoning tasks in our setup with language models remains an open research question.
 </details>
 <details>
 <summary><u><strong>Evaluating large language models on graphs: Performance insights and comparative analysis (2023)</strong></u></summary>
 
 **Authors:** Chang Liu, Bo Wu  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://arxiv.org/abs/2308.11224](https://arxiv.org/abs/2308.11224)
+**Link:** [https://arxiv.org/abs/2308.11224](https://arxiv.org/abs/2308.11224)  
+**Abstract:**  
+Large Language Models (LLMs) have garnered considerable interest within both academic and industrial. Yet, the application of LLMs to graph data remains under-explored. In this study, we evaluate the capabilities of four LLMs in addressing several analytical problems with graph data. We employ four distinct evaluation metrics: Comprehension, Correctness, Fidelity, and Rectification. Our results show that: 1) LLMs effectively comprehend graph data in natural language and reason with graph topology. 2) GPT models can generate logical and coherent results, outperforming alternatives in correctness. 3) All examined LLMs face challenges in structural reasoning, with techniques like zero-shot chain-of-thought and few-shot prompting showing diminished efficacy. 4) GPT models often produce erroneous answers in multi-answer tasks, raising concerns in fidelity. 5) GPT models exhibit elevated confidence in their outputs, potentially hindering their rectification capacities. Notably, GPT-4 has demonstrated the capacity to rectify responses from GPT-3.5-turbo and its own previous iterations.
 </details>
 
 ---
