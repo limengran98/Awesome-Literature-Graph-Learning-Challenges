@@ -139,42 +139,53 @@ The advancement of Large Language Models (LLMs) has remarkably pushed the bounda
 
 **Authors:** Yun Li, Yi Yang, Jiaqi Zhu, Hui Chen, Hongan Wang  
 **Venue & Year:** Proceedings of the ACM International Conference on Information and Knowledge Management, 2024  
-**Link:** [https://doi.org/10.1145/3627673.3679861](https://doi.org/10.1145/3627673.3679861)
+**Link:** [https://doi.org/10.1145/3627673.3679861](https://doi.org/10.1145/3627673.3679861)  
+**Abstract:**  
+Knowledge Graph Question Generation (KGQG) is the task of generating natural language questions based on the given knowledge graph (KG). Although extensively explored in recent years, prevailing models predominantly depend on labelled data for training deep learning models or employ large parametric frameworks, e.g., Large Language Models (LLMs), which can incur significant deployment costs and pose practical implementation challenges. To address these issues, in this work, we put forward a zero-shot, multi-agent KGQG framework. This framework integrates the capabilities of LLMs with small models to facilitate cost-effective, high-quality question generation. In specific, we develop a professional editorial team architecture accompanied by two workflow optimization tools to reduce unproductive collaboration among LLMs-based agents and enhance the robustness of the system. Extensive experiments demonstrate that our proposed framework derives the new state-of-the-art performance on the zero-shot KGQG tasks, with relative gains of 20.24% and 13.57% on two KGQG datasets, respectively, which rival fully supervised state-of-the-art models.
 </details>
 <details>
 <summary><u><strong>LinkGPT: Teaching Large Language Models to Predict Missing Links (2024)</strong></u></summary>
 
 **Authors:** Zhongmou He, Jing Zhu, Shengyi Qian, Joyce Chai, Danai Koutra  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://doi.org/10.48550/arXiv.2406.04640](https://doi.org/10.48550/arXiv.2406.04640)
+**Link:** [https://doi.org/10.48550/arXiv.2406.04640](https://doi.org/10.48550/arXiv.2406.04640)  
+**Abstract:**  
 </details>
 <details>
 <summary><u><strong>AnomalyLLM: Few-shot Anomaly Edge Detection for Dynamic Graphs using Large Language Models (2024)</strong></u></summary>
 
 **Authors:** Shuo Liu, Di Yao, Lanting Fang, Zhetao Li, Wenbin Li, Kaiyu Feng, XiaoWen Ji, Jingping Bi  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2405.07626](https://arxiv.org/abs/2405.07626)
+**Link:** [https://arxiv.org/abs/2405.07626](https://arxiv.org/abs/2405.07626)  
+**Abstract:**  
+Large Language Models (LLMs) have shown promising results on various language and vision tasks. Recently, there has been growing interest in applying LLMs to graph-based tasks, particularly on Text-Attributed Graphs (TAGs). However, most studies have focused on node classification, while the use of LLMs for link prediction (LP) remains understudied. In this work, we propose a new task on LLMs, where the objective is to leverage LLMs to predict missing links between nodes in a graph. This task evaluates an LLM's ability to reason over structured data and infer new facts based on learned patterns. This new task poses two key challenges: (1) How to effectively integrate pairwise structural information into the LLMs, which is known to be crucial for LP performance, and (2) how to solve the computational bottleneck when teaching LLMs to perform LP. To address these challenges, we propose LinkGPT, the first end-to-end trained LLM for LP tasks. To effectively enhance the LLM's ability to understand the underlying structure, we design a two-stage instruction tuning approach where the first stage fine-tunes the pairwise encoder, projector, and node projector, and the second stage further fine-tunes the LLMs to predict links. To address the efficiency challenges at inference time, we introduce a retrieval-reranking scheme. Experiments show that LinkGPT can achieve state-of-the-art performance on real-world graphs as well as superior generalization in zero-shot and few-shot learning, surpassing existing benchmarks. At inference time, it can achieve 10\times speedup while maintaining high LP accuracy.
 </details>
 <details>
 <summary><u><strong>HeGTa: Leveraging Heterogeneous Graph-enhanced Large Language Models for Few-shot Complex Table Understanding (2024)</strong></u></summary>
 
 **Authors:** Rihui Jin, Yu Li, Guilin Qi, Nan Hu, Yuan-Fang Li, Jiaoyan Chen, Jianan Wang, Yongrui Chen, Dehai Min, Sheng Bi  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2403.19723](https://arxiv.org/abs/2403.19723)
+**Link:** [https://arxiv.org/abs/2403.19723](https://arxiv.org/abs/2403.19723)  
+**Abstract:**  
+Table understanding (TU) has achieved promising advancements, but it faces the challenges of the scarcity of manually labeled tables and the presence of complex table this http URL address these challenges, we propose HGT, a framework with a heterogeneous graph (HG)-enhanced large language model (LLM) to tackle few-shot TU this http URL leverages the LLM by aligning the table semantics with the LLM's parametric knowledge through soft prompts and instruction turning and deals with complex tables by a multi-task pre-training scheme involving three novel multi-granularity self-supervised HG pre-training this http URL empirically demonstrate the effectiveness of HGT, showing that it outperforms the SOTA for few-shot complex TU on several benchmarks.
 </details>
 <details>
 <summary><u><strong>FlexKBQA: A Flexible LLM-powered Framework for Few-shot Knowledge Base Question Answering (2024)</strong></u></summary>
 
 **Authors:** Zhenyu Li, Sunqi Fan, Yu Gu, Xiuxing Li, Zhichao Duan, Bowen Dong, Ning Liu, Jianyong Wang  
 **Venue & Year:** Proceedings of the AAAI Conference on Artificial Intelligence, 2024  
-**Link:** [https://doi.org/10.1609/aaai.v38i17.29823](https://doi.org/10.1609/aaai.v38i17.29823)
+**Link:** [https://doi.org/10.1609/aaai.v38i17.29823](https://doi.org/10.1609/aaai.v38i17.29823)  
+**Abstract:**  
+Knowledge base question answering (KBQA) is a critical yet challenging task due to the vast number of entities within knowledge bases and the diversity of natural language questions posed by users. Unfortunately, the performance of most KBQA models tends to decline significantly in real-world scenarios where high-quality annotated data is insufficient. To mitigate the burden associated with manual annotation, we introduce FlexKBQA by utilizing Large Language Models (LLMs) as program translators for addressing the challenges inherent in the few-shot KBQA task. Specifically, FlexKBQA leverages automated algorithms to sample diverse programs, such as SPARQL queries, from the knowledge base, which are subsequently converted into natural language questions via LLMs. This synthetic dataset facilitates training a specialized lightweight model for the KB. Additionally, to reduce the barriers of distribution shift between synthetic data and real user questions, FlexKBQA introduces an executionguided self-training method to iterative leverage unlabeled user questions. Furthermore, we explore harnessing the inherent reasoning capability of LLMs to enhance the entire framework. Consequently, FlexKBQA delivers substantial flexibility, encompassing data annotation, deployment, and being domain agnostic. Through extensive experiments on GrailQA, WebQSP, and KQA Pro, we observe that under the few-shot even the more challenging zero-shot scenarios, FlexKBQA achieves impressive results with a few annotations, surpassing all previous baselines and even approaching the performance of supervised models, achieving a remarkable 93% performance relative to the fully-supervised models. We posit that FlexKBQA represents a significant advancement towards exploring better integration of large and lightweight models. Code is available at https://github.com/leezythu/FlexKBQA.
 </details>
 <details>
 <summary><u><strong>Zero-shot Knowledge Graph Question Generation via Multi-agent LLMs and Small Models Synthesis (2024)</strong></u></summary>
 
 **Authors:** Runhao Zhao, Jiuyang Tang, Weixin Zeng, Ziyang Chen, Xiang Zhao  
 **Venue & Year:** Proceedings of the ACM International Conference on Information and Knowledge Management, 2024  
-**Link:** [https://doi.org/10.1145/3627673.3679805](https://doi.org/10.1145/3627673.3679805)
+**Link:** [https://doi.org/10.1145/3627673.3679805](https://doi.org/10.1145/3627673.3679805)  
+**Abstract:**  
+Knowledge Graph Question Generation (KGQG) is the task of generating natural language questions based on the given knowledge graph (KG). Although extensively explored in recent years, prevailing models predominantly depend on labelled data for training deep learning models or employ large parametric frameworks, e.g., Large Language Models (LLMs), which can incur significant deployment costs and pose practical implementation challenges. To address these issues, in this work, we put forward a zero-shot, multi-agent KGQG framework. This framework integrates the capabilities of LLMs with small models to facilitate cost-effective, high-quality question generation. In specific, we develop a professional editorial team architecture accompanied by two workflow optimization tools to reduce unproductive collaboration among LLMs-based agents and enhance the robustness of the system. Extensive experiments demonstrate that our proposed framework derives the new state-of-the-art performance on the zero-shot KGQG tasks, with relative gains of 20.24% and 13.57% on two KGQG datasets, respectively, which rival fully supervised state-of-the-art models.
 </details>
 
 ---
@@ -204,98 +215,129 @@ The advancement of Large Language Models (LLMs) has remarkably pushed the bounda
 
 **Authors:** Kangyang Luo, Yuzhuo Bai, Cheng Gao, Shuzheng Si, Yingli Shen, Zhu Liu, Zhitong Wang, Wenhao Li, Yufei Huang  
 **Venue & Year:** arXiv preprint, 2025  
-**Link:** [https://www.arxiv.org/abs/2502.11471](https://www.arxiv.org/abs/2502.11471)
+**Link:** [https://www.arxiv.org/abs/2502.11471](https://www.arxiv.org/abs/2502.11471)  
+**Abstract:**  
+Multiple-input multiple-output (MIMO) radar offers several performance and flexibility advantages over traditional radar arrays. However, high angular and Doppler resolutions necessitate a large number of antenna elements and the transmission of numerous chirps, leading to increased hardware and computational complexity. While compressive sensing (CS) has recently been applied to pulsed-waveform radars with sparse measurements, its application to frequency-modulated continuous wave (FMCW) radar for target detection remains largely unexplored. In this paper, we propose a novel CS-based multi-target localization algorithm in the range, Doppler, and angular domains for MIMO-FMCW radar, where we jointly estimate targets' velocities and angles of arrival. To this end, we present a signal model for sparse-random and uniform linear arrays based on three-dimensional spectral estimation. For range estimation, we propose a discrete Fourier transform (DFT)-based focusing and orthogonal matching pursuit (OMP)-based techniques, each with distinct advantages, while two-dimensional CS is used for joint Doppler-angle estimation. Leveraging the properties of structured random matrices, we establish theoretical uniform and non-uniform recovery guarantees with high probability for the proposed framework. Our numerical experiments demonstrate that our methods achieve similar detection performance and higher resolution compared to conventional DFT and MUSIC with fewer transmitted chirps and antenna elements.
 </details>
 <details>
 <summary><u><strong>GS-KGC: A generative subgraph-based framework for knowledge graph completion with large language models (2025)</strong></u></summary>
 
 **Authors:** Rui Yang, Jiahao Zhu, Jianping Man, Hongze Liu, Li Fang, Yi Zhou  
 **Venue & Year:** Information Fusion, 2025  
-**Link:** [https://doi.org/10.1016/j.inffus.2024.102868](https://doi.org/10.1016/j.inffus.2024.102868)
+**Link:** [https://doi.org/10.1016/j.inffus.2024.102868](https://doi.org/10.1016/j.inffus.2024.102868)  
+**Abstract:**  
+Knowledge graph completion (KGC) focuses on identifying missing triples in a knowledge graph (KG) , which is crucial for many downstream applications. Given the rapid development of large language models (LLMs), some LLM-based methods are proposed for KGC task. However, most of them focus on prompt engineering while overlooking the fact that finer-grained subgraph information can aid LLMs in generating more accurate answers. In this paper, we propose a novel completion framework called Generative Subgraph-based KGC (GS-KGC), which utilizes subgraph information as contextual reasoning and employs a QA approach to achieve the KGC task. This framework primarily includes a subgraph partitioning algorithm designed to generate negatives and neighbors. Specifically, negatives can encourage LLMs to generate a broader range of answers, while neighbors provide additional contextual insights for LLM reasoning. Furthermore, we found that GS-KGC can discover potential triples within the KGs and new facts beyond the KGs. Experiments conducted on four common KGC datasets highlight the advantages of the proposed GS-KGC, e.g., it shows a 5.6% increase in Hits@3 compared to the LLM-based model CP-KGC on the FB15k-237N, and a 9.3% increase over the LLM-based model TECHS on the ICEWS14.
+
 </details>
 <details>
 <summary><u><strong>In-Context Learning with Topological Information for LLM-Based Knowledge Graph Completion (2024)</strong></u></summary>
 
 **Authors:** Udari Madhushani Sehwag, Kassiani Papasotiriou, Jared Vann, Sumitra Ganesh  
 **Venue & Year:** ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling  
-**Link:** [https://openreview.net/forum?id=eUpH8AuVQa](https://openreview.net/forum?id=eUpH8AuVQa)
+**Link:** [https://openreview.net/forum?id=eUpH8AuVQa](https://openreview.net/forum?id=eUpH8AuVQa)  
+**Abstract:**  
+Knowledge graphs (KGs) are crucial for representing and reasoning over structured information, supporting a wide range of applications such as information retrieval, question answering, and decision-making. However, their effectiveness is often hindered by incompleteness, limiting their potential for real-world impact. While knowledge graph completion (KGC) has been extensively studied in the literature, recent advances in generative AI models, particularly large language models (LLMs), have introduced new opportunities for innovation. In-context learning has recently emerged as a promising approach for leveraging pretrained knowledge of LLMs across a range of natural language processing tasks and has been widely adopted in both academia and industry. However, how to utilize in-context learning for effective KGC remains relatively underexplored. We develop a novel method that incorporates topological information through in-context learning to enhance KGC performance. By integrating ontological knowledge and graph structure into the context of LLMs, our approach achieves strong performance in the transductive setting i.e., nodes in the test graph dataset are present in the training graph dataset. Furthermore, we apply our approach to KGC in the more challenging inductive setting, i.e., nodes in the training graph dataset and test graph dataset are disjoint, leveraging the ontology to infer useful information about missing nodes which serve as contextual cues for the LLM during inference. Our method demonstrates superior performance compared to baselines on the ILPC-small and ILPC-large datasets.
+
 </details>
 <details>
 <summary><u><strong>Making large language models perform better in knowledge graph completion (2024)</strong></u></summary>
 
 **Authors:** Yichi Zhang, Zhuo Chen, Lingbing Guo, Yajing Xu, Wen Zhang, Hlmruajun Chen  
 **Venue & Year:** Proceedings of the 32nd ACM International Conference on Multimedia, 2024  
-**Link:** [https://doi.org/10.1145/3664647.3681327](https://doi.org/10.1145/3664647.3681327)
+**Link:** [https://doi.org/10.1145/3664647.3681327](https://doi.org/10.1145/3664647.3681327)  
+**Abstract:**  
+Large language model (LLM) based knowledge graph completion (KGC) aims to predict the missing triples in the KGs with LLMs. However, research about LLM-based KGC fails to sufficiently harness LLMs' inference proficiencies, overlooking critical structural information integral to KGs. In this paper, we explore methods to incorporate structural information into the LLMs, with the overarching goal of facilitating structure-aware reasoning. We first discuss on the existing LLM paradigms like in-context learning and instruction tuning, proposing basic structural information injection approaches. Then we propose a Knowledge Prefix Adapter (KoPA) to fulfill this stated goal. KoPA uses a structural pre-training phase to comprehend the intricate entities and relations within KGs, representing them as structural embeddings. Then KoPA communicates such cross-modal structural information understanding to the LLMs through a knowledge prefix adapter which projects the structural embeddings into the textual space and obtains virtual knowledge tokens positioned as a prefix of the input prompt. We conduct comprehensive experiments and provide incisive analysis. Our code and data are available at https://github.com/zjukg/KoPA.
 </details>
 <details>
 <summary><u><strong>LLM-based multi-level knowledge generation for few-shot knowledge graph completion (2024)</strong></u></summary>
 
 **Authors:** Qian Li, Zhuo Chen, Cheng Ji, Shiqi Jiang, Jianxin Li  
 **Venue & Year:** Proceedings of the International Joint Conference on Artificial Intelligence, 2024  
-**Link:** [https://www.ijcai.org/proceedings/2024/236](https://www.ijcai.org/proceedings/2024/236)
+**Link:** [https://www.ijcai.org/proceedings/2024/236](https://www.ijcai.org/proceedings/2024/236)  
+**Abstract:**  
+Knowledge Graphs (KGs) are pivotal in various NLP applications but often grapple with incompleteness, especially due to the long-tail problem where infrequent, unpopular relationships drastically reduce the KG completion performance. In this paper, we focus on Few-shot Knowledge Graph Completion (FKGC), a task addressing these gaps in long-tail scenarios. Amidst the rapid evolution of Large Language Models, we propose a generation-based FKGC paradigm facilitated by LLM distillation. Our MuKDC framework employs multi-level knowledge distillation for few-shot KG completion, generating supplementary knowledge to mitigate data scarcity in few-shot environments. MuKDC comprises two primary components: Multi-level Knowledge Generation, which enriches the KG at various levels, and Consistency Assessment, to ensure the coherence and reliability of the generated knowledge. Most notably, our method achieves SOTA results in both FKGC and multi-modal FKGC benchmarks, significantly advancing KG completion and enhancing the understanding and application of LLMs in structured knowledge generation and assessment.
 </details>
 <details>
 <summary><u><strong>Assessing LLMs Suitability for Knowledge Graph Completion (2024)</strong></u></summary>
 
 **Authors:** Vasile Ionut Remus Iga, Gheorghe Cosmin Silaghi  
 **Venue & Year:** International Conference on Neural-Symbolic Learning and Reasoning, 2024  
-**Link:** [https://doi.org/10.1007/978-3-031-71170-1_22](https://doi.org/10.1007/978-3-031-71170-1_22)
+**Link:** [https://doi.org/10.1007/978-3-031-71170-1_22](https://doi.org/10.1007/978-3-031-71170-1_22)  
+**Abstract:**  
+Recent work has shown the capability of Large Language Models (LLMs) to solve tasks related to Knowledge Graphs, such as Knowledge Graph Completion, even in Zero- or Few-Shot paradigms. However, they are known to hallucinate answers, or output results in a non-deterministic manner, thus leading to wrongly reasoned responses, even if they satisfy the user’s demands. To highlight opportunities and challenges in knowledge graphs-related tasks, we experiment with three distinguished LLMs, namely Mixtral-8x7b-Instruct-v0.1, GPT-3.5-Turbo-0125 and GPT-4o, on Knowledge Graph Completion for static knowledge graphs, using prompts constructed following the TELeR taxonomy, in Zero- and One-Shot contexts, on a Task-Oriented Dialogue system use case. When evaluated using both strict and flexible metrics measurement manners, our results show that LLMs could be fit for such a task if prompts encapsulate sufficient information and relevant examples.
 </details>
 <details>
 <summary><u><strong>Finetuning generative large language models with discrimination instructions for knowledge graph completion (2024)</strong></u></summary>
 
 **Authors:** Yang Liu, Xiaobin Tian, Zequn Sun, Wei Hu  
 **Venue & Year:** International Semantic Web Conference, 2024  
-**Link:** [https://doi.org/10.1007/978-3-031-77844-5_11](https://doi.org/10.1007/978-3-031-77844-5_11)
+**Link:** [https://doi.org/10.1007/978-3-031-77844-5_11](https://doi.org/10.1007/978-3-031-77844-5_11)  
+**Abstract:**  
 </details>
 <details>
 <summary><u><strong>Enhancing text-based knowledge graph completion with zero-shot large language models: A focus on semantic enhancement (2024)</strong></u></summary>
 
 **Authors:** Rui Yang, Jiahao Zhu, Jianping Man, Li Fang, Yi Zhou  
 **Venue & Year:** Knowledge-Based Systems, 2024  
-**Link:** [https://doi.org/10.1016/j.knosys.2024.112155](https://doi.org/10.1016/j.knosys.2024.112155)
+**Link:** [https://doi.org/10.1016/j.knosys.2024.112155](https://doi.org/10.1016/j.knosys.2024.112155)  
+**Abstract:**  
+Traditional knowledge graph (KG) completion models learn embeddings to predict missing facts. Recent works attempt to complete KGs in a text-generation manner with large language models (LLMs). However, they need to ground the output of LLMs to KG entities, which inevitably brings errors. In this paper, we present a finetuning framework, DIFT, aiming to unleash the KG completion ability of LLMs and avoid grounding errors. Given an incomplete fact, DIFT employs a lightweight model to obtain candidate entities and finetunes an LLM with discrimination instructions to select the correct one from the given candidates. To improve performance while reducing instruction data, DIFT uses a truncated sampling method to select useful facts for finetuning and injects KG embeddings into the LLM. Extensive experiments on benchmark datasets demonstrate the effectiveness of our proposed framework.
 </details>
 <details>
 <summary><u><strong>Framing Few-Shot Knowledge Graph Completion with Large Language Models (2023)</strong></u></summary>
 
 **Authors:** Adrian MP Brasoveanu, Lyndon Nixon, Albert Weichselbraun, Arno Scharl  
 **Venue & Year:** Joint Workshop Proceedings of the 5th International Workshop on Sem4Tra and SEMANTiCS, 2023  
-**Link:** [https://ceur-ws.org/Vol-3510/paper_nlp_4.pdf](https://ceur-ws.org/Vol-3510/paper_nlp_4.pdf)
+**Link:** [https://ceur-ws.org/Vol-3510/paper_nlp_4.pdf](https://ceur-ws.org/Vol-3510/paper_nlp_4.pdf)  
+**Abstract:**  
+Knowledge Graph Completion (KGC) from text involves identifying known or unknown entities (nodes) as well as relations (edges) among these entities. Recent work has started to explore the use of Large Language Models (LLMs) for entity detection and relation extraction, due to their Natural Language Understanding (NLU) capabilities. However, LLM performance varies across models and depends on the quality of the prompt engineering. We examine specific relation extraction cases and present a set of
+examples collected from well-known resources in a small corpus. We provide a set of annotations and identify various issues that occur when using different LLMs for this task. As LLMs will remain a focal point of future KGC research, we conclude with suggestions for improving the KGC process.
 </details>
 <details>
 <summary><u><strong>Iterative zero-shot LLM prompting for knowledge graph construction (2023)</strong></u></summary>
 
 **Authors:** Salvatore Carta, Alessandro Giuliani, Leonardo Piano, Alessandro Sebastian Podda, Livio Pompianu, Sandro Gabriele Tiddia  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://doi.org/10.48550/ARXIV.2307.01128](https://doi.org/10.48550/ARXIV.2307.01128)
+**Link:** [https://doi.org/10.48550/ARXIV.2307.01128](https://doi.org/10.48550/ARXIV.2307.01128)  
+**Abstract:**  
+In the current digitalization era, capturing and effectively representing knowledge is crucial in most real-world scenarios. In this context, knowledge graphs represent a potent tool for retrieving and organizing a vast amount of information in a properly interconnected and interpretable structure. However, their generation is still challenging and often requires considerable human effort and domain expertise, hampering the scalability and flexibility across different application fields. This paper proposes an innovative knowledge graph generation approach that leverages the potential of the latest generative large language models, such as GPT-3.5, that can address all the main critical issues in knowledge graph building. The approach is conveyed in a pipeline that comprises novel iterative zero-shot and external knowledge-agnostic strategies in the main stages of the generation process. Our unique manifold approach may encompass significant benefits to the scientific community. In particular, the main contribution can be summarized by: (i) an innovative strategy for iteratively prompting large language models to extract relevant components of the final graph; (ii) a zero-shot strategy for each prompt, meaning that there is no need for providing examples for "guiding" the prompt result; (iii) a scalable solution, as the adoption of LLMs avoids the need for any external resources or human expertise. To assess the effectiveness of our proposed model, we performed experiments on a dataset that covered a specific domain. We claim that our proposal is a suitable solution for scalable and versatile knowledge graph construction and may be applied to different and novel contexts.
 </details>
 <details>
 <summary><u><strong>Exploring large language models for knowledge graph completion (2023)</strong></u></summary>
 
 **Authors:** Liang Yao, Jiazhen Peng, Chengsheng Mao, Yuan Luo  
-**Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://doi.org/10.48550/arXiv.2308.13916](https://doi.org/10.48550/arXiv.2308.13916)
+**Venue & Year:** IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025), 2025  
+**Link:** [https://doi.org/10.48550/arXiv.2308.13916](https://doi.org/10.48550/arXiv.2308.13916)  
+**Abstract:**  
+Knowledge graphs play a vital role in numerous artificial intelligence tasks, yet they frequently face the issue of incompleteness. In this study, we explore utilizing Large Language Models (LLM) for knowledge graph completion. We consider triples in knowledge graphs as text sequences and introduce an innovative framework called Knowledge Graph LLM (KG-LLM) to model these triples. Our technique employs entity and relation descriptions of a triple as prompts and utilizes the response for predictions. Experiments on various benchmark knowledge graphs demonstrate that our method attains state-of-the-art performance in tasks such as triple classification and relation prediction. We also find that fine-tuning relatively smaller models (e.g., LLaMA-7B, ChatGLM-6B) outperforms recent ChatGPT and GPT-4.
 </details>
 <details>
 <summary><u><strong>KICGPT: Large Language Model with Knowledge in Context for Knowledge Graph Completion (2023)</strong></u></summary>
 
 **Authors:** Yanbin Wei, Qiushi Huang, Yu Zhang, James Kwok  
 **Venue & Year:** Findings of the Association for Computational Linguistics: EMNLP, 2023  
-**Link:** [https://doi.org/10.18653/v1/2023.findings-emnlp.580](https://doi.org/10.18653/v1/2023.findings-emnlp.580)
+**Link:** [https://doi.org/10.18653/v1/2023.findings-emnlp.580](https://doi.org/10.18653/v1/2023.findings-emnlp.580)  
+**Abstract:**  
+Knowledge Graph Completion (KGC) is crucial for addressing knowledge graph incompleteness and supporting downstream applications. Many models have been proposed for KGC and they can be categorized into two main classes, including triple-based and test-based approaches. Triple-based methods struggle with long-tail entities due to limited structural information and imbalanced distributions of entities. Text-based methods alleviate this issue but require costly training for language models and specific finetuning for knowledge graphs, which limits their efficiency. To alleviate the limitations in the two approaches, in this paper, we propose KICGPT, a framework that integrates a large language model (LLM) and a triple-based KGC retriever, to alleviate the long-tail problem without incurring additional training overhead. In the proposed KICGPT model, we propose an in-context learning strategy called Knowledge Prompt, which encodes structural knowledge into demonstrations to guide LLM. Empirical results on benchmark datasets demonstrate the effectiveness of the proposed KICGPT model with lighter training overhead and no finetuning.
+
 </details>
 <details>
 <summary><u><strong>Knowledge graph completion models are few-shot learners: An empirical study of relation labeling in e-commerce with LLMs (2023)</strong></u></summary>
 
 **Authors:** Jiao Chen, Luyi Ma, Xiaohan Li, Nikhil Thakurdesai, Jianpeng Xu, Jason HD Cho, Kaushiki Nag, Evren Korpeoglu, Sushant Kumar, Kannan Achan  
 **Venue & Year:** arXiv preprint, 2023  
-**Link:** [https://doi.org/10.48550/arXiv.2305.09858](https://doi.org/10.48550/arXiv.2305.09858)
+**Link:** [https://doi.org/10.48550/arXiv.2305.09858](https://doi.org/10.48550/arXiv.2305.09858)  
+**Abstract:**  
+Knowledge Graphs (KGs) play a crucial role in enhancing e-commerce system performance by providing structured information about entities and their relationships, such as complementary or substitutable relations between products or product types, which can be utilized in recommender systems. However, relation labeling in KGs remains a challenging task due to the dynamic nature of e-commerce domains and the associated cost of human labor. Recently, breakthroughs in Large Language Models (LLMs) have shown surprising results in numerous natural language processing tasks. In this paper, we conduct an empirical study of LLMs for relation labeling in e-commerce KGs, investigating their powerful learning capabilities in natural language and effectiveness in predicting relations between product types with limited labeled data. We evaluate various LLMs, including PaLM and GPT-3.5, on benchmark datasets, demonstrating their ability to achieve competitive performance compared to humans on relation labeling tasks using just 1 to 5 labeled examples per relation. Additionally, we experiment with different prompt engineering techniques to examine their impact on model performance. Our results show that LLMs significantly outperform existing KG completion models in relation labeling for e-commerce KGs and exhibit performance strong enough to replace human labeling.
 </details>
 <details>
 <summary><u><strong>Generate-on-graph: Treat LLM as both agent and KG in incomplete knowledge graph question answering (2024)</strong></u></summary>
 
 **Authors:** Yao Xu, Shizhu He, Jiabei Chen, Zihao Wang, Yangqiu Song, Hanghang Tong, Guang Liu, Kang Liu, Jun Zhao  
-**Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://doi.org/10.48550/arXiv.2307.01128](https://doi.org/10.48550/arXiv.2307.01128)
+**Venue & Year:** EMNLP, 2024  
+**Link:** [https://doi.org/10.48550/arXiv.2404.14741](https://doi.org/10.48550/arXiv.2404.14741)  
+**Abstract:**  
+To address the issues of insufficient knowledge and hallucination in Large Language Models (LLMs), numerous studies have explored integrating LLMs with Knowledge Graphs (KGs). However, these methods are typically evaluated on conventional Knowledge Graph Question Answering (KGQA) with complete KGs, where all factual triples required for each question are entirely covered by the given KG. In such cases, LLMs primarily act as an agent to find answer entities within the KG, rather than effectively integrating the internal knowledge of LLMs and external knowledge sources such as KGs. In fact, KGs are often incomplete to cover all the knowledge required to answer questions. To simulate these real-world scenarios and evaluate the ability of LLMs to integrate internal and external knowledge, we propose leveraging LLMs for QA under Incomplete Knowledge Graph (IKGQA), where the provided KG lacks some of the factual triples for each question, and construct corresponding datasets. To handle IKGQA, we propose a training-free method called Generate-on-Graph (GoG), which can generate new factual triples while exploring KGs. Specifically, GoG performs reasoning through a Thinking-Searching-Generating framework, which treats LLM as both Agent and KG in IKGQA. Experimental results on two datasets demonstrate that our GoG outperforms all previous methods.
 </details>
 
 
