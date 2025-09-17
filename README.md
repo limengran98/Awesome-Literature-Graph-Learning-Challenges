@@ -1231,7 +1231,7 @@ Large Language Models (LLMs) have garnered considerable interest within both aca
 | Dynamic Benchmarking of Masked Language Models on Temporal Concept Drift with Multiple Views | Katerina Margatina, Shuai Wang, Yogarshi Vyas, Neha Anna John, Yassine Benajiba, Miguel Ballesteros | Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, 2023 | [Link](https://aclanthology.org/2023.eacl-main.211/) |
 -->
 
-## Robust Graph Learning – Dynamic Evaluation & Temporal Reasoning
+
 
 <details>
 <summary><u><strong>DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph (2024)</strong></u></summary>
@@ -1268,6 +1268,7 @@ Large Language Models (LLMs) have garnered considerable interest within both aca
 **Venue & Year:** Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, 2023  
 **Link:** [https://aclanthology.org/2023.eacl-main.211/](https://aclanthology.org/2023.eacl-main.211/)
 </details>
+
 ---
 
 ### Datasets, Metrics, and Tasks (Dynamic Instability)
