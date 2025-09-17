@@ -1093,56 +1093,72 @@ Large Language Models (LLMs) have garnered considerable interest within both aca
 
 **Authors:** Zeyang Zhang, Xin Wang, Ziwei Zhang, Haoyang Li, Yijian Qin, Wenwu Zhu  
 **Venue & Year:** Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2024  
-**Link:** [https://doi.org/10.1145/3637528.3671709](https://doi.org/10.1145/3637528.3671709)
+**Link:** [https://doi.org/10.1145/3637528.3671709](https://doi.org/10.1145/3637528.3671709)  
+**Abstract:**  
+In an era marked by the increasing adoption of Large Language Models (LLMs) for various tasks, there is a growing focus on exploring LLMs' capabilities in handling web data, particularly graph data. Dynamic graphs, which capture temporal network evolution patterns, are ubiquitous in real-world web data. Evaluating LLMs' competence in understanding spatial-temporal information on dynamic graphs is essential for their adoption in web applications, which remains unexplored in the literature. In this paper, we bridge the gap via proposing to evaluate LLMs' spatial-temporal understanding abilities on dynamic graphs, to the best of our knowledge, for the first time. Specifically, we propose the LLM4DyG benchmark, which includes nine specially designed tasks considering the capability evaluation of LLMs from both temporal and spatial dimensions. Then, we conduct extensive experiments to analyze the impacts of different data generators, data statistics, prompting techniques, and LLMs on the model performance. Finally, we propose Disentangled Spatial-Temporal Thoughts (DST2) for LLMs on dynamic graphs to enhance LLMs' spatial-temporal understanding abilities. Our main observations are: 1) LLMs have preliminary spatial-temporal understanding abilities on dynamic graphs, 2) Dynamic graph tasks show increasing difficulties for LLMs as the graph size and density increase, while not sensitive to the time span and data generation mechanism, 3) the proposed DST2 prompting method can help to improve LLMs' spatial-temporal understanding abilities on dynamic graphs for most tasks. The data and codes are publicly available at Github.
 </details>
 <details>
 <summary><u><strong>TimeR$^4$: Time-aware Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering (2024)</strong></u></summary>
 
 **Authors:** Xinying Qian, Ying Zhang, Yu Zhao, Baohang Zhou, Xuhui Sui, Li Zhang, Kehui Song  
 **Venue & Year:** Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, Miami, USA  
-**Link:** [https://aclanthology.org/2024.emnlp-main.394/](https://aclanthology.org/2024.emnlp-main.394/)
+**Link:** [https://aclanthology.org/2024.emnlp-main.394/](https://aclanthology.org/2024.emnlp-main.394/)  
+**Abstract:**  
+Temporal Knowledge Graph Question Answering (TKGQA) aims to answer temporal questions using knowledge in Temporal Knowledge Graphs (TKGs). Previous works employ pre-trained TKG embeddings or graph neural networks to incorporate the knowledge of TKGs. However, these methods fail to fully understand the complex semantic information of time constraints in questions.In contrast, Large Language Models (LLMs) have shown exceptional performance in knowledge graph reasoning, unifying both semantic understanding and structural reasoning. To further enhance LLMs’ temporal reasoning ability, this paper aims to integrate relevant temporal knowledge from TKGs into LLMs through a Time-aware Retrieve-Rewrite-Retrieve-Rerank framework, which we named TimeR4.Specifically, to reduce temporal hallucination in LLMs, we propose a retrieve-rewrite module to rewrite questions using background knowledge stored in the TKGs, thereby acquiring explicit time constraints. Then, we implement a retrieve-rerank module aimed at retrieving semantically and temporally relevant facts from the TKGs and reranking them according to the temporal constraints.To achieve this, we fine-tune a retriever using the contrastive time-aware learning framework.Our approach achieves great improvements, with relative gains of 47.8% and 22.5% on two datasets, underscoring its effectiveness in boosting the temporal reasoning abilities of LLMs. Our code is available at https://github.com/qianxinying/TimeR4.
 </details>
 <details>
 <summary><u><strong>Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models (2024)</strong></u></summary>
 
 **Authors:** Yifu Gao, Linbo Qiao, Zhigang Kan, Zhihua Wen, Yongquan He, Dongsheng Li  
 **Venue & Year:** Findings of the Association for Computational Linguistics: ACL 2024, Bangkok, Thailand  
-**Link:** [https://aclanthology.org/2024.findings-acl.401/](https://aclanthology.org/2024.findings-acl.401/)
+**Link:** [https://aclanthology.org/2024.findings-acl.401/](https://aclanthology.org/2024.findings-acl.401/)  
+**Abstract:**  
+Temporal knowledge graph question answering (TKGQA) poses a significant challenge task, due to the temporal constraints hidden in questions and the answers sought from dynamic structured knowledge. Although large language models (LLMs) have made considerable progress in their reasoning ability over structured data, their application to the TKGQA task is a relatively unexplored area. This paper first proposes a novel generative temporal knowledge graph question answering framework, GenTKGQA, which guides LLMs to answer temporal questions through two phases: Subgraph Retrieval and Answer Generation. First, we exploit LLM’s intrinsic knowledge to mine temporal constraints and structural links in the questions without extra training, thus narrowing down the subgraph search space in both temporal and structural dimensions. Next, we design virtual knowledge indicators to fuse the graph neural network signals of the subgraph and the text representations of the LLM in a non-shallow way, which helps the open-source LLM deeply understand the temporal order and structural dependencies among the retrieved facts through instruction tuning. Experimental results on two widely used datasets demonstrate the superiority of our model.
 </details>
 <details>
 <summary><u><strong>Unveiling LLMs: The Evolution of Latent Representations in a Dynamic Knowledge Graph (2024)</strong></u></summary>
 
 **Authors:** Marco Bronzini, Carlo Nicolini, Bruno Lepri, Jacopo Staiano, Andrea Passerini  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2404.03623](https://arxiv.org/abs/2404.03623)
+**Link:** [https://arxiv.org/abs/2404.03623](https://arxiv.org/abs/2404.03623)  
+**Abstract:**  
+Large Language Models (LLMs) demonstrate an impressive capacity to recall a vast range of factual knowledge. However, understanding their underlying reasoning and internal mechanisms in exploiting this knowledge remains a key research area. This work unveils the factual information an LLM represents internally for sentence-level claim verification. We propose an end-to-end framework to decode factual knowledge embedded in token representations from a vector space to a set of ground predicates, showing its layer-wise evolution using a dynamic knowledge graph. Our framework employs activation patching, a vector-level technique that alters a token representation during inference, to extract encoded knowledge. Accordingly, we neither rely on training nor external models. Using factual and common-sense claims from two claim verification datasets, we showcase interpretability analyses at local and global levels. The local analysis highlights entity centrality in LLM reasoning, from claim-related information and multi-hop reasoning to representation errors causing erroneous evaluation. On the other hand, the global reveals trends in the underlying evolution, such as word-based knowledge evolving into claim-related facts. By interpreting semantics from LLM latent representations and enabling graph-related analyses, this work enhances the understanding of the factual knowledge resolution process.
 </details>
 <details>
 <summary><u><strong>Large Language Models Can Learn Temporal Reasoning (2024)</strong></u></summary>
 
 **Authors:** Siheng Xiong, Ali Payani, Ramana Kompella, Faramarz Fekri  
 **Venue & Year:** Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics, 2024  
-**Link:** [https://aclanthology.org/2024.acl-long.563/](https://aclanthology.org/2024.acl-long.563/)
+**Link:** [https://aclanthology.org/2024.acl-long.563/](https://aclanthology.org/2024.acl-long.563/)  
+**Abstract:**  
+While large language models (LLMs) have demonstrated remarkable reasoning capabilities, they are not without their flaws and inaccuracies. Recent studies have introduced various methods to mitigate these limitations. Temporal reasoning (TR), in particular, presents a significant challenge for LLMs due to its reliance on diverse temporal concepts and intricate temporal logic. In this paper, we propose TG-LLM, a novel framework towards language-based TR. Instead of reasoning over the original context, we adopt a latent representation, temporal graph (TG) that enhances the learning of TR. A synthetic dataset (TGQA), which is fully controllable and requires minimal supervision, is constructed for fine-tuning LLMs on this text-to-TG translation task. We confirmed in experiments that the capability of TG translation learned on our dataset can be transferred to other TR tasks and benchmarks. On top of that, we teach LLM to perform deliberate reasoning over the TGs via Chain-of-Thought (CoT) bootstrapping and graph data augmentation. We observed that those strategies, which maintain a balance between usefulness and diversity, bring more reliable CoTs and final results than the vanilla CoT distillation.
 </details>
 <details>
 <summary><u><strong>Chain-of-History Reasoning for Temporal Knowledge Graph Forecasting (2024)</strong></u></summary>
 
 **Authors:** Yuwei Xia, Ding Wang, Qiang Liu, Liang Wang, Shu Wu, Xiao-Yu Zhang  
 **Venue & Year:** Findings of the Association for Computational Linguistics: ACL 2024, Bangkok, Thailand  
-**Link:** [https://aclanthology.org/2024.findings-acl.955/](https://aclanthology.org/2024.findings-acl.955/)
+**Link:** [https://aclanthology.org/2024.findings-acl.955/](https://aclanthology.org/2024.findings-acl.955/)  
+**Abstract:**  
+Temporal Knowledge Graph (TKG) forecasting aims to predict future facts based on given histories. Most recent graph-based models excel at capturing structural information within TKGs but lack semantic comprehension abilities. Nowadays, with the surge of LLMs, the LLM-based TKG prediction model has emerged. However, the existing LLM-based model exhibits three shortcomings: (1) It only focuses on the first-order history for prediction while ignoring high-order historical information, resulting in the provided information for LLMs being extremely limited. (2) LLMs struggle with optimal reasoning performance under heavy historical information loads. (3) For TKG prediction, the temporal reasoning capability of LLM alone is limited. To address the first two challenges, we propose Chain-of-History (CoH) reasoning which explores high-order histories step-by-step, achieving effective utilization of high-order historical information for LLMs on TKG prediction. To address the third issue, we design CoH as a plug-and-play module to enhance the performance of graph-based models for TKG prediction. Extensive experiments on three datasets and backbones demonstrate the effectiveness of CoH.
 </details>
 <details>
 <summary><u><strong>zrLLM: Zero-Shot Relational Learning on Temporal Knowledge Graphs with Large Language Models (2024)</strong></u></summary>
 
 **Authors:** Zifeng Ding, Heling Cai, Jingpei Wu, Yunpu Ma, Ruotong Liao, Bo Xiong, Volker Tresp  
 **Venue & Year:** Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Mexico City, Mexico  
-**Link:** [https://aclanthology.org/2024.naacl-long.104/](https://aclanthology.org/2024.naacl-long.104/)
+**Link:** [https://aclanthology.org/2024.naacl-long.104/](https://aclanthology.org/2024.naacl-long.104/)  
+**Abstract:**  
+Modeling evolving knowledge over temporal knowledge graphs (TKGs) has become a heated topic. Various methods have been proposed to forecast links on TKGs. Most of them are embedding-based, where hidden representations are learned to represent knowledge graph (KG) entities and relations based on the observed graph contexts. Although these methods show strong performance on traditional TKG forecasting (TKGF) benchmarks, they face a strong challenge in modeling the unseen zero-shot relations that have no prior graph context. In this paper, we try to mitigate this problem as follows. We first input the text descriptions of KG relations into large language models (LLMs) for generating relation representations, and then introduce them into embedding-based TKGF methods. LLM-empowered representations can capture the semantic information in the relation descriptions. This makes the relations, whether seen or unseen, with similar semantic meanings stay close in the embedding space, enabling TKGF models to recognize zero-shot relations even without any observed graph context. Experimental results show that our approach helps TKGF models to achieve much better performance in forecasting the facts with previously unseen relations, while still maintaining their ability in link forecasting regarding seen relations.
 </details>
 <details>
 <summary><u><strong>Temporal Knowledge Graph Forecasting Without Knowledge Using In-Context Learning (2023)</strong></u></summary>
 
 **Authors:** Dong-Ho Lee, Kian Ahrabian, Woojeong Jin, Fred Morstatter, Jay Pujara  
 **Venue & Year:** Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore  
-**Link:** [https://aclanthology.org/2023.emnlp-main.36/](https://aclanthology.org/2023.emnlp-main.36/)
+**Link:** [https://aclanthology.org/2023.emnlp-main.36/](https://aclanthology.org/2023.emnlp-main.36/)  
+**Abstract:**  
+Temporal knowledge graph (TKG) forecasting benchmarks challenge models to predict future facts using knowledge of past facts. In this paper, we develop an approach to use in-context learning (ICL) with large language models (LLMs) for TKG forecasting. Our extensive evaluation compares diverse baselines, including both simple heuristics and state-of-the-art (SOTA) supervised models, against pre-trained LLMs across several popular benchmarks and experimental settings. We observe that naive LLMs perform on par with SOTA models, which employ carefully designed architectures and supervised training for the forecasting task, falling within the (-3.6%, +1.5%) Hits@1 margin relative to the median performance. To better understand the strengths of LLMs for forecasting, we explore different approaches for selecting historical facts, constructing prompts, controlling information propagation, and parsing outputs into a probability distribution. A surprising finding from our experiments is that LLM performance endures (±0.4% Hit@1) even when semantic information is removed by mapping entities/relations to arbitrary numbers, suggesting that prior semantic knowledge is unnecessary; rather, LLMs can leverage the symbolic patterns in the context to achieve such a strong performance. Our analysis also reveals that ICL enables LLMs to learn irregular patterns from the historical context, going beyond frequency and recency biases
 </details>
 
 ---
@@ -1165,56 +1181,72 @@ Large Language Models (LLMs) have garnered considerable interest within both aca
 
 **Authors:** Xiaohui Victor Li, Francesco Sanna Passino  
 **Venue & Year:** ACM, 2024  
-**Link:** [https://doi.org/10.1145/3677052.3698603](https://doi.org/10.1145/3677052.3698603)
+**Link:** [https://doi.org/10.1145/3677052.3698603](https://doi.org/10.1145/3677052.3698603)  
+**Abstract:**  
+Dynamic knowledge graphs (DKGs) are popular structures to express different types of connections between objects over time. They can also serve as an efficient mathematical tool to represent information extracted from complex unstructured data sources, such as text or images. Within financial applications, DKGs could be used to detect trends for strategic thematic investing, based on information obtained from financial news articles. In this work, we explore the properties of large language models (LLMs) as dynamic knowledge graph generators, proposing a novel open-source fine-tuned LLM for this purpose, called the Integrated Contextual Knowledge Graph Generator (ICKG). We use ICKG to produce a novel open-source DKG from a corpus of financial news articles, called FinDKG, and we propose an attention-based GNN architecture for analysing it, called KGTransformer. We test the performance of the proposed model on benchmark datasets and FinDKG, demonstrating superior performance on link prediction tasks. Additionally, we evaluate the performance of the KGTransformer on FinDKG for thematic investing, showing it can outperform existing thematic ETFs.
 </details>
 <details>
 <summary><u><strong>GenTKG: Generative Forecasting on Temporal Knowledge Graph with Large Language Models (2024)</strong></u></summary>
 
 **Authors:** Ruotong Liao, Xu Jia, Yangzhe Li, Yunpu Ma, Volker Tresp  
 **Venue & Year:** Findings of the Association for Computational Linguistics: NAACL, 2024  
-**Link:** [https://aclanthology.org/2024.findings-naacl.268/](https://aclanthology.org/2024.findings-naacl.268/)
+**Link:** [https://aclanthology.org/2024.findings-naacl.268/](https://aclanthology.org/2024.findings-naacl.268/)  
+**Abstract:**  
+The rapid advancements in large language models (LLMs) have ignited interest in the temporal knowledge graph (tKG) domain, where conventional embedding-based and rule-based methods dominate. The question remains open of whether pre-trained LLMs can understand structured temporal relational data and replace them as the foundation model for temporal relational forecasting. Therefore, we bring temporal knowledge forecasting into the generative setting. However, challenges occur in the huge chasms between complex temporal graph data structure and sequential natural expressions LLMs can handle, and between the enormous data sizes of tKGs and heavy computation costs of finetuning LLMs. To address these challenges, we propose a novel retrieval-augmented generation framework named GenTKG combining a temporal logical rule-based retrieval strategy and few-shot parameter-efficient instruction tuning to solve the above challenges, respectively. Extensive experiments have shown that GenTKG outperforms conventional methods of temporal relational forecasting with low computation resources using extremely limited training data as few as 16 samples. GenTKG also highlights remarkable cross-domain generalizability with outperforming performance on unseen datasets without re-training, and in-domain generalizability regardless of time split in the same dataset. Our work reveals the huge potential of LLMs in the tKG domain and opens a new frontier for generative forecasting on tKGs. The code and data are released here: https://github.com/mayhugotong/GenTKG.
 </details>
 <details>
 <summary><u><strong>Up To Date: Automatic Updating Knowledge Graphs Using LLMs (2024)</strong></u></summary>
 
 **Authors:** Shahenda Hatem, Ghada Khoriba, Mohamed H. Gad-Elrab, Mohamed ElHelw  
 **Venue & Year:** Procedia Computer Science, 2024  
-**Link:** [https://www.sciencedirect.com/science/article/pii/S1877050924030072](https://www.sciencedirect.com/science/article/pii/S1877050924030072)
+**Link:** [https://www.sciencedirect.com/science/article/pii/S1877050924030072](https://www.sciencedirect.com/science/article/pii/S1877050924030072)  
+**Abstract:**  
+Maintaining up-to-date knowledge graphs (KGs) is essential for enhancing the accuracy and relevance of artificial intelligence (AI) applications, especially with sensitive domains. Yet, major KGs are either manually maintained (e.g., Wikidata) or infrequently rebuilt (e.g., DBpedia & YAGO). Thus, they contain many outdated facts. The rise of Large Language Models (LLMs) reasoning and Augmented Retrieval Generation approaches (RAG) gives KGs an interface to other trusted sources. This paper introduces a methodology utilizing Large Language Models (LLMs) to validate and update KG facts automatically. In particular, we utilize LLM reasoning capabilities to determine potentially outdated facts. After that, we use RAG techniques to generate an accurate fix for the fact. Experimental results on several LLMs and real-world datasets demonstrate the ability of our approach to propose accurate fixes. In addition, our experiments highlight the efficacy of few-shot prompts over zero-shot prompts.
 </details>
 <details>
 <summary><u><strong>Pre-trained Language Model with Prompts for Temporal Knowledge Graph Completion (2023)</strong></u></summary>
 
 **Authors:** Wenjie Xu, Ben Liu, Miao Peng, Xu Jia, Min Peng  
 **Venue & Year:** Findings of the Association for Computational Linguistics: ACL, 2023  
-**Link:** [https://aclanthology.org/2023.findings-acl.493/](https://aclanthology.org/2023.findings-acl.493/)
+**Link:** [https://aclanthology.org/2023.findings-acl.493/](https://aclanthology.org/2023.findings-acl.493/)  
+**Abstract:**  
+Temporal Knowledge graph completion (TKGC) is a crucial task that involves reasoning at known timestamps to complete the missing part of facts and has attracted more and more attention in recent years. Most existing methods focus on learning representations based on graph neural networks while inaccurately extracting information from timestamps and insufficiently utilizing the implied information in relations. To address these problems, we propose a novel TKGC model, namely Pre-trained Language Model with Prompts for TKGC (PPT). We convert a series of sampled quadruples into pre-trained language model inputs and convert intervals between timestamps into different prompts to make coherent sentences with implicit semantic information. We train our model with a masking strategy to convert TKGC task into a masked token prediction task, which can leverage the semantic information in pre-trained language models. Experiments on three benchmark datasets and extensive analysis demonstrate that our model has great competitiveness compared to other models with four metrics. Our model can effectively incorporate information from temporal knowledge graphs into the language models.
 </details>
 <details>
 <summary><u><strong>Large Language Models-guided Dynamic Adaptation for Temporal Knowledge Graph Reasoning (2024)</strong></u></summary>
 
 **Authors:** Jiapu Wang, Kai Sun, Linhao Luo, Wei Wei, Yongli Hu, Alan Wee-Chung Liew, Shirui Pan, Baocai Yin  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2405.14170](https://arxiv.org/abs/2405.14170)
+**Link:** [https://arxiv.org/abs/2405.14170](https://arxiv.org/abs/2405.14170)  
+**Abstract:**  
+Temporal Knowledge Graph Reasoning (TKGR) is the process of utilizing temporal information to capture complex relations within a Temporal Knowledge Graph (TKG) to infer new knowledge. Conventional methods in TKGR typically depend on deep learning algorithms or temporal logical rules. However, deep learning-based TKGRs often lack interpretability, whereas rule-based TKGRs struggle to effectively learn temporal rules that capture temporal patterns. Recently, Large Language Models (LLMs) have demonstrated extensive knowledge and remarkable proficiency in temporal reasoning. Consequently, the employment of LLMs for Temporal Knowledge Graph Reasoning (TKGR) has sparked increasing interest among researchers. Nonetheless, LLMs are known to function as black boxes, making it challenging to comprehend their reasoning process. Additionally, due to the resource-intensive nature of fine-tuning, promptly updating LLMs to integrate evolving knowledge within TKGs for reasoning is impractical. To address these challenges, in this paper, we propose a Large Language Models-guided Dynamic Adaptation (LLM-DA) method for reasoning on TKGs. Specifically, LLM-DA harnesses the capabilities of LLMs to analyze historical data and extract temporal logical rules. These rules unveil temporal patterns and facilitate interpretable reasoning. To account for the evolving nature of TKGs, a dynamic adaptation strategy is proposed to update the LLM-generated rules with the latest events. This ensures that the extracted rules always incorporate the most recent knowledge and better generalize to the predictions on future events. Experimental results show that without the need of fine-tuning, LLM-DA significantly improves the accuracy of reasoning over several common datasets, providing a robust framework for TKGR tasks.
 </details>
 <details>
 <summary><u><strong>Back to the Future: Towards Explainable Temporal Reasoning with Large Language Models (2024)</strong></u></summary>
 
 **Authors:** Chenhan Yuan, Qianqian Xie, Jimin Huang, Sophia Ananiadou  
 **Venue & Year:** ACM, 2024  
-**Link:** [https://doi.org/10.1145/3589334.3645376](https://doi.org/10.1145/3589334.3645376)
+**Link:** [https://doi.org/10.1145/3589334.3645376](https://doi.org/10.1145/3589334.3645376)  
+**Abstract:**  
+Temporal reasoning is a crucial natural language processing (NLP) task, providing a nuanced understanding of time-sensitive contexts within textual data. Although recent advancements in Large Language Models (LLMs) have demonstrated their potential in temporal reasoning, the predominant focus has been on tasks such as temporal expression detection, normalization, and temporal relation extraction. These tasks are primarily designed for the extraction of direct and past temporal cues from given contexts and to engage in simple reasoning processes. A significant gap remains when considering complex reasoning tasks such as event forecasting, which requires multi-step temporal reasoning on events and prediction on the future timestamp. Another notable limitation of existing methods is their incapability to illustrate their reasoning process for explaining their prediction, hindering explainability. In this paper, we introduce the first task of explainable temporal reasoning, to predict an event's occurrence at a future timestamp based on context which requires multiple reasoning over multiple events, and subsequently provide a clear explanation for their prediction. Our task offers a comprehensive evaluation of both the LLMs' complex temporal reasoning ability, the future event prediction ability, and explainability-a critical attribute for AI applications. To support this task, we present the first instruction-tuning dataset of explainable temporal reasoning (ExpTime) with 26k derived from the temporal knowledge graph datasets, using a novel knowledge-graph-instructed-generation strategy. Based on the dataset, we propose the first open-source LLM series TimeLlaMA based on the foundation LLM LlaMA2, with the ability of instruction following for explainable temporal reasoning. We compare the performance of our method and a variety of LLMs, where our method achieves the state-of-the-art performance of temporal prediction and explanation generation. We also explore the impact of instruction tuning and different training sizes of instruction-tuning data, highlighting LLM's capabilities and limitations in complex temporal prediction and explanation generation.
 </details>
 <details>
 <summary><u><strong>RealTCD: Temporal Causal Discovery from Interventional Data with Large Language Model (2024)</strong></u></summary>
 
 **Authors:** Peiwen Li, Xin Wang, Zeyang Zhang, Yuan Meng, Fang Shen, Yue Li, Jialong Wang, Yang Li, Wenwu Zhu  
 **Venue & Year:** ACM, 2024  
-**Link:** [https://doi.org/10.1145/3627673.3680042](https://doi.org/10.1145/3627673.3680042)
+**Link:** [https://doi.org/10.1145/3627673.3680042](https://doi.org/10.1145/3627673.3680042)  
+**Abstract:**  
+In the field of Artificial Intelligence for Information Technology Operations, causal discovery is pivotal for operation and maintenance of systems, facilitating downstream industrial tasks such as root cause analysis. Temporal causal discovery, as an emerging method, aims to identify temporal causal relations between variables directly from observations by utilizing interventional data. However, existing methods mainly focus on synthetic datasets with heavy reliance on interventional targets and ignore the textual information hidden in real-world systems, failing to conduct causal discovery for real industrial scenarios. To tackle this problem, in this paper we investigate temporal causal discovery in industrial scenarios, which faces two critical challenges: how to discover causal relations without the interventional targets that are costly to obtain in practice, and how to discover causal relations via leveraging the textual information in systems which can be complex yet abundant in industrial contexts. To address these challenges, we propose the RealTCD framework, which is able to leverage domain knowledge to discover temporal causal relations without interventional targets. We first develop a score-based temporal causal discovery method capable of discovering causal relations without relying on interventional targets through strategic masking and regularization. Then, by employing Large Language Models (LLMs) to handle texts and integrate domain knowledge, we introduce LLM-guided meta-initialization to extract the meta-knowledge from textual information hidden in systems to boost the quality of discovery. We conduct extensive experiments on both simulation datasets and our real-world application scenario to show the superiority of our proposed RealTCD over existing baselines in temporal causal discovery.
 </details>
 <details>
 <summary><u><strong>DynLLM: When Large Language Models Meet Dynamic Graph Recommendation (2024)</strong></u></summary>
 
 **Authors:** Ziwei Zhao, Fake Lin, Xi Zhu, Zhi Zheng, Tong Xu, Shitian Shen, Xueying Li, Zikai Yin, Enhong Chen  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2405.07580](https://arxiv.org/abs/2405.07580)
+**Link:** [https://arxiv.org/abs/2405.07580](https://arxiv.org/abs/2405.07580)  
+**Abstract:**  
+Last year has witnessed the considerable interest of Large Language Models (LLMs) for their potential applications in recommender systems, which may mitigate the persistent issue of data sparsity. Though large efforts have been made for user-item graph augmentation with better graph-based recommendation performance, they may fail to deal with the dynamic graph recommendation task, which involves both structural and temporal graph dynamics with inherent complexity in processing time-evolving data. To bridge this gap, in this paper, we propose a novel framework, called DynLLM, to deal with the dynamic graph recommendation task with LLMs. Specifically, DynLLM harnesses the power of LLMs to generate multi-faceted user profiles based on the rich textual features of historical purchase records, including crowd segments, personal interests, preferred categories, and favored brands, which in turn supplement and enrich the underlying relationships between users and items. Along this line, to fuse the multi-faceted profiles with temporal graph embedding, we engage LLMs to derive corresponding profile embeddings, and further employ a distilled attention mechanism to refine the LLM-generated profile embeddings for alleviating noisy signals, while also assessing and adjusting the relevance of each distilled facet embedding for seamless integration with temporal graph embedding from continuous time dynamic graphs (CTDGs). Extensive experiments on two real e-commerce datasets have validated the superior improvements of DynLLM over a wide range of state-of-the-art baseline methods.
 </details>
 
 ---
@@ -1237,35 +1269,45 @@ Large Language Models (LLMs) have garnered considerable interest within both aca
 
 **Authors:** Zhehao Zhang, Jiaao Chen, Diyi Yang  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2406.17271](https://arxiv.org/abs/2406.17271)
+**Link:** [https://arxiv.org/abs/2406.17271](https://arxiv.org/abs/2406.17271)  
+**Abstract:**  
+The current paradigm of evaluating Large Language Models (LLMs) through static benchmarks comes with significant limitations, such as vulnerability to data contamination and a lack of adaptability to the evolving capabilities of LLMs. Therefore, evaluation methods that can adapt and generate evaluation data with controlled complexity are urgently needed. In this work, we introduce Dynamic Evaluation of LLMs via Adaptive Reasoning Graph Evolvement (DARG) to dynamically extend current benchmarks with controlled complexity and diversity. Specifically, we first extract the reasoning graphs of data points in current benchmarks and then perturb the reasoning graphs to generate novel testing data. Such newly generated test samples can have different levels of complexity while maintaining linguistic diversity similar to the original benchmarks. We further use a code-augmented LLM to ensure the label correctness of newly generated data. We apply our DARG framework to diverse reasoning tasks in four domains with 15 state-of-the-art LLMs. Experimental results show that almost all LLMs experience a performance decrease with increased complexity and certain LLMs exhibit significant drops. Additionally, we find that LLMs exhibit more biases when being evaluated via the data generated by DARG with higher complexity levels. These observations provide useful insights into how to dynamically and adaptively evaluate LLMs. The code is available at this https URL.
 </details>
 <details>
 <summary><u><strong>AnomalyLLM: Few-shot Anomaly Edge Detection for Dynamic Graphs using Large Language Models (2024)</strong></u></summary>
 
 **Authors:** Shuo Liu, Di Yao, Lanting Fang, Zhetao Li, Wenbin Li, Kaiyu Feng, XiaoWen Ji, Jingping Bi  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2405.07626](https://arxiv.org/abs/2405.07626)
+**Link:** [https://arxiv.org/abs/2405.07626](https://arxiv.org/abs/2405.07626)  
+**Abstract:**  
+Detecting anomaly edges for dynamic graphs aims to identify edges significantly deviating from the normal pattern and can be applied in various domains, such as cybersecurity, financial transactions and AIOps. With the evolving of time, the types of anomaly edges are emerging and the labeled anomaly samples are few for each type. Current methods are either designed to detect randomly inserted edges or require sufficient labeled data for model training, which harms their applicability for real-world applications. In this paper, we study this problem by cooperating with the rich knowledge encoded in large language models(LLMs) and propose a method, namely AnomalyLLM. To align the dynamic graph with LLMs, AnomalyLLM pre-trains a dynamic-aware encoder to generate the representations of edges and reprograms the edges using the prototypes of word embeddings. Along with the encoder, we design an in-context learning framework that integrates the information of a few labeled samples to achieve few-shot anomaly detection. Experiments on four datasets reveal that AnomalyLLM can not only significantly improve the performance of few-shot anomaly detection, but also achieve superior results on new anomalies without any update of model parameters.
 </details>
 <details>
 <summary><u><strong>Language-Grounded Dynamic Scene Graphs for Interactive Object Search With Mobile Manipulation (2024)</strong></u></summary>
 
 **Authors:** Daniel Honerkamp, Martin Büchner, Fabien Despinoy, Tim Welschehold, Abhinav Valada  
 **Venue & Year:** IEEE Robotics and Automation Letters, 2024  
-**Link:** [https://doi.org/10.1109/LRA.2024.3441495](https://doi.org/10.1109/LRA.2024.3441495)
+**Link:** [https://doi.org/10.1109/LRA.2024.3441495](https://doi.org/10.1109/LRA.2024.3441495)  
+**Abstract:**  
+To fully leverage the capabilities of mobile manipulation robots, it is imperative that they are able to autonomously execute long-horizon tasks in large unexplored environments. While large language models (LLMs) have shown emergent reasoning skills on arbitrary tasks, existing work primarily concentrates on explored environments, typically focusing on either navigation or manipulation tasks in isolation. In this work, we propose MoMa-LLM, a novel approach that grounds language models within structured representations derived from open-vocabulary scene graphs, dynamically updated as the environment is explored. We tightly interleave these representations with an object-centric action space. Given object detections, the resulting approach is zero-shot, open-vocabulary, and readily extendable to a spectrum of mobile manipulation and household robotic tasks. We demonstrate the effectiveness of MoMa-LLM in a novel semantic interactive search task in large realistic indoor environments. In extensive experiments in both simulation and the real world, we show substantially improved search efficiency compared to conventional baselines and state-of-the-art approaches, as well as its applicability to more abstract tasks.
 </details>
 <details>
 <summary><u><strong>Temporal Relational Reasoning of Large Language Models for Detecting Stock Portfolio Crashes (2024)</strong></u></summary>
 
 **Authors:** Kelvin J. L. Koa, Yunshan Ma, Ritchie Ng, Huanhuan Zheng, Tat-Seng Chua  
 **Venue & Year:** arXiv preprint, 2024  
-**Link:** [https://arxiv.org/abs/2410.17266](https://arxiv.org/abs/2410.17266)
+**Link:** [https://arxiv.org/abs/2410.17266](https://arxiv.org/abs/2410.17266)  
+**Abstract:**  
+Stock portfolios are often exposed to rare consequential events (e.g., 2007 global financial crisis, 2020 COVID-19 stock market crash), as they do not have enough historical information to learn from. Large Language Models (LLMs) now present a possible tool to tackle this problem, as they can generalize across their large corpus of training data and perform zero-shot reasoning on new events, allowing them to detect possible portfolio crash events without requiring specific training data. However, detecting portfolio crashes is a complex problem that requires more than basic reasoning abilities. Investors need to dynamically process the impact of each new information found in the news articles, analyze the the relational network of impacts across news events and portfolio stocks, as well as understand the temporal context between impacts across time-steps, in order to obtain the overall aggregated effect on the target portfolio. In this work, we propose an algorithmic framework named Temporal Relational Reasoning (TRR). It seeks to emulate the spectrum of human cognitive capabilities used for complex problem-solving, which include brainstorming, memory, attention and reasoning. Through extensive experiments, we show that TRR is able to outperform state-of-the-art solutions on detecting stock portfolio crashes, and demonstrate how each of the proposed components help to contribute to its performance through an ablation study. Additionally, we further explore the possible applications of TRR by extending it to other related complex problems, such as the detection of possible global crisis events in Macroeconomics.
 </details>
 <details>
 <summary><u><strong>Dynamic Benchmarking of Masked Language Models on Temporal Concept Drift with Multiple Views (2023)</strong></u></summary>
 
 **Authors:** Katerina Margatina, Shuai Wang, Yogarshi Vyas, Neha Anna John, Yassine Benajiba, Miguel Ballesteros  
 **Venue & Year:** Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, 2023  
-**Link:** [https://aclanthology.org/2023.eacl-main.211/](https://aclanthology.org/2023.eacl-main.211/)
+**Link:** [https://aclanthology.org/2023.eacl-main.211/](https://aclanthology.org/2023.eacl-main.211/)  
+**Abstract:**  
+Temporal concept drift refers to the problem of data changing over time. In the field of NLP, that would entail that language (e.g. new expressions, meaning shifts) and factual knowledge (e.g. new concepts, updated facts) evolve over time. Focusing on the latter, we benchmark 11 pretrained masked language models (MLMs) on a series of tests designed to evaluate the effect of temporal concept drift, as it is crucial that widely used language models remain up-to-date with the ever-evolving factual updates of the real world. Specifically, we provide a holistic framework that (1) dynamically creates temporal test sets of any time granularity (e.g. month, quarter, year) of factual data from Wikidata, (2) constructs fine-grained splits of tests (e.g. updated, new, unchanged facts) to ensure comprehensive analysis, and (3) evaluates MLMs in three distinct ways (single-token probing, multi-token generation, MLM scoring). In contrast to prior work, our framework aims to unveil how robust an MLM is over time and thus to provide a signal in case it has become outdated, by leveraging multiple views of evaluation.
 </details>
 
 ---
