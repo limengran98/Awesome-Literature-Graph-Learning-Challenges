@@ -1087,7 +1087,6 @@ Large Language Models (LLMs) have garnered considerable interest within both aca
 | zrLLM: Zero-Shot Relational Learning on Temporal Knowledge Graphs with Large Language Models | Zifeng Ding, Heling Cai, Jingpei Wu, Yunpu Ma, Ruotong Liao, Bo Xiong, Volker Tresp | Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Mexico City, Mexico | [Link](https://aclanthology.org/2024.naacl-long.104/) |
 | Temporal Knowledge Graph Forecasting Without Knowledge Using In-Context Learning | Dong-Ho Lee, Kian Ahrabian, Woojeong Jin, Fred Morstatter, Jay Pujara | Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore | [Link](https://aclanthology.org/2023.emnlp-main.36/) |
 -->
-## Robust Graph Learning – Temporal & Dynamic Graphs
 
 <details>
 <summary><u><strong>LLM4DyG: Can Large Language Models Solve Spatial-Temporal Problems on Dynamic Graphs? (2024)</strong></u></summary>
