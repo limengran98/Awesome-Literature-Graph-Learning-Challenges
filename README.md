@@ -55,7 +55,7 @@ The growing penetration of renewable energy sources in power systems has increas
 </details>
 
 <details>
-<summary><u><strong> Leveraging Large Language Models to Address Data Scarcity in Machine Learning: Applications in Graphene Synthesis (2024)</strong></u></summary>
+<summary><u><strong> Leveraging Large Language Models to Address Data Scarcity in Machine Learning: Applications in Graphene Synthesis (2025)</strong></u></summary>
 
 **Authors:** Devi Dutta Biswajeet, Sara Kadkhodaei  
 **Venue & Year:** arXiv, 2025  
