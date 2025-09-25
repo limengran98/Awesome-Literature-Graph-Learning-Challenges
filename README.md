@@ -44,15 +44,6 @@ A curated list of recent research addressing fundamental challenges in graph lea
 
 ###  Robust Graph Learning
 
-<details>
-<summary><u><strong> Zero-shot load forecasting for integrated energy systems: A large language model-based framework with multi-task learning (2025)</strong></u></summary>
-
-**Authors:** Jiaheng Li, Donghe Li, Ye Yang, Huan Xi, Wanju Yu, Yu Xiao, Qingyu Yang  
-**Venue & Year:** Neurocomputing, 2025  
-**Link:** [https://doi.org/10.1016/j.neucom.2025.131288](https://doi.org/10.1016/j.neucom.2025.131288)  
-**Abstract:**  
-The growing penetration of renewable energy sources in power systems has increased the complexity and uncertainty of load forecasting, especially for integrated energy systems with multiple energy carriers. Traditional forecasting methods heavily rely on historical data and demonstrate limited transferability across different scenarios, creating significant challenges for emerging applications in smart grids and energy internet. This paper proposes the TSLLM-Load Forecasting Mechanism, a novel zero-shot load forecasting framework based on large language models (LLMs) to address these challenges. The framework consists of three key components: a data preprocessing module that handles multi-source energy load data, a time series prompt generation module that bridges the semantic gap between energy data and LLMs through multi-task learning and similarity alignment, and a prediction module that leverages pre-trained LLMs for accurate forecasting. We validate the framework’s effectiveness on real-world datasets comprising load profiles from Australian solar-powered households. In conventional testing, our method achieves competitive performance, ranking third among nine methods. In zero-shot prediction, our framework demonstrates 10.8 % MSE improvement and 12.5 % MAE improvement compared to Informer, ranking second overall after TimeMixer. Most significantly, few-shot learning experiments reveal exceptional capabilities under extreme data constraints, with our method achieving optimal performance when trained with only 1 % of available data, representing 40.8 % MSE improvement compared to the best conventional method and 78.9 % improvement compared to existing LLM-based approaches. Large-scale transferability analysis shows our model outperforms baselines for 82 % of households when trained with minimal data from a single household. These results demonstrate the framework’s potential for accurate and transferable load forecasting in integrated energy systems, particularly beneficial for renewable energy integration and smart grid applications where historical data availability is limited.
-</details>
 
 <details>
 <summary><u><strong> Leveraging Large Language Models to Address Data Scarcity in Machine Learning: Applications in Graphene Synthesis (2025)</strong></u></summary>
@@ -133,16 +124,28 @@ The advancement of Large Language Models (LLMs) has remarkably pushed the bounda
 ---
 
 ###  Few-shot Graph Learning
-<!--
-| Title | Authors | Venue & Year | Link |
-|-------|---------|---------------|------|
-| LLM-Empowered Few-Shot Node Classification on Incomplete Graphs with Real Node Degrees | Yun Li, Yi Yang, Jiaqi Zhu, Hui Chen, Hongan Wang | Proceedings of the ACM International Conference on Information and Knowledge Management, 2024 | [Link](https://doi.org/10.1145/3627673.3679861) |
-| LinkGPT: Teaching Large Language Models to Predict Missing Links | Zhongmou He, Jing Zhu, Shengyi Qian, Joyce Chai, Danai Koutra | arXiv preprint, 2024 | [Link](https://doi.org/10.48550/arXiv.2406.04640) |
-| AnomalyLLM: Few-shot Anomaly Edge Detection for Dynamic Graphs using Large Language Models | Shuo Liu, Di Yao, Lanting Fang, Zhetao Li, Wenbin Li, Kaiyu Feng, XiaoWen Ji, Jingping Bi | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2405.07626) |
-| HeGTa: Leveraging Heterogeneous Graph-enhanced Large Language Models for Few-shot Complex Table Understanding | Rihui Jin, Yu Li, Guilin Qi, Nan Hu, Yuan-Fang Li, Jiaoyan Chen, Jianan Wang, Yongrui Chen, Dehai Min, Sheng Bi | arXiv preprint, 2024 | [Link](https://arxiv.org/abs/2403.19723) |
-| FlexKBQA: A Flexible LLM-powered Framework for Few-shot Knowledge Base Question Answering | Zhenyu Li, Sunqi Fan, Yu Gu, Xiuxing Li, Zhichao Duan, Bowen Dong, Ning Liu, Jianyong Wang | Proceedings of the AAAI Conference on Artificial Intelligence, 2024 | [Link](https://doi.org/10.1609/aaai.v38i17.29823) |
-| Zero-shot Knowledge Graph Question Generation via Multi-agent LLMs and Small Models Synthesis | Runhao Zhao, Jiuyang Tang, Weixin Zeng, Ziyang Chen, Xiang Zhao | Proceedings of the ACM International Conference on Information and Knowledge Management, 2024 | [Link](https://doi.org/10.1145/3627673.3679805) |
--->
+
+<details>
+<summary><u><strong> Zero-shot load forecasting for integrated energy systems: A large language model-based framework with multi-task learning (2025)</strong></u></summary>
+
+**Authors:** Jiaheng Li, Donghe Li, Ye Yang, Huan Xi, Wanju Yu, Yu Xiao, Qingyu Yang  
+**Venue & Year:** Neurocomputing, 2025  
+**Link:** [https://doi.org/10.1016/j.neucom.2025.131288](https://doi.org/10.1016/j.neucom.2025.131288)  
+**Abstract:**  
+The growing penetration of renewable energy sources in power systems has increased the complexity and uncertainty of load forecasting, especially for integrated energy systems with multiple energy carriers. Traditional forecasting methods heavily rely on historical data and demonstrate limited transferability across different scenarios, creating significant challenges for emerging applications in smart grids and energy internet. This paper proposes the TSLLM-Load Forecasting Mechanism, a novel zero-shot load forecasting framework based on large language models (LLMs) to address these challenges. The framework consists of three key components: a data preprocessing module that handles multi-source energy load data, a time series prompt generation module that bridges the semantic gap between energy data and LLMs through multi-task learning and similarity alignment, and a prediction module that leverages pre-trained LLMs for accurate forecasting. We validate the framework’s effectiveness on real-world datasets comprising load profiles from Australian solar-powered households. In conventional testing, our method achieves competitive performance, ranking third among nine methods. In zero-shot prediction, our framework demonstrates 10.8 % MSE improvement and 12.5 % MAE improvement compared to Informer, ranking second overall after TimeMixer. Most significantly, few-shot learning experiments reveal exceptional capabilities under extreme data constraints, with our method achieving optimal performance when trained with only 1 % of available data, representing 40.8 % MSE improvement compared to the best conventional method and 78.9 % improvement compared to existing LLM-based approaches. Large-scale transferability analysis shows our model outperforms baselines for 82 % of households when trained with minimal data from a single household. These results demonstrate the framework’s potential for accurate and transferable load forecasting in integrated energy systems, particularly beneficial for renewable energy integration and smart grid applications where historical data availability is limited.
+</details>
+
+<details>
+<summary><u><strong> Dynamic Text Bundling Supervision for Zero-Shot Inference on Text-Attributed Graphs (2025)</strong></u></summary>
+
+**Authors:** Yusheng Zhao, Qixin Zhang, Xiao Luo, Weizhi Zhang, Zhiping Xiao, Wei Ju, Philip S. Yu, Ming Zhang  
+**Venue & Year:** arXiv, 2025  
+**Link:** [https://arxiv.org/abs/2505.17599](https://arxiv.org/abs/2505.17599)  
+**Abstract:**  
+Large language models (LLMs) have been used in many zero-shot learning problems, with their strong generalization ability. Recently, adopting LLMs in text-attributed graphs (TAGs) has drawn increasing attention. However, the adoption of LLMs faces two major challenges: limited information on graph structure and unreliable responses. LLMs struggle with text attributes isolated from the graph topology. Worse still, they yield unreliable predictions due to both information insufficiency and the inherent weakness of LLMs (e.g., hallucination). Towards this end, this paper proposes a novel method named Dynamic Text Bundling Supervision (DENSE) that queries LLMs with bundles of texts to obtain bundle-level labels and uses these labels to supervise graph neural networks. Specifically, we sample a set of bundles, each containing a set of nodes with corresponding texts of close proximity. We then query LLMs with the bundled texts to obtain the label of each bundle. Subsequently, the bundle labels are used to supervise the optimization of graph neural networks, and the bundles are further refined to exclude noisy items. To justify our design, we also provide theoretical analysis of the proposed method. Extensive experiments across ten datasets validate the effectiveness of the proposed method.
+</details>
+
+
 <details>
 <summary><u><strong>LLM-Empowered Few-Shot Node Classification on Incomplete Graphs with Real Node Degrees (2024)</strong></u></summary>
 
@@ -200,34 +203,18 @@ Knowledge Graph Question Generation (KGQG) is the task of generating natural lan
 ---
 
 ###  Knowledge Graph Completion
-<!--
-| Title | Authors | Venue & Year | Link |
-|-------|---------|---------------|------|
-| GLTW: Joint Improved Graph Transformer and LLM via Three-Word Language for Knowledge Graph Completion | Kangyang Luo, Yuzhuo Bai, Cheng Gao, Shuzheng Si, Yingli Shen, Zhu Liu, Zhitong Wang, Wenhao Li, Yufei Huang | arXiv preprint, 2025 | [Link](https://www.arxiv.org/abs/2502.11471) |
-| GS-KGC: A generative subgraph-based framework for knowledge graph completion with large language models | Rui Yang, Jiahao Zhu, Jianping Man, Hongze Liu, Li Fang, Yi Zhou | Information Fusion, 2025 | [Link](https://doi.org/10.1016/j.inffus.2024.102868) |
-| In-Context Learning with Topological Information for LLM-Based Knowledge Graph Completion | Udari Madhushani Sehwag, Kassiani Papasotiriou, Jared Vann, Sumitra Ganesh | ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling | [Link](https://openreview.net/forum?id=eUpH8AuVQa) |
-| Making large language models perform better in knowledge graph completion | Yichi Zhang, Zhuo Chen, Lingbing Guo, Yajing Xu, Wen Zhang, Hlmruajun Chen | Proceedings of the 32nd ACM International Conference on Multimedia, 2024 | [Link](https://doi.org/10.1145/3664647.3681327) |
-| LLM-based multi-level knowledge generation for few-shot knowledge graph completion | Qian Li, Zhuo Chen, Cheng Ji, Shiqi Jiang, Jianxin Li | Proceedings of the International Joint Conference on Artificial Intelligence, 2024 | [Link](https://www.ijcai.org/proceedings/2024/236) |
-| Assessing LLMs Suitability for Knowledge Graph Completion | Vasile Ionut Remus Iga, Gheorghe Cosmin Silaghi | International Conference on Neural-Symbolic Learning and Reasoning, 2024 | [Link](https://doi.org/10.1007/978-3-031-71170-1_22) |
-| Finetuning generative large language models with discrimination instructions for knowledge graph completion | Yang Liu, Xiaobin Tian, Zequn Sun, Wei Hu | International Semantic Web Conference, 2024 | [Link](https://doi.org/10.1007/978-3-031-77844-5_11) |
-| Enhancing text-based knowledge graph completion with zero-shot large language models: A focus on semantic enhancement | Rui Yang, Jiahao Zhu, Jianping Man, Li Fang, Yi Zhou | Knowledge-Based Systems, 2024 | [Link](https://doi.org/10.1016/j.knosys.2024.112155) |
-| Framing Few-Shot Knowledge Graph Completion with Large Language Models | Adrian MP Brasoveanu, Lyndon Nixon, Albert Weichselbraun, Arno Scharl | Joint Workshop Proceedings of the 5th International Workshop on Sem4Tra and SEMANTiCS, 2023 | [Link](https://ceur-ws.org/Vol-3510/paper_nlp_4.pdf) |
-| Iterative zero-shot LLM prompting for knowledge graph construction | Salvatore Carta, Alessandro Giuliani, Leonardo Piano, Alessandro Sebastian Podda, Livio Pompianu, Sandro Gabriele Tiddia | arXiv preprint, 2023 | [Link](https://doi.org/10.48550/ARXIV.2307.01128) |
-| Exploring large language models for knowledge graph completion | Liang Yao, Jiazhen Peng, Chengsheng Mao, Yuan Luo | arXiv preprint, 2023 | [Link](https://doi.org/10.48550/arXiv.2308.13916) |
-| KICGPT: Large Language Model with Knowledge in Context for Knowledge Graph Completion | Yanbin Wei, Qiushi Huang, Yu Zhang, James Kwok | Findings of the Association for Computational Linguistics: EMNLP, 2023 | [Link](https://doi.org/10.18653/v1/2023.findings-emnlp.580) |
-| Knowledge graph completion models are few-shot learners: An empirical study of relation labeling in e-commerce with LLMs | Jiao Chen, Luyi Ma, Xiaohan Li, Nikhil Thakurdesai, Jianpeng Xu, Jason HD Cho, Kaushiki Nag, Evren Korpeoglu, Sushant Kumar, Kannan Achan | arXiv preprint, 2023 | [Link](https://doi.org/10.48550/arXiv.2305.09858) |
-| Generate-on-graph: Treat LLM as both agent and KG in incomplete knowledge graph question answering | Yao Xu, Shizhu He, Jiabei Chen, Zihao Wang, Yangqiu Song, Hanghang Tong, Guang Liu, Kang Liu, Jun Zhao | arXiv preprint, 2024 | [Link](https://doi.org/10.48550/arXiv.2307.01128) |
--->
+
 
 <details>
-<summary><u><strong>GLTW: Joint Improved Graph Transformer and LLM via Three-Word Language for Knowledge Graph Completion (2025)</strong></u></summary>
+<summary><u><strong>Exploring Large Language Models for Knowledge Graph Completion (2025)</strong></u></summary>
 
-**Authors:** Kangyang Luo, Yuzhuo Bai, Cheng Gao, Shuzheng Si, Yingli Shen, Zhu Liu, Zhitong Wang, Wenhao Li, Yufei Huang  
-**Venue & Year:** arXiv preprint, 2025  
-**Link:** [https://www.arxiv.org/abs/2502.11471](https://www.arxiv.org/abs/2502.11471)  
+**Authors:** Liang Yao; Jiazhen Peng; Chengsheng Mao; Yuan Luo  
+**Venue & Year:** ICASSP, 2025  
+**Link:** [https://10.1109/ICASSP49660.2025.10889242](https://10.1109/ICASSP49660.2025.10889242)  
 **Abstract:**  
-Multiple-input multiple-output (MIMO) radar offers several performance and flexibility advantages over traditional radar arrays. However, high angular and Doppler resolutions necessitate a large number of antenna elements and the transmission of numerous chirps, leading to increased hardware and computational complexity. While compressive sensing (CS) has recently been applied to pulsed-waveform radars with sparse measurements, its application to frequency-modulated continuous wave (FMCW) radar for target detection remains largely unexplored. In this paper, we propose a novel CS-based multi-target localization algorithm in the range, Doppler, and angular domains for MIMO-FMCW radar, where we jointly estimate targets' velocities and angles of arrival. To this end, we present a signal model for sparse-random and uniform linear arrays based on three-dimensional spectral estimation. For range estimation, we propose a discrete Fourier transform (DFT)-based focusing and orthogonal matching pursuit (OMP)-based techniques, each with distinct advantages, while two-dimensional CS is used for joint Doppler-angle estimation. Leveraging the properties of structured random matrices, we establish theoretical uniform and non-uniform recovery guarantees with high probability for the proposed framework. Our numerical experiments demonstrate that our methods achieve similar detection performance and higher resolution compared to conventional DFT and MUSIC with fewer transmitted chirps and antenna elements.
+Knowledge graphs play a vital role in numerous artificial intelligence tasks, yet they frequently face the issue of incompleteness. In this study, we explore utilizing Large Language Models (LLM) for knowledge graph completion. We consider triples in knowledge graphs as text sequences and introduce an innovative framework called Knowledge Graph LLM (KG-LLM) to model these triples. Our technique employs entity and relation descriptions of a triple as prompts and utilizes the response for predictions. Experiments on various benchmark knowledge graphs demonstrate that our method attains state-of-the-art performance in tasks such as triple classification and relation prediction. We also find that fine-tuning relatively smaller models (e.g., LLaMA-7B, ChatGLM-6B) outperforms recent ChatGPT and GPT-4.
 </details>
+
 <details>
 <summary><u><strong>GS-KGC: A generative subgraph-based framework for knowledge graph completion with large language models (2025)</strong></u></summary>
 
