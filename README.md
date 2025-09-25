@@ -43,20 +43,28 @@ A curated list of recent research addressing fundamental challenges in graph lea
 > Graphs often suffer from missing node features, incomplete edges, or absent labels. These works tackle incompleteness via robust training, knowledge augmentation, or few-shot reasoning.
 
 ###  Robust Graph Learning
-<!--
-| Title | Authors | Venue & Year | Link |
-|-------|---------|---------------|------|
-| Spatiotemporal Pre-Trained Large Language Model for Forecasting With Missing Values | Le Fang, Wei Xiang, Shirui Pan, Flora D. Salim, Yi-Ping Phoebe Chen | IEEE Internet of Things Journal, 2025 | [Link](https://doi.org/10.1109/JIOT.2024.3524030) |
-| LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs | Kai Wang, Yuwei Xu, Zhiyong Wu, Siqiang Luo | Findings of the Association for Computational Linguistics, 2024 | [Link](https://doi.org/10.18653/v1/2024.findings-acl.224) |
-| On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing | Jianwei Wang, Kai Wang, Ying Zhang, Wenjie Zhang, Xiwei Xu, Xuemin Lin | arXiv preprint, 2025 | [Link](https://arxiv.org/abs/2501.02191) |
-| Large language models as topological structure enhancers for text-attributed graphs | Shengyin Sun, Yuxiang Ren, Chen Ma, Xuecang Zhang | arXiv preprint, 2023 | [Link](https://doi.org/10.48550/arXiv.2311.14324) |
-| Empower text-attributed graphs learning with large language models (LLMs) | Jianxiang Yu, Yuxiang Ren, Chenghua Gong, Jiaqi Tan, Xiang Li, Xuecang Zhang | arXiv preprint, 2023 | [Link](https://doi.org/10.48550/arXiv.2310.09872) |
-| Label-free node classification on graphs with large language models (LLMs) | Zhikai Chen, Haitao Mao, Hongzhi Wen, Haoyu Han, Wei Jin, Haiyang Zhang, Hui Liu, Jiliang Tang | arXiv preprint, 2023 | [Link](https://arxiv.org/abs/2310.04668) |
-| GraphLLM: Boosting graph reasoning ability of large language models | Ziwei Chai, Tianjie Zhang, Liang Wu, Kaiqiao Han, Xiaohai Hu, Xuanwen Huang, Yang Yang | arXiv preprint, 2023 | [Link](https://doi.org/10.48550/arXiv.2310.05845) |
--->
 
 <details>
-<summary><u><strong> Spatiotemporal Pre-Trained Large Language Model for Forecasting With Missing Values (2025)</strong></u></summary>
+<summary><u><strong> Zero-shot load forecasting for integrated energy systems: A large language model-based framework with multi-task learning (2025)</strong></u></summary>
+
+**Authors:** Jiaheng Li, Donghe Li, Ye Yang, Huan Xi, Wanju Yu, Yu Xiao, Qingyu Yang
+**Venue & Year:** Neurocomputing, 2025  
+**Link:** [https://doi.org/10.1016/j.neucom.2025.131288](https://doi.org/10.1016/j.neucom.2025.131288)
+**Abstract:**  
+The growing penetration of renewable energy sources in power systems has increased the complexity and uncertainty of load forecasting, especially for integrated energy systems with multiple energy carriers. Traditional forecasting methods heavily rely on historical data and demonstrate limited transferability across different scenarios, creating significant challenges for emerging applications in smart grids and energy internet. This paper proposes the TSLLM-Load Forecasting Mechanism, a novel zero-shot load forecasting framework based on large language models (LLMs) to address these challenges. The framework consists of three key components: a data preprocessing module that handles multi-source energy load data, a time series prompt generation module that bridges the semantic gap between energy data and LLMs through multi-task learning and similarity alignment, and a prediction module that leverages pre-trained LLMs for accurate forecasting. We validate the framework’s effectiveness on real-world datasets comprising load profiles from Australian solar-powered households. In conventional testing, our method achieves competitive performance, ranking third among nine methods. In zero-shot prediction, our framework demonstrates 10.8 % MSE improvement and 12.5 % MAE improvement compared to Informer, ranking second overall after TimeMixer. Most significantly, few-shot learning experiments reveal exceptional capabilities under extreme data constraints, with our method achieving optimal performance when trained with only 1 % of available data, representing 40.8 % MSE improvement compared to the best conventional method and 78.9 % improvement compared to existing LLM-based approaches. Large-scale transferability analysis shows our model outperforms baselines for 82 % of households when trained with minimal data from a single household. These results demonstrate the framework’s potential for accurate and transferable load forecasting in integrated energy systems, particularly beneficial for renewable energy integration and smart grid applications where historical data availability is limited.
+</details>
+
+<details>
+<summary><u><strong> Leveraging Large Language Models to Address Data Scarcity in Machine Learning: Applications in Graphene Synthesis (2024)</strong></u></summary>
+
+**Authors:** Devi Dutta Biswajeet, Sara Kadkhodaei
+**Venue & Year:** arXiv, 2025  
+**Link:** [https://arxiv.org/abs/2503.04870](https://arxiv.org/abs/2503.04870)
+**Abstract:**  
+Machine learning in materials science faces challenges due to limited experimental data, as generating synthesis data is costly and time-consuming, especially with in-house experiments. Mining data from existing literature introduces issues like mixed data quality, inconsistent formats, and variations in reporting experimental parameters, complicating the creation of consistent features for the learning algorithm. Additionally, combining continuous and discrete features can hinder the learning process with limited data. Here, we propose strategies that utilize large language models (LLMs) to enhance machine learning performance on a limited, heterogeneous dataset of graphene chemical vapor deposition synthesis compiled from existing literature. These strategies include prompting modalities for imputing missing data points and leveraging large language model embeddings to encode the complex nomenclature of substrates reported in chemical vapor deposition experiments. The proposed strategies enhance graphene layer classification using a support vector machine (SVM) model, increasing binary classification accuracy from 39% to 65% and ternary accuracy from 52% to 72%. We compare the performance of the SVM and a GPT-4 model, both trained and fine-tuned on the same data. Our results demonstrate that the numerical classifier, when combined with LLM-driven data enhancements, outperforms the standalone LLM predictor, highlighting that in data-scarce scenarios, improving predictive learning with LLM strategies requires more than simple fine-tuning on datasets. Instead, it necessitates sophisticated approaches for data imputation and feature space homogenization to achieve optimal performance. The proposed strategies emphasize data enhancement techniques, offering a broadly applicable framework for improving machine learning performance on scarce, inhomogeneous datasets.
+</details>
+<details>
+<summary><u><strong> LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs (2024)</strong></u></summary>
 
 **Authors:** Le Fang, Wei Xiang, Shirui Pan, Flora D. Salim, Yi-Ping Phoebe Chen  
 **Venue & Year:** IEEE Internet of Things Journal, 2025  
